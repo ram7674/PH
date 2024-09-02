@@ -1,0 +1,47 @@
+.footer__copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer_subTitles{
+    letter-spacing: 1px;
+}
+
+li .footer__liItems{
+    line-height: 32px;
+}
+
+.footer__liItems{
+    color: #f4f7fd80;
+    text-decoration: none;
+}
+
+
+.footer__liItems:hover {
+    color: #fff;
+    transition: .5s ease all;
+    font-size: 18px;
+}
+
+.location__footer {
+    background-color: #00b7ac;
+    color: #fff;
+}
+
+.location__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__card span{
+    margin: 0px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255, 255, 255) !important;
+}

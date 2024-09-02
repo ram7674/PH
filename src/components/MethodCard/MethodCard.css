@@ -1,0 +1,100 @@
+.methods__containerSec{
+    background-color: antiquewhite;
+    height: 500px;
+    padding: 0px;
+}
+
+.tabs__cardSec{
+    padding: 30px 100px !important;
+    background-color: #05aba5;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.methods__mainTit{
+  font-weight: 900;
+  margin-left: 10px;
+  font-size: 39px;
+}
+  
+.tabs__img__card{
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 30px 10px;
+    width: 100%;
+}
+  
+  .tab-title {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff40;
+    color: #fff;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  
+  .tab-title.active {
+    background-color: #034ea1;
+    bottom: none;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .tab-image {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .selTab-content {
+    margin-top: 30px;
+    border-radius: 6px;
+    padding: 49px 69px;
+    margin-bottom: 72px;
+    background: linear-gradient(328.58deg, #034ea1 -15.54%, #00b7ac 83%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+
+      font-size: 18px;
+      line-height: 33px;
+      color: #fff;
+      padding-bottom: 27px;
+      text-align: center;
+
+    }
+
+    h2 {
+
+      color: #fff;
+      font-size: 36px;
+      padding-bottom: 20px;
+      margin: 0;
+      font-family: MontserratEB, Helvetica, sans-serif, Arial;
+      font-weight: 900;
+
+    }
+    
+  }
+  

@@ -1,0 +1,137 @@
+/* top navbar css */
+.top__container{
+    padding: 15px;
+    background-color: #fff;
+}
+.topnav__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav__left__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.accesslab__btn{
+    border: 1px solid #00b7ac;
+    border-radius: 6px;
+    color: #284797;
+    padding: 10px;
+    position: relative;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    transition: .5s ease all;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+
+.appoint__btn{
+    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    height: 38px;
+    width: 150px;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 27px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    font-size: 14px;
+    padding: 0;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+
+.emer__btn{
+    background: #c61c1a;
+    border-radius: 5px;
+    height: 38px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: .5s ease all;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    padding: 0;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+
+.logo{
+  height: 42px;
+}
+
+/* main navbar css */
+.main__navbar {
+    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #fff;
+}
+
+.mega-menu .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mega-menu h6 {
+  margin-bottom: 0.5rem;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: #fff;
+    border-radius: 4px;
+    color: #034ea1 !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+
+/* large device responsive break points */
+@media screen and (min-width: 1024px) {
+    #basic-navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

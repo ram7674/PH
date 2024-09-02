@@ -1,0 +1,233 @@
+.center__ex__main {
+    height: 400px;
+}
+
+.banner__imageCOE{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.select__spe__maincd {
+    background-color: #00b7ac;
+    height: 700px;
+}
+
+.select__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select__card {
+    background-color: #fff;
+    padding: 30px 45px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: -32px;
+}
+
+.select__cardleft {
+    width: 15%;
+    background-color: rgb(59, 108, 150);
+    height: 150px;
+    border-radius: 15px;
+}
+
+.select__cardright {
+    width: 80%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.why__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    position: relative;
+    margin-top: 55px !important;
+}
+
+.why__secimg{
+    height: 350px;
+    width: 450px;
+    border-radius: 4px;
+}
+
+.why-sec-imgcard{
+    background-color: #034ea1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    height: 150px;
+    width: 190px;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.why__card1{
+    width: 40%;
+}
+
+.why__card2{
+    width: 60%;
+    padding:  20px 60px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+/* doctors cards */
+.dr__detailpgCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doctors__mainSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.each__doctor__cardItem {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px #00000029;
+    border: 2px solid #02aaab;
+    border-radius: 16px;
+    height: 451px;
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .img__card {
+    padding: 5px 0px 30px;
+    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    border-radius: 15px;
+  }
+
+  .marq__ele {
+    font-size: 14px;
+    color: #fff;
+    margin: 0px 4px;
+  }
+  .dr__image {
+    height: 196px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .persn__det {
+    width: 100%;
+  }
+
+  .doctor__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .doctor__qualif{
+    font-size: 15px;
+  }
+
+  .doctor__Speciality {
+    font-size: 1rem;
+    color: #888;
+  }
+
+  .doctor__qul__sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+
+  .view__card{
+    width: 100%;
+    padding: 0px 30px;
+  }
+
+  .view__btns{
+    width: 100%;
+    height: 35px;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+
+
+/* Faq's section */
+  .faq__secCard{
+    background-color: #00b7ac;
+  }
+
+  .title__faqs{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0px 0px 30px 15px;
+  }
+
+  .faq-item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    
+  }
+
+  .faq__quest{
+    font-size: 18px;
+    line-height: 22px;
+    color: #034ea1;
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .plus-icon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .plus-icon.rotated {
+    transform: rotate(90deg);
+  }
+  
+

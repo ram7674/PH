@@ -1,0 +1,96 @@
+.each__drContainer{
+    height: 400px;
+    background-color: #00b7ac;
+}
+
+.each__docotor__card{
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+    margin-top: 63px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images__cards {
+    width: 200px;
+    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    width: 35%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 8px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dr__img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.person__details{
+    width: 70%;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.dr__name{
+    margin-top: 8px;
+    font-size: 30px;
+    color: #282828;
+    min-height: 42px;
+    font-family: 'MontserratSB';
+    color: #034e9f;
+}
+
+.dr__qul__sec  {
+    margin-top: 30px;
+
+    h3{
+        white-space: nowrap;
+        color: #034fa1;
+        font-size: 16px;
+        font-weight: 700 !important;
+        line-height: 13px;
+    }
+}
+
+.banner__card{
+    background-color: rgb(255, 255, 255);
+    height: 520px;
+    margin: 63px 0px 0px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.tabs__card{
+    height: 470px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 8px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-bottom: 2px solid (90deg, #034ea1 -29.1%, #00b7ac 121.6%);
+}
+
+.tab-items{
+    width: 142px;
+    height: 65px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-link{
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
