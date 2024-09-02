@@ -4,12 +4,12 @@ import './LifeGlaneSlider.css';
 
 const LifeGlaneSlider = () => {
   const items = [
-    { img: '/src/assets/slider-emergency.jpg', text: 'Item 1' },
-    { img: '/src/assets/slider-treatment.jpg', text: 'Item 2' },
-    { img: '/src/assets/slider-treatment.jpg', text: 'Item 3' },
-    { img: '/src/assets/slider-emergency.jpg', text: 'Item 4' },
-    { img: '/src/assets/slider-treatment.jpg', text: 'Item 5' },
-    { img: '/src/assets/slider-emergency.jpg', text: 'Item 6' },
+    { img: 'slider-emergency.jpg', text: 'Item 1' },
+    { img: 'slider-treatment.jpg', text: 'Item 2' },
+    { img: 'slider-treatment.jpg', text: 'Item 3' },
+    { img: 'slider-emergency.jpg', text: 'Item 4' },
+    { img: 'slider-treatment.jpg', text: 'Item 5' },
+    { img: 'slider-emergency.jpg', text: 'Item 6' },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -76,7 +76,7 @@ const LifeGlaneSlider = () => {
 
           <div className="slider-item" key={index}>
 
-            <img src={item.img} alt={`Slide ${index}`} className="slider-image" />
+            <img src={`/src/assets/${item.img}`} alt={`Slide ${index}`} className="slider-image" />
             
             <div className="slider-content">
               <div className="slider-title">Title {index + 1}</div>

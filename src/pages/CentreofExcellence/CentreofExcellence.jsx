@@ -105,7 +105,7 @@ const CentreofExcellence = () => {
                       {drItem} {doctor.qualification}
                     </marquee>
                     <img
-                      src={`/src/assets/${doctor.image}`}
+                      src={`/src/assets/doctors/${doctor.image}`}
                       alt={drItem}
                       className="dr__image"
                     />
