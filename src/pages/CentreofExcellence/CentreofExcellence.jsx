@@ -10,6 +10,12 @@ import data from "../../data/data";
 import LifeGlaneTabs from "../../components/LifeGlaneTabs/LifeGlaneTabs";
 
 const CentreofExcellence = () => {
+
+  // State to track which FAQ is expanded
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   const { specialty } = useParams();
   const specialtyData = data.specialtiesData[specialty];
 
@@ -22,8 +28,20 @@ const CentreofExcellence = () => {
     navigate(`/doctor/${drItem}`);
   };
 
-  // State to track which FAQ is expanded
-  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const handleNext = () => {
+    if (currentIndex < specialtyData.treatmentProcedures.length - 2) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+
 
   // Toggle the expanded FAQ
   const toggleFAQ = (index) => {
@@ -57,13 +75,13 @@ const CentreofExcellence = () => {
           <div className="row select__container">
 
             {/* our story top section */}
-            <div className="col-11">
+            <div className="col-12 col-lg-11 p-0">
               <div className="select__card">
                 <div className="select__cardleft">{/* Icons place here */}</div>
                 <div className="select__cardright">
                   <h3>{specialtyData.title}</h3>
                   <h5>{specialtyData.subtitle}</h5>
-                  <p>{specialtyData.description}</p>
+                  <p >{specialtyData.description}</p>
                 </div>
               </div>
             </div>
@@ -90,10 +108,50 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
+       {/* Treatment & Procedures section */}
+       <div className="container pt-5">
+        <div className="row">
+          <div className="col-12">  
+            <h3 className="treat-procetitle">Treatment & Procedures</h3>
+            <div className="treatment-slider">
+              <div className="treatment-container">
+                {specialtyData.treatmentProcedures.map((procedure, index) => (
+                  <div
+                    key={index}
+                    className="treatment-item"
+                    style={{
+                      transform: `translateX(-${currentIndex * 100}%)`,
+                      flex: "1 0 49%",
+                      transition: "transform 0.3s ease-in-out",
+                    }}
+                  >
+                    <h3>{procedure.treatTitle}</h3>
+                    <p>{procedure.treatdesc}</p>
+                  </div>
+                ))}
+              </div>
+
+              {currentIndex > 0 && (
+                <button className="prev-arrow" onClick={handlePrev}>
+                  &larr;
+                </button>
+              )}
+              {currentIndex < specialtyData.treatmentProcedures.length - 2 && (
+                <button className="next-arrow" onClick={handleNext}>
+                  &rarr;
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       {/* Doctor's card section */}
       <div className="container">
         <div className="row dr__detailpgCard">
-          <div className="doctors__mainSec my-5 py-2">
+          <div className="doctors__mainSec pt-4 pb-5">
             {currentDoctors.map((drItem) => {
               const doctor = data.doctors[drItem];
               return (
@@ -141,7 +199,7 @@ const CentreofExcellence = () => {
       <div className="container-fluid faq__secCard py-5">
         <div className="container py-3">
           <div className="row">
-            <div className="col-12 col-lg-12">
+            <div className="col-12 col-lg-12 p-0">
               <h3 className="title__faqs">FAQ's</h3>
               {specialtyData.faq && specialtyData.faq.length > 0 ? (
                 specialtyData.faq.map((faqItem, index) => (

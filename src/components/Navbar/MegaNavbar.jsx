@@ -31,6 +31,7 @@ function MegaNavbar() {
         {/* main topbar */}
         <Navbar  expand="lg" className="main__navbar">
         <Container>
+            <Link to='/'><img src={logo} alt="logo" className='logo-sm' /></Link>
             <Navbar.Brand ></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

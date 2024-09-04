@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MegaNavbar from '../../components/Navbar/MegaNavbar';
 import Footer from '../../components/Footer/Footer';
 import './doctorslist.css';
@@ -9,8 +9,21 @@ import { useNavigate } from 'react-router-dom';
 const DoctorsList = () => {
   const doctorsPerPage = 6; // Number of doctors per page
   const [currentPage, setCurrentPage] = useState(1);
+  const [isMobile, setIsMobile] = useState(false);
 
   const navigate = useNavigate(); // Initialize navigate
+
+  // Check screen size to determine if the device is mobile
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+    };
+
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   // Calculate the index of the first and last doctor on the current page
   const indexOfLastDoctor = currentPage * doctorsPerPage;
@@ -23,8 +36,23 @@ const DoctorsList = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const handleViewProfile = (doctorName) => {
-    navigate(`/doctor/${doctorName}`)
-  }
+    navigate(`/doctor/${doctorName}`);
+  };
+
+  // Determine the page numbers to display based on the current page and screen size
+  const getDisplayedPageNumbers = () => {
+    if (isMobile) {
+      if (currentPage === 1) {
+        return [1, 2];
+      } else if (currentPage === totalPages) {
+        return [totalPages - 1, totalPages];
+      } else {
+        return [currentPage - 1, currentPage];
+      }
+    } else {
+      return [...Array(totalPages).keys()].map((i) => i + 1);
+    }
+  };
 
   return (
     <>
@@ -82,13 +110,13 @@ const DoctorsList = () => {
             Previous
           </button>
 
-          {[...Array(totalPages)].map((_, index) => (
+          {getDisplayedPageNumbers().map((pageNumber) => (
             <button 
-              key={index + 1} 
-              onClick={() => paginate(index + 1)} 
-              className={`pagination-btn ${currentPage === index + 1 ? 'active' : ''}`}
+              key={pageNumber} 
+              onClick={() => paginate(pageNumber)} 
+              className={`pagination-btn ${currentPage === pageNumber ? 'active' : ''}`}
             >
-              {index + 1}
+              {pageNumber}
             </button>
           ))}
 

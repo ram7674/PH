@@ -16,31 +16,113 @@
 
 /* pagination styles */
 .pagination {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
   
-  .pagination-btn {
-    background-color: #007bff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    margin: 0 5px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .pagination-btn:hover {
-    background-color: #0056b3;
-  }
-  
-  .pagination-btn:disabled {
-    background-color: #d3d3d3;
-    cursor: not-allowed;
-  }
-  
+.pagination-btn {
+  border: 2px solid #034ea1;
+  color: #034ea1;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.pagination-btn:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.pagination-btn.active {
+  background-color: #034ea1; /* Active color */
+  color: white; /* Active text color */
+  border-color: #034ea1;
+}
+
+.each__doctor__card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px #00000029;
+  border: 2px solid #02aaab;
+  border-radius: 16px;
+}
+
+.images__card {
+  margin-right: 20px;
+  padding: 5px 0px 30px;
+  background: linear-gradient(90deg, #034ea1 0, #205f9e 100%);
+  width: 317px;
+  border-radius: 15px;
+}
+
+.marq__tag {
+  font-size: 14px;
+  color: #fff;
+  margin: 0px 4px;
+}
+
+.doctor__img {
+  height: 196px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.person__details {
+  flex: 1;
+}
+
+.dr__name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dr__Speciality {
+  font-size: 1rem;
+  color: #888;
+}
+
+.dr__qul__sec {
+  margin-top: 10px;
+}
+
+.dr__qul__sec h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.dr__qul__sec span {
+  font-size: 0.9rem;
+}
+
+.view__btnbg{
+  width: 100%;
+  margin: 30px 0px 0px;
+}
+
+.view__btn{
+  height: 35px;
+  background-color: #0056b3;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  width: 163px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+/* mobile responsive */
+@media screen and (max-width: 767px) {
   .each__doctor__card {
     display: flex;
     align-items: center;
@@ -49,67 +131,43 @@
     box-shadow: 0 6px 12px #00000029;
     border: 2px solid #02aaab;
     border-radius: 16px;
+
+    flex-direction: column;
   }
-  
+
   .images__card {
-    margin-right: 20px;
+    margin-right: 0px;
     padding: 5px 0px 30px;
-    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
-    width: 317px;
-    border-radius: 15px;
-  }
-  
-  .marq__tag {
-    font-size: 14px;
-    color: #fff;
-    margin: 0px 4px;
-  }
-
-  .doctor__img {
-    height: 196px;
-    object-fit: cover;
     width: 100%;
   }
-  
+
   .person__details {
-    flex: 1;
-  }
-  
-  .dr__name {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .dr__Speciality {
-    font-size: 1rem;
-    color: #888;
-  }
-  
-  .dr__qul__sec {
-    margin-top: 10px;
-  }
-  
-  .dr__qul__sec h3 {
-    font-size: 1rem;
-    margin-bottom: 5px;
-  }
-  
-  .dr__qul__sec span {
-    font-size: 0.9rem;
-  }
-  
-  .view__btnbg{
-    width: 100%;
-    margin: 30px 0px 0px;
+    width: 86%;
+    padding: 15px 0px 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
-  .view__btn{
-    height: 35px;
-    background-color: #0056b3;
-    color: #fff;
-    border-radius: 7px;
-    border: none;
-    width: 163px;
-    letter-spacing: 1px;
-    font-weight: 600;
+  .dr__qul__sec {
+    text-align: center;
+}
+
+  .view__btnbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 0px 0px;
   }
+
+  .doctorpg__banner {
+    height: 245px;
+  }
+
+}
+
+/* medium device responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  
+}
+

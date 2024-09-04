@@ -1,5 +1,3 @@
-
-
 .search__doct__card {
     display: flex;
     justify-content: center;
@@ -32,7 +30,7 @@
 }
 
 .submit__btn {
-    background: linear-gradient(to right, #034ea1, #00b7ac);
+    background: linear-gradient(to right, #205f9e, #205f9e);
     background-position: 13% 50%;
     border-radius: 6px;
     color: #fff;
@@ -54,3 +52,56 @@
     border-right: 2px solid #1864bb;
 }
 
+/* mobile media queries */
+@media screen and (max-width: 767px) {
+    .search__doct__card {
+        background: #fff;
+        flex-direction: column;
+        height: 250px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 30px 0px !important;
+    }
+    .mar__right {
+        border-right: none;
+    }
+    .input__select {
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid rgb(169, 169, 169);
+        border-radius: 0px;
+        margin-bottom: 5px;
+    }
+    .inputs__cards {
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .submit__btn {
+        width: 160px;
+        height: 50px;
+        margin-top: 20px;
+    }
+}
+
+/* tablet media queries */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .input__select {
+        padding: 5px;
+    }
+    .submit__btn {
+        font-size: 20px;
+        width: 23%;
+    }
+    .accesslab__btn {
+        height: 42px;
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .appoint__btn {
+        height: 42px;
+        font-size: 18px;
+    }
+    .emer__btn {
+        height: 42px;
+        font-size: 18px;
+    }
+}

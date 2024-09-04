@@ -1,9 +1,9 @@
 import React from 'react';
-import { Carousel, Button } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import './slider.css';
 
 import slider1 from '../../assets/slider1.jpg';
-import slider2 from '../../assets/slider2.jpg'
+import slider2 from '../../assets/slider2.jpg';
 
 const images = [
   {
@@ -38,14 +38,9 @@ function Slider() {
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <div
-            className="d-block w-100"
+            className="d-block w-100 home__sliderSTt"
             style={{
               backgroundImage: `url(${image.src})`,
-              height: '82vh',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
-              position: 'relative',
             }}
           >
             <div className="carousel-content">

@@ -70,7 +70,7 @@ const HumanCareExp = () => {
         </div>
 
         {/* facts  section */}
-        <div className='col-12 col-lg-5'>
+        <div className='col-12 col-lg-5 p-0'>
           <div className='experince__mainCard'>
             {facts.map((item, index) => (
               <div key={index} className='fact__card'>
@@ -88,7 +88,6 @@ const HumanCareExp = () => {
             ))}
           </div>
         </div>
-
       </div>
     </div>
   );

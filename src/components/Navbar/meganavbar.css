@@ -21,10 +21,10 @@
     border: 1px solid #00b7ac;
     border-radius: 6px;
     color: #284797;
-    padding: 10px;
     position: relative;
     display: block;
     outline: 0;
+    height: 38px;
     text-decoration: none;
     transition: .5s ease all;
     font-size: 14px;
@@ -33,7 +33,7 @@
 }
 
 .appoint__btn{
-    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    background: linear-gradient(90deg, #205f9e 0, #205f9e 100%);
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
@@ -76,7 +76,7 @@
 
 /* main navbar css */
 .main__navbar {
-    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    background: linear-gradient(90deg, #034ea1 0, #205f9e 100%);
 }
 
 .nav-item.dropdown {
@@ -126,6 +126,9 @@ a{
   text-decoration: none !important;
 }
 
+.logo-sm{
+  display: none;
+}
 
 /* large device responsive break points */
 @media screen and (min-width: 1024px) {
@@ -134,4 +137,36 @@ a{
         justify-content: center;
         align-items: center;
     }
+}
+
+/* mobile devices responsive break points  */
+@media screen and (max-width: 767px) {
+  .top__container {
+    padding: 15px 0px;
+}
+  .logo {
+    display: none;
+  }
+  .logo-sm{
+    display: block !important;
+    height: 46px;
+  }
+  .accesslab__btn {
+    padding: 1px;
+    margin: 0px;
+    font-size: 12px;
+  }
+  .appoint__btn {
+    width: 115px
+  }
+  .emer__btn {
+    width: 114px;
+    margin: 0px;
+  }
+}
+
+
+/* tablet responsive break points */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
 }

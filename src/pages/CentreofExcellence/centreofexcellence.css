@@ -1,5 +1,5 @@
 .center__ex__main {
-    height: 400px;
+  height: 400px;
 }
 
 .banner__imageCOE{
@@ -10,7 +10,7 @@
 
 .select__spe__maincd {
     background-color: #00b7ac;
-    height: 700px;
+    height: 100%;
 }
 
 .select__container {
@@ -31,18 +31,32 @@
 
 .select__cardleft {
     width: 15%;
-    background-color: rgb(59, 108, 150);
+    background-color: #034ea1;
     height: 150px;
     border-radius: 15px;
 }
 
 .select__cardright {
+
     width: 80%;
     padding: 0px 20px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
+
+    h3 {
+      font-size: 30px;
+      font-weight: 800;
+      color: #3b6c96;
+    }
+
+    h5 {
+      font-size: 19px;
+      font-weight: 600;
+      margin: 10px 0px;
+    }
+
 }
 
 .why__section{
@@ -121,7 +135,7 @@
 
   .img__card {
     padding: 5px 0px 30px;
-    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    background: linear-gradient(90deg, #205f9e 0, #205f9e 100%);
     border-radius: 15px;
   }
 
@@ -215,10 +229,15 @@
     font-weight: 700;
     margin: 0px;
   }
-  
+
   .faq-answer {
     margin-top: 10px;
-    padding-left: 20px;
+    padding-left: 0px;
+
+    p {
+      margin: 0px;
+    }
+
   }
   
   .plus-icon {
@@ -230,4 +249,327 @@
     transform: rotate(90deg);
   }
   
+
+/* Treatment & Procedures Section  */
+.treatment-slider {
+  position: relative;
+}
+
+.treat-procetitle{
+  color: #034ea1;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.treatment-container {
+  display: flex;
+  overflow: hidden;
+  height: 350px;
+  padding: 30px 0px;
+}
+
+.treatment-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 40px;
+  margin: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.treatment-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #034ea1;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.treatment-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.next-arrow,
+.prev-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #205f9e;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.next-arrow:hover,
+.prev-arrow:hover {
+  background-color: #0056b3;
+}
+
+.prev-arrow {
+  left: -20px;
+}
+
+.next-arrow {
+  right: -20px;
+}
+
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+
+  .slider-item {
+    flex: 0 0 100%;
+  }
+
+  .select__card {
+    padding: 25px 15px;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .select__cardleft {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 154px;
+  }
+
+  .select__cardright{
+
+    width: 100%;
+    padding: 0px;
+
+    h3 {
+      font-size: 22px;
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+    p {
+      margin: 0px;
+      text-align: justify;
+      hyphens: auto;
+      font-size: 14px;
+    }
+
+  }
+
+  .why__section {
+    padding: 20px 0px !important;
+    margin-top: 28px !important;
+    flex-direction: column;
+  }
+
+  .why__card1 {
+    width: 100%;
+  }
+
+  .why__secimg {
+    height: 225px;
+    width: 100%;
+  }
+
+  .why__card2 {
+
+    width: 100%;
+    padding: 11px 0px;
+
+    p {
+      text-align: justify;
+      hyphens: auto;
+    }
+
+  }
+
+  .why-sec-imgcard {
+    position: static;
+    height: 120px;
+    width: 100%;
+    padding: 15px 13px;
+    margin-top: 15px;
+  }
+
+  .each__doctor__cardItem {
+    margin: 10px 0px;
+  }
+
+  .faq-item {
+    margin: 15px 0px;
+    padding: 10px;
+  }
+
+  .faq__quest {
+    font-size: 13px;
+  }
+
+  .title__faqs {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .faq-answer {
+    margin-top: 10px;
+    padding-left: 0px;
+
+    p {
+      margin: 0px;
+      font-size: 13px;
+    }
+
+  }
+
+  .treatment-container {
+    height: 273px;
+    padding: 13px 0px;
+  }
+
+  .treatment-item {
+    padding: 10px;
+
+    h3 {
+      font-size: 12px;
+      height: 54px;        /* Set the height of the element */
+      overflow-y: scroll;  /* Enable vertical scrolling */
+      overflow-x: hidden;  /* Hide horizontal overflow */
+      line-height: 17px;
+    }
+
+    p {
+      font-size: 12px;
+      text-align: justify;
+      hyphens: auto;
+    }
+
+  }
+
+  .next-arrow {
+    right: 0px;
+  }
+
+  .prev-arrow {
+    left: 0px;
+  }
+
+  .next-arrow, .prev-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .prev-arrow , .next-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .center__ex__main {
+    height: 167px;
+  }
+
+  .treat-procetitle {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+}
+
+/* tablet responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .select__cardleft {
+    width: 30%;
+  }
+
+  .select__cardright {
+
+    width: 80%;
+    padding: 0px 0px 0px 20px;
+
+    h3 {
+      font-size: 23px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+
+      text-align: justify;
+      hyphens: auto;
+      height: 58px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      line-height: 20px;
+      font-size: 14px;
+      padding-right: 12px;
+
+    }
+
+  }
+
+  .select__card {
+    padding: 30px 22px;
+  }
+
+  .why__section {
+    padding: 0px 0px 50px !important;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .why__card1 {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .why-sec-imgcard {
+    position: static;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .why__secimg {
+    height: 268px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .why__card2 {
+    width: 50%;
+    padding: 0px;
+
+    p {
+      height: 416px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      padding-right: 10px;
+    }
+
+  }
+
+  .treatment-item {
+
+    padding: 20px;
+
+    h3 {
+
+      font-size: 20px;
+      line-height: 25px;
+
+    }
+
+  }
+
+}
+
 

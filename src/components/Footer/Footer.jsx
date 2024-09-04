@@ -12,7 +12,7 @@ function Footer() {
           <Col lg={4} md={6} className="mb-4 mb-md-0">
             <img src='' alt='' className='' />
             <h5 className="footer_subTitles">Footer Content</h5>
-            <p>
+            <p className='footer__desc'>
               Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
               consectetur adipisicing elit.
             </p>
@@ -20,7 +20,7 @@ function Footer() {
 
           <Col lg={3} md={6} className="mb-4 mb-md-0">
             <h5 className="footer_subTitles">Centres of Excellence</h5>
-            <ul className="list-unstyled mb-0">
+            <ul className="list-unstyled footer__mainItem mb-0">
               <li>
                 <a href="#!" className="footer__liItems">Infertility</a>
               </li>
@@ -65,7 +65,7 @@ function Footer() {
 
           <Col lg={3} md={6} className="mb-4 mb-md-0">
             <h5 className="footer_subTitles">Locations</h5>
-            <ul className="list-unstyled mb-0">
+            <ul className="list-unstyled footer__mainItem mb-0">
               <li>
                 <a href="#!" className="footer__liItems">Manikonda</a>
               </li>
@@ -80,7 +80,7 @@ function Footer() {
 
           <Col lg={2} md={6} className="mb-4 mb-md-0">
             <h5 className="footer_subTitles">Important Link</h5>
-            <ul className="list-unstyled mb-0">
+            <ul className="list-unstyled footer__mainItem mb-0">
               <li>
                 <a href="#!" className="footer__liItems">Link 1</a>
               </li>
@@ -100,9 +100,9 @@ function Footer() {
 
       {/* locations section */}
       <div className='container-fluid location__footer'>
-        <div className='container p-5'>
+        <div className='container location__innerCard'>
           <div className='row'>
-            <div className='col-12'>
+            <div className='col-12 p-0'>
               <div className='location__card'>
                 <span>Manikonda</span>
                 <span>Pragathi Nagar</span>
@@ -113,17 +113,19 @@ function Footer() {
         </div>
       </div>
 
-      {/* copy_rights bottom section*/}
+      {/* copy_rights bottom section */}
       <div className="container-fluid py-3" style={{backgroundColor:'#000000'}}>
         <div className='container footer__copy'>
-          <div>
+
+          <div className='footer__copySec1'>
             <span className="text-white">© 2024 Copyright </span>
             <a href="https://prasadhospitals.in/"><span className="text-white"> prasadhospitals</span></a>
           </div>
           
-          <div>
+          <div className='footer__copySec2'>
             <span>Disclaimer</span>  | <span>Privacy Policy</span>  | <span>Site map</span>  | <span>Terms & Conditions</span>  | <span>Refund Policy</span>
           </div>
+          
         </div>
       </div>
       

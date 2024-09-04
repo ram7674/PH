@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../../data/data'; // Adjust the path if necessary
+import data from '../../data/data';
 import MegaNavbar from '../Navbar/MegaNavbar';
 import Footer from '../Footer/Footer';
 import './DoctorDetails.css';
@@ -35,7 +35,7 @@ const DoctorDetails = () => {
           <div className='row'>
             
             {/* each doctor details card */}
-            <div className='col-12 col-lg-8'>    
+            <div className='col-12 col-md-12 col-lg-8 p-0'>    
               <div className='each__docotor__card'>
 
                 <div className='images__cards'>
@@ -55,7 +55,7 @@ const DoctorDetails = () => {
             </div>
 
             {/* bookappointment card */}
-            <div className='col-12 col-lg-4'>    
+            <div className='col-12 col-md-12 col-lg-4 p-0'>    
               <div className='banner__card'>
                 
               </div>          
@@ -66,9 +66,9 @@ const DoctorDetails = () => {
       </div>
 
       {/* tabs container */}
-      <div className='container'>
+      <div className='container mb-5 pb-3'>
         <div className='row'>
-          <div className='col-12 col-lg-8'>
+          <div className='col-12 col-md-12 col-lg-8'>
             <div className='tabs__card'>
               {/* Tabs */}
               <ul className="nav nav-tabs">

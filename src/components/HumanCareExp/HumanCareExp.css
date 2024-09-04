@@ -81,3 +81,223 @@
     font-weight: 700;
     font-family: Montserrat, Helvetica, 'Open Sans', sans-serif;
 }
+
+/* small device responsive */
+@media screen and (max-width: 767px) {
+    
+}
+
+/* medium device responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}.human__expCont {
+    padding: 40px 40px 0px;
+}
+
+.find__expertdr {
+    background-color: #034ea1;
+    margin-top: 50px;
+    box-shadow: 0 10px 20px #0000003b;
+    margin-bottom: 20px;
+    border: 0;
+    color: #fff;
+    font-family: MontserratBold, Helvetica, sans-serif;
+    padding: 12px 35px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.facts__mainCard {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.facts__title{
+    font-size: 44px;
+    color: #034ea1;
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.experince__mainCard {
+    background: #00b7ac;
+    padding: 20px 20px 20px 0px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.fact__card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.facts__contCard{
+    width: 100%;
+    padding-left: 30px;
+}
+
+.circle__card {
+    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    height: 50px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: -24px;
+    margin-top: -29px;
+}
+
+.hr__line{
+    opacity: .5;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    transform: matrix(1, -.01, .01, 1, 0, 0);
+}
+
+.fact__value {
+    color: #fff;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 800;
+}
+
+.fact__title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat, Helvetica, 'Open Sans', sans-serif;
+}
+
+/* small device responsive */
+@media screen and (max-width: 767px) {
+
+    .circle__card{
+        display: none;
+    }
+
+    .experince__mainCard {
+        padding: 20px;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    .facts__contCard {
+        width: 85%;
+        padding: 28px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 14px 10px;
+        border: 2px solid #d6d6d6;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .fact__card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .fact__title {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .hr__line{
+        display: none;
+    }
+
+    .facts__title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .facts__desc{
+        text-align: justify;
+    }
+
+    .facts__mainCard {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .find__expertdr {
+        margin: 16px 0px 45px;
+        padding: 7px 33px;
+        font-size: 19px;
+    }
+
+}
+
+/* medium device responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .circle__card{
+        display: none;
+    }
+
+    .hr__line{
+        display: none;
+    }
+
+    .facts__mainCard {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .find__expertdr {
+        margin: 16px 0px 50px;
+        padding: 13px 39px;
+        font-size: 20px;
+    }
+
+    .experince__mainCard {
+        background: #00b7ac;
+        padding: 45px 20px;
+        width: 100%;
+        border-radius: 5px;
+        margin: auto;
+        margin: 0px 0px 54px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .facts__contCard {
+        width: 180px !important;
+        height: 160px;
+        margin: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .fact__title {
+        margin: 0px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+}

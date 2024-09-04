@@ -251,10 +251,28 @@ const data = {
       icons: "",
       title: "1 Accident and Emergency Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",
-      description: "The Department of Accident and Emergency Care at Manipal Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
       ourStoryImage: "",
       whyPrasadTittle: "",
-      whyDescription: "The emergency department at Manipal Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, Manipal Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
       "faq": [
         {
           "question": "What services are offered in Accident and Emergency Care?",
@@ -266,15 +284,26 @@ const data = {
         }
       ] 
     },
+
     "Orthopedics": {
       bannerbg: "Banner-doctors-list.png",
       icons: "",
       title: "2 Accident and Emergency Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",
-      description: "The Department of Accident and Emergency Care at Manipal Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
       ourStoryImage: "",
       whyPrasadTittle: "Why Prasad",
-      whyDescription: "The emergency department at Manipal Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, Manipal Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
       "faq": [
         {
           "question": "What services are offered in Accident and Emergency Care?",
@@ -291,10 +320,24 @@ const data = {
       icons: "",
       title: "3 Accident and Emergency Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",
-      description: "The Department of Accident and Emergency Care at Manipal Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
       ourStoryImage: "",
       whyPrasadTittle: "",
-      whyDescription: "The emergency department at Manipal Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, Manipal Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
       "faq": [
         {
           "question": "What services are offered in Accident and Emergency Care?",
@@ -311,10 +354,20 @@ const data = {
       icons: "",
       title: "4 Accident and Emergency Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",
-      description: "The Department of Accident and Emergency Care at Manipal Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
       ourStoryImage: "",
       whyPrasadTittle: "",
-      whyDescription: "The emergency department at Manipal Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, Manipal Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
       "faq": [
         {
           "question": "What services are offered in Accident and Emergency Care?",

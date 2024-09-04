@@ -24,6 +24,7 @@
     background-color: #f5f5f5;
     border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .slider-image {
@@ -101,6 +102,12 @@
     background: rgba(0, 0, 0, .6);
     cursor: not-allowed;
   }
+
+
+
+
+
+
   
   /* Media Query for Small Devices */
   @media (max-width: 768px) {
