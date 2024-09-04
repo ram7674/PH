@@ -77,7 +77,7 @@ const LifeGlaneSlider = () => {
 
           <div className="slider-item" key={index}>
 
-            <img src={`/src/assets/${item.img}`} alt={`Slide ${index}`} className="slider-image" />
+            <img src={`/public/assets/${item.img}`} alt={`Slide ${index}`} className="slider-image" />
             
             <div className="slider-content">
               <div className="slider-title">Title {index + 1}</div>

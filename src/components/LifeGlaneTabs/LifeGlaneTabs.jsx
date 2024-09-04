@@ -16,7 +16,7 @@ const LifeGlaneTabs = () => {
   };
 
   return (
-    <div className="tabs-containers py-5">
+    <div className="tabs-containers py-3">
       <div className="tabs-slider">
         {tabs.map((tab) => (
           <button

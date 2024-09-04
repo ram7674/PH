@@ -39,7 +39,7 @@ const DoctorDetails = () => {
               <div className='each__docotor__card'>
 
                 <div className='images__cards'>
-                  <img src={`/src/assets/doctors/${doctor.image}`} alt={doctorName} className='dr__img' />
+                  <img src={`/public/assets/doctors/${doctor.image}`} alt={doctorName} className='dr__img' />
                 </div>
 
                 <div className='person__details'> 
