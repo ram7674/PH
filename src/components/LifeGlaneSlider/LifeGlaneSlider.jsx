@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight, FaYoutube  } from 'react-icons/fa';
 import './LifeGlaneSlider.css';
 
+
 const LifeGlaneSlider = () => {
   const items = [
     { img: 'slider-emergency.jpg', text: 'Item 1' },

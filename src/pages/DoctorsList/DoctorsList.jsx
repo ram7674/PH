@@ -16,7 +16,7 @@ const DoctorsList = () => {
   // Check screen size to determine if the device is mobile
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+      setIsMobile(window.innerWidth <= 767); // Adjust breakpoint as needed
     };
 
     checkScreenSize();
@@ -79,7 +79,7 @@ const DoctorsList = () => {
                 <div key={doctorName} className='each__doctor__card'>
                   <div className='images__card'>
                     <marquee className="marq__tag">{doctorName} {doctor.qualification}</marquee>
-                    <img src={`/src/assets/doctors/${doctor.image}`} alt={doctorName} className='doctor__img' />
+                    <img src={`/public/assets/doctors/${doctor.image}`} alt={doctorName} className='doctor__img' />
                   </div>
 
                   <div className='person__details'>

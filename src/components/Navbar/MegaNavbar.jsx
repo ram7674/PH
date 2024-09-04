@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import './meganavbar.css'
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/logo.png';
+import logo from '../../../public/assets/logo.png'
 
 function MegaNavbar() {
   return (

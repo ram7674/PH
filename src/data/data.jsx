@@ -247,7 +247,7 @@ const data = {
 
   specialtiesData: {
     "Infertility": {
-      bannerbg: "cente-of-excellence-banner-image.jpg",
+      bannerbg: "infertility-doctors-list.png",
       icons: "",
       title: "1 Accident and Emergency Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",

@@ -3,7 +3,8 @@ import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
 import "./centreofexcellence.css";
 
-import whyChooseImg from "../../assets/why-choose-img.jpg";
+
+import whyChooseImg from "../../../public/assets/why-choose-img.jpg"
 
 import { useParams, useNavigate } from "react-router-dom";
 import data from "../../data/data";
@@ -60,8 +61,8 @@ const CentreofExcellence = () => {
           <div className="col-12 p-0">
             <div className="center__ex__main">
               <img
-                src={`/src/assets/${specialtyData.bannerbg}`}
-                alt=""
+                src={`/public/assets/banner-stack/${specialtyData.bannerbg}`}
+                alt="image is not show"
                 className="banner__imageCOE"
               />
             </div>
@@ -89,7 +90,7 @@ const CentreofExcellence = () => {
             {/* know aboutUS section */}
             <div className="why__section">
               <div className="why__card1">
-                <img src={whyChooseImg} alt="" className="why__secimg" />
+                <img src={whyChooseImg} alt="image not show" className="why__secimg" />
                 <div className="why-sec-imgcard">
                   <span>OUR STORY</span>
                   <span>
