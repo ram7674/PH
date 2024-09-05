@@ -1,37 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
 import "./centreofexcellence.css";
-
-
-import whyChooseImg from "../../../public/assets/why-choose-img.jpg"
-
+import whyChooseImg from "../../../public/assets/why-choose-img.jpg";
 import { useParams, useNavigate } from "react-router-dom";
-import data from "../../data/data";
+import data from "../../data/data"; // Assuming data is in this path
 import LifeGlaneTabs from "../../components/LifeGlaneTabs/LifeGlaneTabs";
 
 const CentreofExcellence = () => {
-
-  // State to track which FAQ is expanded
   const [expandedIndex, setExpandedIndex] = useState(null);
-
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const { specialty } = useParams();
-  const specialtyData = data.specialtiesData[specialty];
-
-  // Filter doctors based on selected specialty
-  const currentDoctors = data.specialties[specialty] || [];
-
-  // Handle view profile button click
+  const { specialty } = useParams(); // Only specialty is needed
   const navigate = useNavigate();
+
+  // Local state to store the specialty data
+  const [specialtyData, setSpecialtyData] = useState({});
+
+  // Fetch the specialty data when the specialty parameter changes
+  useEffect(() => {
+    const fetchData = () => {
+      // Get the specialty data based on the specialty parameter
+      const fetchedSpecialtyData = data.specialtiesData[specialty] || {};
+      setSpecialtyData(fetchedSpecialtyData);
+    };
+
+    fetchData();
+  }, [specialty]);
+
+  // Handle the click event to view doctor profile
   const handleViewProfile = (drItem) => {
     navigate(`/doctor/${drItem}`);
   };
 
-
+  // Handle slider navigation
   const handleNext = () => {
-    if (currentIndex < specialtyData.treatmentProcedures.length - 2) {
+    if (currentIndex < (specialtyData.treatmentProcedures?.length || 0) - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
@@ -42,55 +45,52 @@ const CentreofExcellence = () => {
     }
   };
 
-
-
-  // Toggle the expanded FAQ
+  // Toggle FAQ section
   const toggleFAQ = (index) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
+  const currentDoctors = specialtyData?.doctors || [];
+
   return (
     <>
-      {/* Navbar components */}
       <MegaNavbar />
 
-      {/* banner section container */}
       <div className="container-fluid">
         <div className="row">
-          {/* Banner card */}
           <div className="col-12 p-0">
             <div className="center__ex__main">
-              <img
-                src={`/public/assets/banner-stack/${specialtyData.bannerbg}`}
-                alt="image is not show"
-                className="banner__imageCOE"
-              />
+              {specialtyData.bannerbg && (
+                <img
+                  src={`/assets/banner-stack/${specialtyData.bannerbg}`} // Accessing bannerbg
+                  alt="Specialty Banner"
+                  className="banner__imageCOE"
+                />
+              )}
             </div>
           </div>
         </div>
       </div>
 
-      {/* our story section */}
       <div className="container-fluid select__spe__maincd">
         <div className="container">
           <div className="row select__container">
-
-            {/* our story top section */}
             <div className="col-12 col-lg-11 p-0">
               <div className="select__card">
-                <div className="select__cardleft">{/* Icons place here */}</div>
+                <div className="select__cardleft">
+                  {/* Icons place here */}
+                </div>
                 <div className="select__cardright">
                   <h3>{specialtyData.title}</h3>
                   <h5>{specialtyData.subtitle}</h5>
-                  <p >{specialtyData.description}</p>
+                  <p>{specialtyData.description}</p>
                 </div>
               </div>
             </div>
 
-            {/* know aboutUS section */}
             <div className="why__section">
               <div className="why__card1">
-                <img src={whyChooseImg} alt="image not show" className="why__secimg" />
+                <img src={whyChooseImg} alt="Our Story" className="why__secimg" />
                 <div className="why-sec-imgcard">
                   <span>OUR STORY</span>
                   <span>
@@ -104,19 +104,17 @@ const CentreofExcellence = () => {
                 <p>{specialtyData.whyDescription}</p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
 
-       {/* Treatment & Procedures section */}
-       <div className="container pt-5">
+      <div className="container pt-5">
         <div className="row">
-          <div className="col-12">  
+          <div className="col-12">
             <h3 className="treat-procetitle">Treatment & Procedures</h3>
             <div className="treatment-slider">
               <div className="treatment-container">
-                {specialtyData.treatmentProcedures.map((procedure, index) => (
+                {specialtyData.treatmentProcedures?.map((procedure, index) => (
                   <div
                     key={index}
                     className="treatment-item"
@@ -137,7 +135,7 @@ const CentreofExcellence = () => {
                   &larr;
                 </button>
               )}
-              {currentIndex < specialtyData.treatmentProcedures.length - 2 && (
+              {currentIndex < (specialtyData.treatmentProcedures?.length || 0) - 1 && (
                 <button className="next-arrow" onClick={handleNext}>
                   &rarr;
                 </button>
@@ -147,38 +145,31 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
-
-
-      {/* Doctor's card section */}
+     {/* specialtyData filter related doctor cards */}
       <div className="container">
         <div className="row dr__detailpgCard">
           <div className="doctors__mainSec pt-4 pb-5">
             {currentDoctors.map((drItem) => {
-              const doctor = data.doctors[drItem];
+              const doctor = data.doctors?.[drItem];
               return (
                 <div key={drItem} className="each__doctor__cardItem">
-
-                  {/* image card block */}
                   <div className="img__card">
                     <marquee className="marq__ele">
-                      {drItem} {doctor.qualification}
+                      {drItem} {doctor?.qualification}
                     </marquee>
                     <img
-                      src={`/public/assets/doctors/${doctor.image}`}
+                      src={`/assets/doctors/${doctor?.image}`}
                       alt={drItem}
                       className="dr__image"
                     />
                   </div>
-
-                  {/* content card block */}
                   <div className="persn__det">
                     <div className="doctor__qul__sec">
                       <span className="doctor__name">{drItem}</span>
-                      <span className="doctor__Speciality">{doctor.expertise}</span>
+                      <span className="doctor__Speciality">{doctor?.expertise}</span>
                       <h3 className="doctor__qualif">Qualification:</h3>
-                      <span>{doctor.qualification}</span>
+                      <span>{doctor?.qualification}</span>
                     </div>
-
                     <div className="view__card">
                       <button
                         className="view__btns"
@@ -188,21 +179,20 @@ const CentreofExcellence = () => {
                       </button>
                     </div>
                   </div>
-
                 </div>
               );
             })}
           </div>
         </div>
       </div>
+      
 
-      {/* Faq's section */}
       <div className="container-fluid faq__secCard py-5">
         <div className="container py-3">
           <div className="row">
             <div className="col-12 col-lg-12 p-0">
               <h3 className="title__faqs">FAQ's</h3>
-              {specialtyData.faq && specialtyData.faq.length > 0 ? (
+              {specialtyData.faq?.length > 0 ? (
                 specialtyData.faq.map((faqItem, index) => (
                   <div
                     key={index}
@@ -212,7 +202,7 @@ const CentreofExcellence = () => {
                       className="faq-question"
                       onClick={() => toggleFAQ(index)}
                     >
-                      <h5 className="faq__quest">{faqItem.question}</h5>
+                      <h5 className="faq__quest">{faqItem.question}</h5> 
                       <span className={`plus-icon ${expandedIndex === index ? "rotated" : ""}`}>
                         +
                       </span>
@@ -232,13 +222,9 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
-      {/* lifeglanetabs component */}
-      <LifeGlaneTabs/>
-    
+      <LifeGlaneTabs />
 
-      {/* Footer components */}
       <Footer />
-
     </>
   );
 };

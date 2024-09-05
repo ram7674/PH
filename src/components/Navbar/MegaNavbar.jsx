@@ -48,7 +48,7 @@ function MegaNavbar() {
                             <Link to='/center-of-excellence/Infertility'><li className="dropdown-item">Infertility</li></Link>
                             <Link to='/center-of-excellence/Orthopedics'><li className="dropdown-item">Orthopedics</li></Link>
                             <Link to='/center-of-excellence/Gynecology'><li className="dropdown-item">Gynecology</li></Link>
-                            <Link to='/center-of-excellence/EarNoseThroat'><li className="dropdown-item">Ear Nose Throat</li></Link>
+                            <Link to='/center-of-excellence/ENT'><li className="dropdown-item">Ear Nose Throat</li></Link>
                             <Link to='/center-of-excellence/Pulmonology'><li className="dropdown-item">Pulmonology</li></Link>
                             <Link to='/center-of-excellence/Nephrology'><li className="dropdown-item">Nephrology</li></Link>
                             <Link to='/center-of-excellence/Urology'><li className="dropdown-item">Urology</li></Link>

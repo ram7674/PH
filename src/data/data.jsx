@@ -1,32 +1,59 @@
 const data = {
   hospitals: {
-    Manikonda: ["Infertility", "Orthopedics", "Gynecology"],
-    PragathiNagar: ["Pulmonology", "Nephrology", "Urology"],
-    Nacharam: ["GeneralPhysician", "Pediatrics", "Nenotology", "Gynecology", "Infertility", "Neurology", "Orthopedics", "Radiology", "GeneralSurgeon", "Urology", "Dermatology", "EarNoseThroat", "Neurosurgery", "Nephrology", "Cardiology", "Pulmonology", "Anesthesiology", "CriticalCare"],
-  },
+    PragathiNagar: {
+      specialties: {
+        Infertility: ["Dr. Suma Prasad"],
+        Gynecology: ["Dr. Suma Prasad", "Dr. K Shravanya"],
+        Cardiology: ["Dr. V Sravan Kumar"],
+        Orthopedics: ["Dr. Siddharth Potluri", "Dr. Jampani Ravitheja"],
+        GeneralPhysician: ["Dr. Y Ramesh", "Dr. Navya Mandadapu"],
+        ENT: ["Dr. S Nishanth"],
+        Radiology: ["Dr. V Revanth"],
+        Neurology: ["Dr. Sravanthi Pavuluri"],
+        Neurosurgery: ["Dr. N Rithvic"],
+        Pediatrics: ["Dr. Shyam Sunder", "Dr. Mohan Chand Gutta"],
+        Nenotology: ["Dr. Mohan Chand Gutta"],
+        Pulmonology: ["Dr. Yashwanth KO"],
+        SurgicalGastroenterology: ["Dr. Kapil Tejaswy"],
+        Urology: ["Dr. Kalyan Varma"],
+        Dental: ["Dr. Ravi Sekhar"],
+        Nephrology: ["Dr. Nagarjuna CH"],
+      }
+    },
+    Nacharam: {
+      specialties: {
+        GeneralPhysician: ["Dr. Raghavender", "Dr. Vamshi Krishna RVN"],
+        Pediatrics: ["Dr. Lakshmi Prasanna"],
+        Nenotology: ["Dr. Madhavchari"],
+        Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
+        Infertility: ["Dr. Suma Prasad", "Dr. Tejashwani"],
+        Neurology: ["Dr. P.Chandra Shekar"],
+        Orthopedics: ["Dr. Karthik"],
+        Radiology: ["Dr. Suprabatham"],
+        GeneralSurgeon: ["Dr. Basaweshwar", "Dr. Akshitha"],
+        Urology: ["Dr. Srikanth Munna"],
+        Dermatology: ["Dr. Sravanthi"],
+        ENT: ["DR. Nishanth"],
+        Neurosurgery: ["Dr. Shyam"],
+        Nephrology: ["Dr. Ramesh Chadda"],
+        Cardiology: ["Dr. Sampath"],
+        Pulmonology: ["Dr. Rajesh Palvai"],
 
-  specialties: {
-    GeneralPhysician: ["Dr. Raghavender", "Dr. Vamshi Krishna RVN"],
-    Pediatrics: ["Dr. Lakshmi Prasanna"],
-    Nenotology: ["Dr. Madhavchari"],
-    Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
-    Infertility: ["Dr. Suma Prasad", "Dr. Tejashwani",],
-    Neurology: ["Dr. P.Chandra Shekar"],
-    Orthopedics: ["Dr. Karthik"],
-    Radiology: ["Dr. Suprabatham"],
-    GeneralSurgeon: ["Dr. Basaweshwar", "Dr. Akshitha"],
-    Urology: ["Dr. Srikanth Munna"],
-    Dermatology: ["Dr. Sravanthi"],
-    EarNoseThroat: ["DR. Nishanth"],
-    Neurosurgery: ["Dr. Shyam"],
-    Nephrology: ["Dr. Ramesh Chadda"],
-    Cardiology: ["Dr. Sampath"],
-    Pulmonology: ["Dr. Rajesh Palvai"],
-    Anesthesiology: ["Dr. Raghavender", "Dr. Jayanth Varma Bahadur"],
-    CriticalCare: ["Dr. Manogna", "Dr. Kishore", "Dr. Gowtham"],    
+        Anesthesiology: ["Dr. Raghavender", "Dr. Jayanth Varma Bahadur"],
+        CriticalCare: ["Dr. Manogna", "Dr. Kishore", "Dr. Gowtham"],
+      }
+    },
+    Manikonda: {
+      specialties: {
+        Infertility: ["Dr. Suma Prasad", "Dr. Tejashwani"],
+        Orthopedics: ["Dr. Karthik"],
+        Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
+      }
+    }
   },
 
   doctors: {
+    /* nacharam doctors data */
     "Dr. Suma Prasad": {
       qualification: "MBBS, DGO, MD",
       overview: "2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
@@ -36,7 +63,7 @@ const data = {
       publications: ["Gynecology Advances", "Women's Health"],
       image: 'php-dr-k-suma-prasad.jpg',
     },
-    "Dr. Shravanya": {
+    "Dr. k Shravanya": {
       qualification: "MBBS, DGO, FMAS, DMAS",
       overview: "1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
       fellowship: "Fellow of Royal College of Physicians",
@@ -242,7 +269,154 @@ const data = {
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
       image: 'php-dr-dummy-male.jpg',
-    }
+    },
+
+     /* pragathinagar doctors data */
+     "Dr. V Sravan Kumar": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Siddharth Potluri": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Jampani Ravitheja": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Y Ramesh": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Navya Mandadapu": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. S Nishanth": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. V Revanth": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Sravanthi Pavuluri": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. N Rithvic": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Shyam Sunder": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Mohan Chand Gutta": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Yashwanth KO": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Kapil Tejaswy": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Kalyan Varma": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Ravi Sekhar": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+    "Dr. Nagarjuna CH": {
+      qualification: "MBBS | MD - Anaesthesiology",
+      overview: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Interventional Cardiology",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: 'php-dr-dummy-male.jpg',
+    },
+
   },
 
   specialtiesData: {
@@ -255,6 +429,12 @@ const data = {
       ourStoryImage: "",
       whyPrasadTittle: "",
       whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+      
+      doctors: [
+        "Dr. Suma Prasad",
+        "Dr. Raghavender"
+      ],
+
       "treatmentProcedures": [
         {
           "treatTitle": "What services are offered in Accident and Emergency Care?",
@@ -294,6 +474,10 @@ const data = {
       ourStoryImage: "",
       whyPrasadTittle: "Why Prasad",
       whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      doctors: [
+        "Dr. Suma Prasad",
+        "Dr. Raghavender"
+      ],
       "treatmentProcedures": [
         {
           "treatTitle": "What services are offered in Accident and Emergency Care?",
@@ -349,7 +533,7 @@ const data = {
         }
       ] 
     },
-    "EarNoseThroat": {
+    "ENT": {
       bannerbg: "Banner-doctors-list.png",
       icons: "",
       title: "4 Accident and Emergency Care",
