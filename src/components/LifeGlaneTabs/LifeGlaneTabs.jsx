@@ -16,22 +16,26 @@ const LifeGlaneTabs = () => {
   };
 
   return (
-    <div className="tabs-containers py-3">
-      <div className="tabs-slider">
-        {tabs.map((tab) => (
-          <button
-            key={tab.id}
-            className={`tab ${activeTab === tab.id ? 'active' : ''}`}
-            onClick={() => handleTabClick(tab.id)}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
-      <div className="tab-content">
-        {activeTab === 'tab1' && <LifeGlaneSlider />}
-        {activeTab === 'tab2' && <LifeGlaneSlider />}
-        {activeTab === 'tab3' && <LifeGlaneSlider />}
+    <div className='container-fluid' style={{background: '#01b2ac',}}>
+      <div className='container'>
+        <div className="tabs-containers py-3">
+          <div className="tabs-slider">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                className={`tab ${activeTab === tab.id ? 'active' : ''}`}
+                onClick={() => handleTabClick(tab.id)}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+          <div className="tab-content">
+            {activeTab === 'tab1' && <LifeGlaneSlider />}
+            {activeTab === 'tab2' && <LifeGlaneSlider />}
+            {activeTab === 'tab3' && <LifeGlaneSlider />}
+          </div>
+        </div>
       </div>
     </div>
   );
