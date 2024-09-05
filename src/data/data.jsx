@@ -8,37 +8,38 @@ const data = {
         Orthopedics: ["Dr. Siddharth Potluri", "Dr. Jampani Ravitheja"],
         GeneralPhysician: ["Dr. Y Ramesh", "Dr. Navya Mandadapu"],
         ENT: ["Dr. S Nishanth"],
+        Pediatrics: ["Dr. Shyam Sunder", "Dr. Mohan Chand Gutta"],
         Radiology: ["Dr. V Revanth"],
         Neurology: ["Dr. Sravanthi Pavuluri"],
         Neurosurgery: ["Dr. N Rithvic"],
-        Pediatrics: ["Dr. Shyam Sunder", "Dr. Mohan Chand Gutta"],
         Nenotology: ["Dr. Mohan Chand Gutta"],
         Pulmonology: ["Dr. Yashwanth KO"],
-        SurgicalGastroenterology: ["Dr. Kapil Tejaswy"],
         Urology: ["Dr. Kalyan Varma"],
-        Dental: ["Dr. Ravi Sekhar"],
         Nephrology: ["Dr. Nagarjuna CH"],
+
+        SurgicalGastroenterology: ["Dr. Kapil Tejaswy"],
+        Dental: ["Dr. Ravi Sekhar"],
       }
     },
     Nacharam: {
       specialties: {
-        GeneralPhysician: ["Dr. Raghavender", "Dr. Vamshi Krishna RVN"],
-        Pediatrics: ["Dr. Lakshmi Prasanna"],
-        Nenotology: ["Dr. Madhavchari"],
-        Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
         Infertility: ["Dr. Suma Prasad", "Dr. Tejashwani"],
-        Neurology: ["Dr. P.Chandra Shekar"],
-        Orthopedics: ["Dr. Karthik"],
-        Radiology: ["Dr. Suprabatham"],
-        GeneralSurgeon: ["Dr. Basaweshwar", "Dr. Akshitha"],
-        Urology: ["Dr. Srikanth Munna"],
-        Dermatology: ["Dr. Sravanthi"],
-        ENT: ["DR. Nishanth"],
-        Neurosurgery: ["Dr. Shyam"],
-        Nephrology: ["Dr. Ramesh Chadda"],
+        Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
         Cardiology: ["Dr. Sampath"],
+        Orthopedics: ["Dr. Karthik"],
+        GeneralPhysician: ["Dr. Raghavender", "Dr. Vamshi Krishna RVN"],
+        ENT: ["Dr. S Nishanth"],
+        Pediatrics: ["Dr. Lakshmi Prasanna"],
+        Radiology: ["Dr. Suprabatham"],
+        Neurology: ["Dr. P.Chandra Shekar"],
+        Neurosurgery: ["Dr. Shyam"],
+        Nenotology: ["Dr. Madhavchari"],
         Pulmonology: ["Dr. Rajesh Palvai"],
-
+        Urology: ["Dr. Srikanth Munna"],
+        Nephrology: ["Dr. Ramesh Chadda"],
+        
+        GeneralSurgeon: ["Dr. Basaweshwar", "Dr. Akshitha"],
+        Dermatology: ["Dr. Sravanthi"],
         Anesthesiology: ["Dr. Raghavender", "Dr. Jayanth Varma Bahadur"],
         CriticalCare: ["Dr. Manogna", "Dr. Kishore", "Dr. Gowtham"],
       }
@@ -432,7 +433,7 @@ const data = {
       
       doctors: [
         "Dr. Suma Prasad",
-        "Dr. Raghavender"
+        "Dr. Tejashwani",
       ],
 
       "treatmentProcedures": [
@@ -440,6 +441,85 @@ const data = {
           "treatTitle": "What services are offered in Accident and Emergency Care?",
           "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
         },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Gynecology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "2 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "Why Prasad",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      doctors: [
+        "Dr. Suma Prasad",
+        "Dr. Raghavender",
+        "Dr. K Shravanya",
+        "Dr. Tejashwani",
+        "Dr. Sneha",
+      ],
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Cardiology": {
+      bannerbg: "cente-of-excellence-banner-image.jpg",
+      icons: "",
+      title: "3 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. V Sravan Kumar",
+        "Dr. Sampath",
+      ],
+
+      "treatmentProcedures": [
         {
           "treatTitle": "What services are offered in Accident and Emergency Care?",
           "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
@@ -468,51 +548,20 @@ const data = {
     "Orthopedics": {
       bannerbg: "Banner-doctors-list.png",
       icons: "",
-      title: "2 Accident and Emergency Care",
-      subtitle: "Accident and Emergency Care Services in Bangalore",
-      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "Why Prasad",
-      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
-      doctors: [
-        "Dr. Suma Prasad",
-        "Dr. Raghavender"
-      ],
-      "treatmentProcedures": [
-        {
-          "treatTitle": "What services are offered in Accident and Emergency Care?",
-          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
-        },
-        {
-          "treatTitle": "What services are offered in Accident and Emergency Care?",
-          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
-        }
-      ],
-      "faq": [
-        {
-          "question": "What services are offered in Accident and Emergency Care?",
-          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
-        },
-        {
-          "question": "How can I contact the emergency department?",
-          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
-        }
-      ] 
-    },
-    "Gynecology": {
-      bannerbg: "cente-of-excellence-banner-image.jpg",
-      icons: "",
-      title: "3 Accident and Emergency Care",
+      title: "4 Accident and Emergency Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
       ourStoryImage: "",
       whyPrasadTittle: "",
       whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Siddharth Potluri",
+        "Dr. Jampani Ravitheja",
+        "Dr. Karthik",
+      ],
+
       "treatmentProcedures": [
-        {
-          "treatTitle": "What services are offered in Accident and Emergency Care?",
-          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
-        },
         {
           "treatTitle": "What services are offered in Accident and Emergency Care?",
           "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
@@ -533,6 +582,46 @@ const data = {
         }
       ] 
     },
+
+    "GeneralPhysician": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Y Ramesh",
+        "Dr. Navya Mandadapu",
+        "Dr. Raghavender",
+        "Dr. Vamshi Krishna RVN",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
     "ENT": {
       bannerbg: "Banner-doctors-list.png",
       icons: "",
@@ -542,6 +631,11 @@ const data = {
       ourStoryImage: "",
       whyPrasadTittle: "",
       whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "DR. Nishanth",
+      ],
+
       "treatmentProcedures": [
         {
           "treatTitle": "What services are offered in Accident and Emergency Care?",
@@ -562,7 +656,562 @@ const data = {
           "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
         }
       ] 
-    }
+    },
+
+    "Pediatrics": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Shyam Sunder",
+        "Dr. Mohan Chand Gutta",
+        "Dr. Lakshmi Prasanna",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Radiology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. V Revanth",
+        "Dr. Suprabatham"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Neurology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Sravanthi Pavuluri",
+        "Dr. P.Chandra Shekar",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Neurosurgery": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. N Rithvic",
+        "Dr. Shyam"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Nenotology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Mohan Chand Gutta",
+        "Dr. Madhavchari",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Pulmonology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Yashwanth KO",
+        "Dr. Rajesh Palvai"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Urology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Kalyan Varma",
+        "Dr. Srikanth Munna"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Nephrology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Nagarjuna CH",
+        "Dr. Ramesh Chadda",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "SurgicalGastroenterology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Kapil Tejaswy",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Dental": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Ravi Sekhar",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "GeneralSurgeon": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Basaweshwar",
+        "Dr. Akshitha"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Dermatology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Sravanthi"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "Anesthesiology": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Raghavender",
+        "Dr. Jayanth Varma Bahadur"
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    "CriticalCare": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "Dr. Manogna",
+        "Dr. Kishore",
+        "Dr. Gowtham",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    },
+
+    /* "": {
+      bannerbg: "Banner-doctors-list.png",
+      icons: "",
+      title: "4 Accident and Emergency Care",
+      subtitle: "Accident and Emergency Care Services in Bangalore",
+      description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
+      ourStoryImage: "",
+      whyPrasadTittle: "",
+      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      
+      doctors: [
+        "",
+      ],
+
+      "treatmentProcedures": [
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "treatTitle": "What services are offered in Accident and Emergency Care?",
+          "treatdesc": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What services are offered in Accident and Emergency Care?",
+          "answer": "We offer 24/7 emergency services with a multidisciplinary team of doctors."
+        },
+        {
+          "question": "How can I contact the emergency department?",
+          "answer": "You can contact the emergency department by calling the hospital's emergency hotline."
+        }
+      ] 
+    } */
+
+
   }
 
 };
