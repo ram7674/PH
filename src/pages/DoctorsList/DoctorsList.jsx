@@ -79,7 +79,7 @@ const DoctorsList = () => {
                 <div key={doctorName} className='each__doctor__card'>
                   <div className='images__card'>
                     <marquee className="marq__tag">{doctorName} {doctor.qualification}</marquee>
-                    <img src={`/public/assets/doctors/${doctor.image}`} alt={doctorName} className='doctor__img' />
+                    <img src={`/assets/doctors/${doctor.image}`} alt={doctorName} className='doctor__img' />
                   </div>
 
                   <div className='person__details'>
