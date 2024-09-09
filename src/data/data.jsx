@@ -80,7 +80,7 @@ const data = {
       expertise: "Orthopedic Surgeon",
       languages: ["English", "Kannada"],
       publications: ["Bone Health 2019", "Joint Replacement Techniques"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-s-raghavender.jpg',
     },
     "Dr. Vamshi Krishna RVN": {
       qualification: "MD - General Medicine, MBBS",
@@ -98,7 +98,7 @@ const data = {
       expertise: "Obstetrician",
       languages: ["English", "Marathi"],
       publications: ["Women's Health 2018", "Childbirth Techniques"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-i-laxmi-prasanna.jpg',
     },
     "Dr. Madhavchari": {
       qualification: "Diploma in Child Health (DCH)",
@@ -116,7 +116,7 @@ const data = {
       expertise: "Pulmonologist",
       languages: ["English", "Malayalam"],
       publications: ["Respiratory Medicine 2017", "Advanced Pulmonology"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-g-tejashwini.jpg',
     },
     "Dr. Sneha": {
       qualification: "MBBS, DGO",
@@ -125,7 +125,7 @@ const data = {
       expertise: "Asthma Specialist",
       languages: ["English", "Spanish"],
       publications: ["Asthma Care", "Respiratory Health"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-sneha-teddu.jpg',
     },
     "Dr. P.Chandra Shekar": {
       qualification: ".....MBBS, DM Nephrology.....",
@@ -143,7 +143,7 @@ const data = {
       expertise: "Dialysis Specialist",
       languages: ["English", "Bengali"],
       publications: ["Dialysis Advances", "Renal Care"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-s-s-karthik.jpg',
     },
     "Dr. Suprabatham": {
       qualification: "MBBS, Diploma in Medical Radio-Diagnosis",
@@ -152,7 +152,7 @@ const data = {
       expertise: "Dialysis Specialist",
       languages: ["English", "Bengali"],
       publications: ["Dialysis Advances", "Renal Care"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-k-suprabatham.jpg',
     },
     "Dr. Basaweshwar": {
       qualification: "MBBS, DNB - General Surgery",
@@ -197,7 +197,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-s-nishanth.jpg',
     },
     "Dr. Shyam": {
       qualification: "MBBS, MS - General Surgery, MCh - Neuro Surgery",
@@ -224,7 +224,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-sampath-kumar-madapat.jpg',
     },
     "Dr. Rajesh Palvai": {
       qualification: "MBBS, MD - Pulmonary Medicine",
@@ -233,7 +233,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'phn-dr-rajesh-palvai.jpg',
     },
     "Dr. Jayanth Varma Bahadur": {
       qualification: "MBBS, DA (ANAESTHESIA )",
@@ -280,7 +280,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-v-sravan-kumar.jpg',
     },
     "Dr. Siddharth Potluri": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -298,7 +298,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-jampani-ravitheja.jpg',
     },
     "Dr. Y Ramesh": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -307,7 +307,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-yerrabothu-ramesh.jpg',
     },
     "Dr. Navya Mandadapu": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -316,7 +316,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-mandadapu-navya.jpg',
     },
     "Dr. S Nishanth": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -325,7 +325,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-s-nishanth.jpg',
     },
     "Dr. V Revanth": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -343,7 +343,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-sravanthi-pavuluri.jpg',
     },
     "Dr. N Rithvic": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -361,7 +361,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-syam-sunder-r.jpg',
     },
     "Dr. Mohan Chand Gutta": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -370,7 +370,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-gutta-mohan-chand.jpg',
     },
     "Dr. Yashwanth KO": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -379,7 +379,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: 'php-dr-dummy-male.jpg',
+      image: 'php-dr-yashwant-k-o.jpg',
     },
     "Dr. Kapil Tejaswy": {
       qualification: "MBBS | MD - Anaesthesiology",
