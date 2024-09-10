@@ -81,10 +81,11 @@
   flex: 1;
 }
 
-.dr__name {
+.dr__names {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 700;
   min-height: 0px;
+  color: #235f9d;
 }
 
 .dr__Speciality {
@@ -99,6 +100,7 @@
 .dr__qul__sec h3 {
   font-size: 1rem;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .dr__qul__sec span {

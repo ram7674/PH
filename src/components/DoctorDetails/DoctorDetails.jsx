@@ -46,7 +46,7 @@ const DoctorDetails = () => {
                   <span className='dr__name'>{doctorName}</span>
                   <span className='dr__Speciality'>Consultant - Cardiology</span>
                   <div className='dr__qul__sec'>
-                    <h3>Qualification:</h3>
+                    <h3>Qualification :</h3>
                     <span>Fellowship in Paediatric Critical Care</span>
                   </div>
                 </div>

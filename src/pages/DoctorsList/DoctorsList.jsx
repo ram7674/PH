@@ -83,7 +83,7 @@ const DoctorsList = () => {
                   </div>
 
                   <div className='person__details'>
-                    <span className='dr__name'>{doctorName}</span>
+                    <span className='dr__names'>{doctorName}</span>
                     <span className='dr__Speciality'>{doctor.expertise}</span>
                     <div className='dr__qul__sec'>
                       <h3>Qualification:</h3>
