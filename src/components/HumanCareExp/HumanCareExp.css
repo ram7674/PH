@@ -3,7 +3,7 @@
 }
 
 .find__expertdr {
-    background-color: #034ea1;
+    background-color: #235f9d;
     margin-top: 50px;
     box-shadow: 0 10px 20px #0000003b;
     margin-bottom: 20px;
@@ -26,7 +26,7 @@
 
 .facts__title{
     font-size: 44px;
-    color: #034ea1;
+    color: #235f9d;
     padding: 0;
     padding-bottom: 15px;
     margin: 0;
@@ -34,7 +34,7 @@
 }
 
 .experince__mainCard {
-    background: #00b7ac;
+    background: #235f9d !important;
     padding: 20px 20px 20px 0px;
     width: 350px;
     border-radius: 5px;
@@ -53,7 +53,7 @@
 }
 
 .circle__card {
-    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    background: linear-gradient(90deg, #235f9d 0, #a6cf45 100%);
     height: 50px;
     width: 55px;
     border-radius: 50%;
@@ -95,7 +95,7 @@
 }
 
 .find__expertdr {
-    background-color: #034ea1;
+    background-color: #235f9d;
     margin-top: 50px;
     box-shadow: 0 10px 20px #0000003b;
     margin-bottom: 20px;
@@ -118,7 +118,7 @@
 
 .facts__title{
     font-size: 44px;
-    color: #034ea1;
+    color: #235f9d;
     padding: 0;
     padding-bottom: 15px;
     margin: 0;
@@ -145,7 +145,7 @@
 }
 
 .circle__card {
-    background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+    background: linear-gradient(90deg, #235f9d 0, #00b7ac 100%);
     height: 50px;
     width: 55px;
     border-radius: 50%;

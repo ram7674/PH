@@ -51,7 +51,7 @@
   }
   
   .tab-title.active {
-    background-color: #034ea1;
+    background-color: #235f9d;
     bottom: none;
     font-weight: bold;
     color: #fff;
@@ -70,7 +70,7 @@
     padding: 49px 69px;
     margin-bottom: 72px;
     /* background: linear-gradient(328.58deg, #034ea1 -15.54%, #00b7ac 83%); */
-    background: linear-gradient(328.58deg, #a6cf45 -15.54%,  #034ea1 83%);
+    background: linear-gradient(328.58deg, #a6cf45 -15.54%,  #235f9d 83%);
     display: flex;
     justify-content: center;
     align-items: center;

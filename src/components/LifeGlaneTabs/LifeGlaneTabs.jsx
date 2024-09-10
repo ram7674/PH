@@ -16,7 +16,7 @@ const LifeGlaneTabs = () => {
   };
 
   return (
-    <div className='container-fluid' style={{background: '#01b2ac',}}>
+    <div className='container-fluid' style={{background: '#a6cf45',}}>
       <div className='container'>
         <div className="tabs-containers py-3">
           <div className="tabs-slider">

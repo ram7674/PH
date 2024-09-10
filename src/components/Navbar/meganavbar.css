@@ -18,9 +18,9 @@
 
 
 .accesslab__btn{
-    border: 1px solid #00b7ac;
+    border: 1px solid #235f9d;
     border-radius: 6px;
-    color: #284797;
+    color: #235f9d;
     position: relative;
     display: block;
     outline: 0;
@@ -33,7 +33,7 @@
 }
 
 .appoint__btn{
-    background: linear-gradient(90deg, #205f9e 0, #205f9e 100%);
+    background: linear-gradient(90deg, #235f9d 0, #235f9d 100%);
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
@@ -76,7 +76,7 @@
 
 /* main navbar css */
 .main__navbar {
-    background: linear-gradient(90deg, #034ea1 0, #205f9e 100%);
+    background: linear-gradient(90deg, #235f9d 0, #235f9d 100%);
 }
 
 .nav-item.dropdown {
@@ -119,7 +119,7 @@
 .navbar-expand-lg .navbar-nav .nav-link:hover{
     background-color: #fff;
     border-radius: 4px;
-    color: #034ea1 !important;
+    color: #235f9d !important;
 }
 
 a{
