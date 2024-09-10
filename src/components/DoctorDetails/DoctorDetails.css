@@ -1,6 +1,6 @@
 .each__drContainer{
     height: 400px;
-    background-color: #00b7ac;
+    background-color: #a6cf45;
 }
 
 .each__docotor__card{
@@ -15,7 +15,7 @@
 
 .images__cards {
     width: 200px;
-    background: linear-gradient(90deg, #034ea1 0, #034ea1 100%);
+    background: linear-gradient(90deg, #235f9d 0, #235f9d 100%);
     width: 35%;
     height: 100%;
     border-radius: 15px;
@@ -49,7 +49,7 @@
     color: #282828;
     min-height: 42px;
     font-family: 'MontserratSB';
-    color: #034e9f;
+    color: #235f9d;
 }
 
 .dr__qul__sec  {
@@ -57,7 +57,7 @@
 
     h3{
         white-space: nowrap;
-        color: #034fa1;
+        color: #235f9d;
         font-size: 16px;
         font-weight: 700 !important;
         line-height: 13px;
@@ -78,7 +78,7 @@
     border-radius: 8px;
     margin-top: -70px;
     background-color: #fff;
-    border-bottom: 2px solid (90deg, #034ea1 -29.1%, #00b7ac 121.6%);
+    border-bottom: 2px solid (90deg, #235f9d -29.1%, #00b7ac 121.6%);
 }
 
 .tab-items{
@@ -93,6 +93,10 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+}
+
+.dr__navLinks{
+    color: #235f9d !important;
 }
 
 

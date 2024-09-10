@@ -75,7 +75,7 @@ const DoctorDetails = () => {
                 {tabs.map((tab) => (
                   <li className="tab-items" key={tab.key}>
                     <a
-                      className={`nav-link ${activeTab === tab.key ? 'active' : ''}`}
+                      className={`nav-link dr__navLinks ${activeTab === tab.key ? 'active' : ''}`}
                       href="#"
                       onClick={() => setActiveTab(tab.key)}
                     >

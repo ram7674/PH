@@ -22,8 +22,8 @@
 }
   
 .pagination-btn {
-  border: 2px solid #034ea1;
-  color: #034ea1;
+  border: 2px solid #235f9d;
+  color: #235f9d;
   padding: 10px 15px;
   margin: 0 5px;
   cursor: pointer;
@@ -32,7 +32,7 @@
 }
 
 .pagination-btn:hover {
-  background-color: #0056b3;
+  background-color: #235f9d;
   color: #fff;
 }
 
@@ -42,9 +42,9 @@
 }
 
 .pagination-btn.active {
-  background-color: #034ea1; /* Active color */
+  background-color: #235f9d; /* Active color */
   color: white; /* Active text color */
-  border-color: #034ea1;
+  border-color: #235f9d;
 }
 
 .each__doctor__card {
@@ -53,14 +53,14 @@
   margin-bottom: 35px;
   border-radius: 10px;
   box-shadow: 0 6px 12px #00000029;
-  border: 2px solid #02aaab;
+  border: 2px solid #235f9d;
   border-radius: 16px;
 }
 
 .images__card {
   margin-right: 20px;
   padding: 5px 0px 30px;
-  background: linear-gradient(90deg, #034ea1 0, #205f9e 100%);
+  background: linear-gradient(90deg, #235f9d 0, #205f9e 100%);
   width: 317px;
   border-radius: 15px;
 }
@@ -84,6 +84,7 @@
 .dr__name {
   font-size: 1.2rem;
   font-weight: bold;
+  min-height: 0px;
 }
 
 .dr__Speciality {
@@ -111,7 +112,7 @@
 
 .view__btn{
   height: 35px;
-  background-color: #0056b3;
+  background-color: #235f9d;
   color: #fff;
   border-radius: 7px;
   border: none;
