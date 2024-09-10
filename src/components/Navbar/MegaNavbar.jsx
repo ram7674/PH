@@ -73,8 +73,8 @@ function MegaNavbar() {
                     <div className="row">
                         <div className="col-sm-4">
                             <Link to='/manikonda'><span className="dropdown-item">Manikonda</span></Link>
-                            <Link><span className="dropdown-item">Pragathi Nagar</span></Link>
-                            <Link><span className="dropdown-item">Nacharam</span></Link>
+                            <Link to='/pragatinagar'><span className="dropdown-item">Pragathi Nagar</span></Link>
+                            <Link to='/nacharam'><span className="dropdown-item">Nacharam</span></Link>
                         </div>
                     </div>
                     </Container>

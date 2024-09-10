@@ -30,6 +30,7 @@ const Home = () => {
 
       {/* footer component */}
       <Footer />
+
     </>
   )
 }

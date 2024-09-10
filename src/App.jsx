@@ -6,6 +6,8 @@ import DoctorDetails from './components/DoctorDetails/DoctorDetails'
 import DoctorsList from './pages/DoctorsList/DoctorsList'
 import CentreofExcellence from './pages/CentreofExcellence/CentreofExcellence'
 import Manikonda from './pages/Manikonda/Manikonda'
+import Nacharam from './pages/Nacharam/Nacharam'
+import Pragatinagar from './pages/Pragatinagar/Pragatinagar'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Route path='/doctors-list' element={<DoctorsList/>} />
         <Route path='/center-of-excellence/:specialty' element={<CentreofExcellence/>} />
         <Route path='/manikonda' element={<Manikonda/>} />
+        <Route path='/nacharam' element={<Nacharam/>} />
+        <Route path='/pragatinagar' element={<Pragatinagar/>} />
       </Routes>
     </Router>
   )

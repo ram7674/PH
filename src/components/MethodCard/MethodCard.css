@@ -6,7 +6,7 @@
 
 .tabs__cardSec{
     padding: 30px 100px !important;
-    background-color: #05aba5;
+    background-color: #a6cf45;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -69,7 +69,8 @@
     border-radius: 6px;
     padding: 49px 69px;
     margin-bottom: 72px;
-    background: linear-gradient(328.58deg, #034ea1 -15.54%, #00b7ac 83%);
+    /* background: linear-gradient(328.58deg, #034ea1 -15.54%, #00b7ac 83%); */
+    background: linear-gradient(328.58deg, #a6cf45 -15.54%,  #034ea1 83%);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,8 +2,8 @@ const data = {
   hospitals: {
     PragathiNagar: {
       specialties: {
-        Infertility: ["Dr. Suma Prasad"],
-        Gynecology: ["Dr. Suma Prasad", "Dr. K Shravanya"],
+        Infertility: ["Dr. k. Suma Prasad"],
+        Gynecology: ["Dr. k. Suma Prasad", "Dr. K Shravanya"],
         Cardiology: ["Dr. V Sravan Kumar"],
         Orthopedics: ["Dr. Siddharth Potluri", "Dr. Jampani Ravitheja"],
         GeneralPhysician: ["Dr. Y Ramesh", "Dr. Navya Mandadapu"],
@@ -12,7 +12,7 @@ const data = {
         Radiology: ["Dr. V Revanth"],
         Neurology: ["Dr. Sravanthi Pavuluri"],
         Neurosurgery: ["Dr. N Rithvic"],
-        Nenotology: ["Dr. Mohan Chand Gutta"],
+        Neonatology: ["Dr. Mohan Chand Gutta"],
         Pulmonology: ["Dr. Yashwanth KO"],
         Urology: ["Dr. Kalyan Varma"],
         Nephrology: ["Dr. Nagarjuna CH"],
@@ -23,8 +23,8 @@ const data = {
     },
     Nacharam: {
       specialties: {
-        Infertility: ["Dr. Suma Prasad", "Dr. Tejashwani"],
-        Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
+        Infertility: ["Dr. k. Suma Prasad", "Dr. Tejashwani"],
+        Gynecology: ["Dr. k. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
         Cardiology: ["Dr. Sampath"],
         Orthopedics: ["Dr. Karthik"],
         GeneralPhysician: ["Dr. Raghavender", "Dr. Vamshi Krishna RVN"],
@@ -33,7 +33,7 @@ const data = {
         Radiology: ["Dr. Suprabatham"],
         Neurology: ["Dr. P.Chandra Shekar"],
         Neurosurgery: ["Dr. Shyam"],
-        Nenotology: ["Dr. Madhavchari"],
+        Neonatology: ["Dr. Madhavchari"],
         Pulmonology: ["Dr. Rajesh Palvai"],
         Urology: ["Dr. Srikanth Munna"],
         Nephrology: ["Dr. Ramesh Chadda"],
@@ -46,16 +46,16 @@ const data = {
     },
     Manikonda: {
       specialties: {
-        Infertility: ["Dr. Suma Prasad", "Dr. Tejashwani"],
+        Infertility: ["Dr. k. Suma Prasad", "Dr. Tejashwani"],
         Orthopedics: ["Dr. Karthik"],
-        Gynecology: ["Dr. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
+        Gynecology: ["Dr. k. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
       }
     }
   },
 
   doctors: {
     /* nacharam doctors data */
-    "Dr. Suma Prasad": {
+    "Dr. k. Suma Prasad": {
       qualification: "MBBS, DGO, MD",
       overview: "2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
       fellowship: "Member of American Medical Association",
@@ -432,7 +432,7 @@ const data = {
       whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
       
       doctors: [
-        "Dr. Suma Prasad",
+        "Dr. k. Suma Prasad",
         "Dr. Tejashwani",
       ],
 
@@ -476,7 +476,7 @@ const data = {
       whyPrasadTittle: "Why Prasad",
       whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
       doctors: [
-        "Dr. Suma Prasad",
+        "Dr. k. Suma Prasad",
         "Dr. Raghavender",
         "Dr. K Shravanya",
         "Dr. Tejashwani",
@@ -807,7 +807,7 @@ const data = {
       ] 
     },
 
-    "Nenotology": {
+    "Neonatology": {
       bannerbg: "Banner-doctors-list.png",
       icons: "",
       title: "4 Accident and Emergency Care",
