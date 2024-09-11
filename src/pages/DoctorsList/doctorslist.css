@@ -54,7 +54,7 @@
   border-radius: 10px;
   box-shadow: 0 6px 12px #00000029;
   border: 2px solid #235f9d;
-  border-radius: 16px;
+  border-radius: 18px;
 }
 
 .images__card {
@@ -86,6 +86,7 @@
   font-weight: 700;
   min-height: 0px;
   color: #235f9d;
+  text-transform: uppercase;
 }
 
 .dr__Speciality {

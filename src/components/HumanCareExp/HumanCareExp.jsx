@@ -6,9 +6,9 @@ const factsData = [
   { title: 'YEARS OF EXPERIENCE', value: 30 },
   { title: 'HOSPITALS', value: 3 },
   { title: 'DOCTORS', value: 50 },
-  { title: 'BEDS', value: 1500 },
-  { title: 'SERVING CITIES', value: 3 },
-  { title: 'MILLION LIVES TOUCHED', value: 1.7 },
+  { title: 'BEDS', value: 350 },
+  { title: 'SERVING CITIES', value: 2 },
+  { title: 'LAKH LIVES TOUCHED', value: 1.5 },
 ];
 
 const HumanCareExp = () => {
@@ -78,7 +78,7 @@ const HumanCareExp = () => {
                 <div className='circle__card'></div>
                 <div className='facts__contCard'>
                     <h3 className='fact__value'>
-                    {item.animatedValue.toFixed(item.title === 'MILLION LIVES TOUCHED' ? 1 : 0)}
+                    {item.animatedValue.toFixed(item.title === 'LAKH LIVES TOUCHED' ? 1 : 0)}
                     </h3>
                     <p className='fact__title'>{item.title}</p>
                     <hr className='hr__line' />

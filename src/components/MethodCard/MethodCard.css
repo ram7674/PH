@@ -76,16 +76,6 @@
     align-items: center;
     flex-direction: column;
 
-    p {
-
-      font-size: 18px;
-      line-height: 33px;
-      color: #fff;
-      padding-bottom: 27px;
-      text-align: center;
-
-    }
-
     h2 {
 
       color: #fff;
@@ -96,6 +86,134 @@
       font-weight: 900;
 
     }
+
+    p {
+
+      font-size: 18px;
+      line-height: 33px;
+      color: #fff;
+      padding-bottom: 27px;
+      text-align: center;
+
+    }
     
   }
+
+
+/* mobile responsive  */
+@media screen and (max-width: 767px) {
+
+  .methods__containerSec{
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 0px;
+  }
+
+  .tabs__cardSec {
+    padding: 27px 4px 5px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .methods__mainTit {
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .selTab-content {
+    margin-top: 0;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+
+  .tabs {
+    padding: 10px;
+  }
+
+  .tabs__img__card {
+    background-color: #ffffff;
+    height: 310px;
+    border-radius: 10px;
+  }
+
+  .selTab-content {
+
+    padding: 25px 10px;
+    margin: 10px;
+
+    h2 {
+      
+      font-size: 25px;
+      padding-bottom: 9px;
+      margin: 0;
+      font-weight: 700;
+
+    }
+
+    p {
+
+      font-size: 14px;
+      line-height: 32px;
+      padding-bottom: 0px;
+      margin: 0px;
+
+    }
+    
+  }
+
+}
   
+
+/* medium responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .methods__containerSec{
+    background-color: antiquewhite;
+    height: 350px;
+    padding: 0px;
+  }
+  
+  .tabs__cardSec {
+    padding: 10px !important;
+  }
+
+  .methods__mainTit {
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .tabs {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .selTab-content {
+    margin-top: 25px;
+    padding: 20px;
+    margin-bottom: 0;
+
+    h2 {
+      font-size: 26px;
+      padding-bottom: 12px;
+      margin: 0;
+      font-weight: 800;
+    }
+
+    p {
+
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+
+    }
+
+  }
+
+}
