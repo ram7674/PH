@@ -30,18 +30,18 @@ const Pragatinagar = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 p-0">
-            <div className="location__section">
-              <div className="image__sec">
+            <div className="location__sectionp">
+              <div className="image__secp">
                 <img
                   src={pragathinagarhp}
-                  alt="manilonda hospital"
-                  className="manikonda__hosimg"
+                  alt="pragathinaga hospital"
+                  className="pragathinagar__hosimg"
                 />
               </div>
               <div className="map__sec">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.672402852084!2d78.393116334114!3d17.505568528374695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9105e13703e9%3A0x627d9dece7150972!2sPrasad%20Hospitals%20-%20Best%20Hospital%20in%20Kukatpally%2C%20Pragatinagar%2C%20Bachupally%2C%20Nizampet!5e0!3m2!1sen!2sin!4v1726115374039!5m2!1sen!2sin"
-                  className="manikonda__map"
+                  className="pragathinagar__map"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
