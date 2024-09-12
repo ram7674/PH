@@ -1,13 +1,11 @@
 import React from 'react'
 import './Nacharam.css'
-
 import MegaNavbar from '../../components/Navbar/MegaNavbar'
 import Footer from '../../components/Footer/Footer'
 import Slider from '../../components/SliderHomePage/Slider'
 import HumanCareExp from '../../components/HumanCareExp/HumanCareExp'
 import SearchDoctors from '../../components/SearchDoctors/SearchDoctors'
 import MethodCard from '../../components/MethodCard/MethodCard'
-
 import nacharamhp from "../../../public/assets/branch-img-phn.jpg"
 
 const Nacharam = () => {
