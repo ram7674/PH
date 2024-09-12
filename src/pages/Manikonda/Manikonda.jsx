@@ -8,7 +8,7 @@ import HumanCareExp from "../../components/HumanCareExp/HumanCareExp";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
 import MethodCard from "../../components/MethodCard/MethodCard";
 
-import manikondaHospital from "../../../public/assets/branch-img-phm.jpg"
+import manikondahp from "../../../public/assets/branch-img-phm.jpg"
 
 const Manikonda = () => {
   return (
@@ -34,7 +34,7 @@ const Manikonda = () => {
           <div className="col-12 p-0">
             <div className="location__section">
               <div className="image__sec">
-                <img src={manikondaHospital} alt="manilonda hospital" className="manikonda__hosimg" />
+                <img src={manikondahp} alt="manilonda hospital" className="manikonda__hosimg" />
               </div>
               <div className="map__sec">
                 <iframe

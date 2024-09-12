@@ -8,7 +8,7 @@ import HumanCareExp from "../../components/HumanCareExp/HumanCareExp";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
 import MethodCard from "../../components/MethodCard/MethodCard";
 
-import manikondaHospital from "../../../public/assets/branch-img-php.jpg";
+import pragathinagarhp from "../../../public/assets/branch-img-php.jpg";
 
 const Pragatinagar = () => {
   return (
@@ -35,7 +35,7 @@ const Pragatinagar = () => {
             <div className="location__section">
               <div className="image__sec">
                 <img
-                  src={manikondaHospital}
+                  src={pragathinagarhp}
                   alt="manilonda hospital"
                   className="manikonda__hosimg"
                 />
