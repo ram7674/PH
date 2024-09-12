@@ -132,6 +132,19 @@ a{
   display: none;
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav__itemsW {
+      position: absolute;
+      height: 500px;
+      overflow-x: hidden;
+  }
+}
+
+.dropdown-item {
+  padding: 0px;
+}
+
+
 /* large device responsive break points */
 @media screen and (min-width: 1024px) {
     #basic-navbar-nav{

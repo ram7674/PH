@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './HumanCareExp.css';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarAlt, faHospital, faUserMd, faBed, faCity, faHeartbeat } from '@fortawesome/free-solid-svg-icons';
 
 const factsData = [
-  { title: 'YEARS OF EXPERIENCE', value: 30 },
-  { title: 'HOSPITALS', value: 3 },
-  { title: 'DOCTORS', value: 50 },
-  { title: 'BEDS', value: 350 },
-  { title: 'SERVING CITIES', value: 2 },
-  { title: 'LAKH LIVES TOUCHED', value: 1.5 },
+  { title: 'YEARS OF EXPERIENCE', value: 30, icon: faCalendarAlt },
+  { title: 'HOSPITALS', value: 3, icon: faHospital },
+  { title: 'DOCTORS', value: 50, icon: faUserMd },
+  { title: 'BEDS', value: 350, icon: faBed },
+  { title: 'SERVING CITIES', value: 2, icon: faCity },
+  { title: 'LAKH LIVES TOUCHED', value: 1.5, icon: faHeartbeat },
 ];
 
 const HumanCareExp = () => {
@@ -75,7 +77,10 @@ const HumanCareExp = () => {
             {facts.map((item, index) => (
               <div key={index} className='fact__card'>
 
-                <div className='circle__card'></div>
+                <div className='circle__card'>
+                   {/* Display FontAwesome Icon here */}
+                   <FontAwesomeIcon icon={item.icon} className="fact__icon" />
+                </div>
                 <div className='facts__contCard'>
                     <h3 className='fact__value'>
                     {item.animatedValue.toFixed(item.title === 'LAKH LIVES TOUCHED' ? 1 : 0)}

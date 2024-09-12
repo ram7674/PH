@@ -2,20 +2,45 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import logo from "../../../public/assets/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
     <footer className="bg-dark text-center text-white text-lg-start pt-4">
       {/* copy-rights top section */}
-      <Container className="p-4">
+      <Container className="py-4">
         <Row>
           <Col lg={4} md={6} className="mb-4 mb-md-0">
-            <img src="" alt="" className="" />
-            <h5 className="footer_subTitles">Footer Content</h5>
+            <img src={logo} alt="footer logo" className="footer__logo" />
+            <h5 className="footer_subTitles"></h5>
             <p className="footer__desc">
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Prasad Hospitals Nacharam is the first & only NABH-Accredited
+              hospital in Nacharam, on par with the best hospitals in India for
+              excellence in patient care.
             </p>
+            <div className="footer__contactSec">
+              <div className="footer__card">
+                <FontAwesomeIcon icon={faPhone} />
+                <span className="footer__num"><a href="tel:+88012 33333">+91 88012 33333</a></span>
+              </div>
+
+              <div className="footer__card">
+                <FontAwesomeIcon icon={faPhone} />
+                <span className="footer__num"><a href="tel:+81212 12707">+91 81212 12707</a></span>
+              </div>
+
+              <div className="footer__card">
+                <FontAwesomeIcon icon={faPhone} />
+                <span className="footer__num"><a href="tel:+88850 23110">+91 88850 23110</a></span>
+              </div>
+              
+              <div className="footer__card">
+                <FontAwesomeIcon icon={faEnvelope} />
+                <span className="footer__num"><a href="mailto:info@example.com">info@prasadhospitals.in</a></span>
+              </div>
+            </div>
           </Col>
 
           <Col lg={3} md={6} className="mb-4 mb-md-0">
@@ -64,9 +89,39 @@ function Footer() {
           </Col>
 
           <Col lg={3} md={6} className="mb-4 mb-md-0">
+            <h5 className="footer_subTitles">Recent Blogs</h5>
+            <ul className="list-unstyled footer__mainItem mb-0">
+              <Link>
+                <li className="footer__liItems">
+                  All You Should Know About Pneumonia
+                </li>
+              </Link>
+
+              <Link>
+                <li className="footer__liItems">Choosing The Right Hospital</li>
+              </Link>
+
+              <Link>
+                <li className="footer__liItems">
+                  Life after Knee Ligament (ACL) Surgery
+                </li>
+              </Link>
+
+              <Link>
+                <li className="footer__liItems">PCOD</li>
+              </Link>
+
+              <Link>
+                <li className="footer__liItems">
+                  All You Must Know About Pregnancy Care
+                </li>
+              </Link>
+            </ul>
+          </Col>
+
+          <Col lg={2} md={6} className="mb-4 mb-md-0">
             <h5 className="footer_subTitles">Locations</h5>
             <ul className="list-unstyled footer__mainItem mb-0">
-
               <Link to="/manikonda">
                 <li className="footer__liItems">Manikonda</li>
               </Link>
@@ -78,30 +133,6 @@ function Footer() {
               <Link to="/nacharam">
                 <li className="footer__liItems">Nacharam</li>
               </Link>
-              
-            </ul>
-          </Col>
-
-          <Col lg={2} md={6} className="mb-4 mb-md-0">
-            <h5 className="footer_subTitles">Important Link</h5>
-            <ul className="list-unstyled footer__mainItem mb-0">
-
-              <Link>
-                <li className="footer__liItems">Link 1</li>
-              </Link>
-
-              <Link>
-                <li className="footer__liItems">Link 2</li>
-              </Link>
-
-              <Link>
-                <li className="footer__liItems">Link 3</li>
-              </Link>
-
-              <Link>
-                <li className="footer__liItems">Link 4</li>
-              </Link>
-
             </ul>
           </Col>
         </Row>

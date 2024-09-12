@@ -7,22 +7,27 @@
 
 .footer_subTitles{
     letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
 }
 
 .footer__liItems{
     line-height: 32px;
+    font-size: 14px;
 }
 
 .footer__liItems{
     color: #f4f7fd80;
     text-decoration: none;
+    letter-spacing: 1.2px;
 }
 
 
 .footer__liItems:hover {
     color: #fff;
     transition: .5s ease all;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .location__footer {
@@ -50,6 +55,26 @@
 .location__innerCard {
     padding: 44px 0px;
 }
+
+
+.footer__logo {
+    height: 60px;
+}
+
+.footer__card{
+    margin: 10px 0px;
+}
+
+.footer__num {
+    margin-left: 12px;
+    cursor: pointer;
+
+    a {
+        color: #fff;
+    }
+}
+
+
 
 
 /* mobile device responsive */
@@ -95,6 +120,10 @@
         font-size: 17px;
     }
 
+    .footer__card {
+        text-align: left;
+    }
+
 }
 
 /* medium device responsive */
@@ -135,4 +164,9 @@
     .footer__copy {
         margin: 0px;
     }
+
+    .footer__card {
+        text-align: left;
+    }
+
 }

@@ -92,8 +92,8 @@
       font-size: 18px;
       line-height: 33px;
       color: #fff;
-      padding-bottom: 27px;
       text-align: center;
+      margin: 0px;
 
     }
     
@@ -155,6 +155,7 @@
       padding-bottom: 9px;
       margin: 0;
       font-weight: 700;
+      text-align: center !important;
 
     }
 
@@ -180,6 +181,12 @@
     height: 350px;
     padding: 0px;
   }
+
+  .tab-title {
+    padding: 5px 20px;
+    margin: 7px 0px;
+    font-size: 15px;
+}
   
   .tabs__cardSec {
     padding: 10px !important;
