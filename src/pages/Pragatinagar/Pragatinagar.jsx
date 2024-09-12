@@ -45,8 +45,8 @@ const Pragatinagar = () => {
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
-                  title="Prasad Hospital Manikonda"
-                ></iframe>{" "}
+                  title="Prasad Hospital Pragathinagar"
+                ></iframe>
               </div>
             </div>
           </div>

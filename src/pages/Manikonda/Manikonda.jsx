@@ -49,9 +49,6 @@ const Manikonda = () => {
         </div>
       </div>
 
-      {/* lifeglane tabs components */}
-      {/* <LifeGlaneTabs/> */}
-
       {/* footer component */}
       <Footer />
     </>

@@ -42,7 +42,7 @@ const Nacharam = () => {
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
-                  title="Prasad Hospital Manikonda"
+                  title="Prasad Hospital Nacharam"
                 ></iframe>
               </div>
             </div>
@@ -52,6 +52,7 @@ const Nacharam = () => {
 
       {/* footer component */}
       <Footer/>
+      
     </>
   )
 }
