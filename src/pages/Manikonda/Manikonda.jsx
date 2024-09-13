@@ -6,7 +6,7 @@ import Slider from "../../components/SliderHomePage/Slider";
 import HumanCareExp from "../../components/HumanCareExp/HumanCareExp";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
 import MethodCard from "../../components/MethodCard/MethodCard";
-import manikondahp from "../../../public/assets/branch-img-phm.jpg"
+import manikondahp from "/assets/branch-img-phm.jpg"
 
 const Manikonda = () => {
   return (

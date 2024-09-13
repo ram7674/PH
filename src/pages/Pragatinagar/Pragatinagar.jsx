@@ -6,7 +6,7 @@ import Slider from "../../components/SliderHomePage/Slider";
 import HumanCareExp from "../../components/HumanCareExp/HumanCareExp";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
 import MethodCard from "../../components/MethodCard/MethodCard";
-import pragathinagarhp from "../../../public/assets/branch-img-php.jpg";
+import pragathinagarhp from "/assets/branch-img-php.jpg";
 
 const Pragatinagar = () => {
   return (

@@ -6,7 +6,7 @@ import Slider from '../../components/SliderHomePage/Slider'
 import HumanCareExp from '../../components/HumanCareExp/HumanCareExp'
 import SearchDoctors from '../../components/SearchDoctors/SearchDoctors'
 import MethodCard from '../../components/MethodCard/MethodCard'
-import nacharamhp from "../../../public/assets/branch-img-phn.jpg"
+import nacharamhp from "/assets/branch-img-phn.jpg"
 
 const Nacharam = () => {
   return (
