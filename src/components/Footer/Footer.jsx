@@ -49,41 +49,62 @@ function Footer() {
               <Link to="/center-of-excellence/Infertility">
                 <li className="footer__liItems">Infertility</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/Orthopedics">
                 <li className="footer__liItems">Orthopedics</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/Gynecology">
                 <li className="footer__liItems">Gynecology</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/ENT">
                 <li className="footer__liItems">Ear Nose Throat</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/Pulmonology">
                 <li className="footer__liItems">Pulmonology</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/Nephrology">
                 <li className="footer__liItems">Nephrology</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/Urology">
                 <li className="footer__liItems">Urology</li>
               </Link>
-              <Link>
+              <Link to="/center-of-excellence/Neurology">
                 <li className="footer__liItems">Neurology</li>
               </Link>
-              <Link>
-                <li className="footer__liItems">Physiotherapy</li>
-              </Link>
-              <Link>
-                <li className="footer__liItems">General Medicine</li>
-              </Link>
-              <Link>
-                <li className="footer__liItems">Dermotology</li>
-              </Link>
-              <Link>
+              <Link to="/center-of-excellence/Pediatrics">
                 <li className="footer__liItems">Pediatrics</li>
               </Link>
-              <Link>
-                <li className="footer__liItems">Cryo Bank</li>
+              <Link to="/center-of-excellence/Cardiology">
+                <li className="footer__liItems">Cardiology</li>
+              </Link>
+              <Link to="/center-of-excellence/GeneralPhysician">
+                <li className="footer__liItems">GeneralPhysician</li>
+              </Link>
+              <Link to="/center-of-excellence/Radiology">
+                <li className="footer__liItems">Radiology</li>
+              </Link>
+              <Link to="/center-of-excellence/Neurosurgery">
+                <li className="footer__liItems">Neurosurgery</li>
+              </Link>
+              <Link to="/center-of-excellence/Neonatology">
+                <li className="footer__liItems">Neonatology</li>
+              </Link>
+              <Link to="/center-of-excellence/SurgicalGastroenterology">
+                <li className="footer__liItems">SurgicalGastroenterology</li>
+              </Link>
+              <Link to="/center-of-excellence/Dental">
+                <li className="footer__liItems">Dental</li>
+              </Link>
+              <Link to="/center-of-excellence/GeneralSurgeon">
+                <li className="footer__liItems">GeneralSurgeon</li>
+              </Link>
+              <Link to="/center-of-excellence/Dermatology">
+                <li className="footer__liItems">Dermatology</li>
+              </Link>
+              <Link to="/center-of-excellence/Anesthesiology">
+                <li className="footer__liItems">Anesthesiology</li>
+              </Link>
+              <Link to="/center-of-excellence/CriticalCare">
+                <li className="footer__liItems">CriticalCare</li>
               </Link>
             </ul>
           </Col>
@@ -91,27 +112,27 @@ function Footer() {
           <Col lg={3} md={6} className="mb-4 mb-md-0">
             <h5 className="footer_subTitles">Recent Blogs</h5>
             <ul className="list-unstyled footer__mainItem mb-0">
-              <Link>
+              <Link to="/all-you-should-know-about-pneumonia">
                 <li className="footer__liItems">
                   All You Should Know About Pneumonia
                 </li>
               </Link>
 
-              <Link>
+              <Link to="/choosing-the-right-hospital">
                 <li className="footer__liItems">Choosing The Right Hospital</li>
               </Link>
-
-              <Link>
+ 
+              <Link to="/life-after-knee-ligament-surgery">
                 <li className="footer__liItems">
                   Life after Knee Ligament (ACL) Surgery
                 </li>
               </Link>
 
-              <Link>
+              <Link to="/pcod">
                 <li className="footer__liItems">PCOD</li>
               </Link>
 
-              <Link>
+              <Link to="/all-kou-kust-know-about-pregnancy-care">
                 <li className="footer__liItems">
                   All You Must Know About Pregnancy Care
                 </li>

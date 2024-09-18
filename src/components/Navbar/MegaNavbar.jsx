@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import "./meganavbar.css";
 import { Link } from "react-router-dom";
 
-import logo from "../../../public/assets/logo.png";
+import logo from "/assets/logo.png";
 
 function MegaNavbar() {
   return (
@@ -82,21 +82,18 @@ function MegaNavbar() {
                           <Link to="/center-of-excellence/Neurology">
                             <li className="dropdown-item">Neurology</li>
                           </Link>
-                          <Link to="/center-of-excellence/Physiotherapy">
+                          {/* <Link to="/center-of-excellence/Physiotherapy">
                             <li className="dropdown-item">Physiotherapy</li>
-                          </Link>
-                          <Link to="/center-of-excellence/General Medicine">
+                          </Link> */}
+                          {/* <Link to="/center-of-excellence/General Medicine">
                             <li className="dropdown-item">General Medicine</li>
-                          </Link>
-                          <Link to="/center-of-excellence/Dermotology">
-                            <li className="dropdown-item">Dermotology</li>
-                          </Link>
+                          </Link> */}
                           <Link to="/center-of-excellence/Pediatrics">
                             <li className="dropdown-item">Pediatrics</li>
                           </Link>
-                          <Link to="/center-of-excellence/Cryo Bank">
+                          {/* <Link to="/center-of-excellence/Cryo Bank">
                             <li className="dropdown-item">Cryo Bank</li>
-                          </Link>
+                          </Link> */}
 
                           <Link to="/center-of-excellence/Cardiology">
                             <li className="dropdown-item">Cardiology</li>

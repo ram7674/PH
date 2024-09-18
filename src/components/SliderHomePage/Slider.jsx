@@ -2,8 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './slider.css';
 
-import slider1 from "../../../public/assets/slider1.jpg";
-import slider2 from "../../../public/assets/slider2.jpg";
+import slider1 from "/assets/slider1.jpg";
+import slider2 from "/assets/slider2.jpg";
 
 const images = [
   {

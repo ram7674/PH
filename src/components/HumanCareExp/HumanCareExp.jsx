@@ -46,7 +46,7 @@ const HumanCareExp = () => {
         {/* facts content section */}
         <div className='col-12 col-lg-7'>
           <div className='facts__mainCard'>
-            <h3 className='facts__title'>Human Care Experts</h3>
+            <h3 className='facts__title'>Our Journey</h3>
             <p className='facts__desc'>
                 The seeds of our origin were sown as early as 1953 when the founder
                 of the Manipal Education and Medical Group (MEMG), Dr. T.M.A. Pai,

@@ -30,6 +30,7 @@ const DoctorDetails = () => {
       {/* MegaNavbar component */}
       <MegaNavbar />
 
+      {/* doctors details and bookappointment card */}
       <div className='container-fluid each__drContainer'>
         <div className='container'>
           <div className='row'>

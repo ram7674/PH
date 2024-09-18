@@ -5,7 +5,6 @@ import "./centreofexcellence.css";
 import whyChooseImg from "../../../public/assets/why-choose-img.jpg";
 import { useParams, useNavigate } from "react-router-dom";
 import data from "../../data/data"; // Assuming data is in this path
-import LifeGlaneTabs from "../../components/LifeGlaneTabs/LifeGlaneTabs";
 
 const CentreofExcellence = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -15,6 +14,7 @@ const CentreofExcellence = () => {
 
   // Local state to store the specialty data
   const [specialtyData, setSpecialtyData] = useState({});
+  const [activeTab, setActiveTab] = useState(0);
 
   // Fetch the specialty data when the specialty parameter changes
   useEffect(() => {
@@ -50,12 +50,22 @@ const CentreofExcellence = () => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
+  // Extract the departmentContentTab from the specialtyData
+  const departmentContentTab = specialtyData.departmentContentTab || [];
+
+  // Function to handle tab click
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
+
   const currentDoctors = specialtyData?.doctors || [];
 
   return (
     <>
+      {/* Navbar component */}
       <MegaNavbar />
 
+      {/* Banner container */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 p-0">
@@ -72,17 +82,15 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
+      {/* Our story container */}
       <div className="container-fluid select__spe__maincd">
         <div className="container">
           <div className="row select__container">
             <div className="col-12 col-lg-11 p-0">
               <div className="select__card">
-                <div className="select__cardleft">
-                  {/* Icons place here */}
-                </div>
+                <div className="select__cardleft">{/* Icons place here */}</div>
                 <div className="select__cardright">
                   <h3>{specialtyData.title}</h3>
-                  <h5>{specialtyData.subtitle}</h5>
                   <p>{specialtyData.description}</p>
                 </div>
               </div>
@@ -90,7 +98,11 @@ const CentreofExcellence = () => {
 
             <div className="why__section">
               <div className="why__card1">
-                <img src={whyChooseImg} alt="Our Story" className="why__secimg" />
+                <img
+                  src={whyChooseImg}
+                  alt="Our Story"
+                  className="why__secimg"
+                />
                 <div className="why-sec-imgcard">
                   <span>OUR STORY</span>
                   <span>
@@ -108,6 +120,54 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
+      {/* Tabs container */}
+      <div className="container pt-5">
+        <div className="row">
+          <div className="col-12">
+            <h1 className="treat-procetitle">
+              Department of{" "}
+              {departmentContentTab.length > 0
+                ? departmentContentTab[0].mainTitle
+                : "Our Services"}
+            </h1>
+            <ul className="nav nav-tabs">
+              {departmentContentTab.length > 0 &&
+                departmentContentTab[0].sections.map((section, index) => (
+                  <li key={index} className="nav-item">
+                    <button
+                      className={`nav-link ${
+                        activeTab === index ? "active" : ""
+                      }`}
+                      onClick={() => handleTabClick(index)}
+                    >
+                      {section.tabsTitle}
+                    </button>
+                  </li>
+                ))}
+            </ul>
+
+            <div className="tab-content tabs__desCont">
+              {departmentContentTab.length > 0 &&
+                departmentContentTab[0].sections.map((section, index) => (
+                  <div
+                    key={index}
+                    className={`tab-pane fade ${
+                      activeTab === index ? "show active" : ""
+                    }`}
+                  >
+                    <div className="tab-section-content">
+                      {section.tabsdesc.map((text, textIndex) => (
+                        <p key={textIndex}>{text}</p>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Treatment & Procedures container */}
       <div className="container pt-5">
         <div className="row">
           <div className="col-12">
@@ -135,7 +195,8 @@ const CentreofExcellence = () => {
                   &larr;
                 </button>
               )}
-              {currentIndex < (specialtyData.treatmentProcedures?.length || 0) - 1 && (
+              {currentIndex <
+                (specialtyData.treatmentProcedures?.length || 0) - 1 && (
                 <button className="next-arrow" onClick={handleNext}>
                   &rarr;
                 </button>
@@ -145,7 +206,7 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
-     {/* specialtyData filter related doctor cards */}
+      {/* SpecialtyData filter related doctor cards */}
       <div className="container">
         <div className="row dr__detailpgCard">
           <div className="doctors__mainSec pt-4 pb-5">
@@ -166,9 +227,11 @@ const CentreofExcellence = () => {
                   <div className="persn__det">
                     <div className="doctor__qul__sec">
                       <span className="doctor__name">{drItem}</span>
-                      <span className="doctor__Speciality">{doctor?.expertise}</span>
-                      <h3 className="doctor__qualif">Qualification:</h3>
-                      <span>{doctor?.qualification}</span>
+                      <span className="doctor__Speciality">
+                        {doctor?.expertise}
+                      </span>
+                      <h3 className="doctor__qualif">Qualification :</h3>
+                      <span className="dr__qulf">{doctor?.qualification}</span>
                     </div>
                     <div className="view__card">
                       <button
@@ -185,8 +248,8 @@ const CentreofExcellence = () => {
           </div>
         </div>
       </div>
-      
 
+      {/* FAQs container */}
       <div className="container-fluid faq__secCard py-5">
         <div className="container py-3">
           <div className="row">
@@ -196,14 +259,20 @@ const CentreofExcellence = () => {
                 specialtyData.faq.map((faqItem, index) => (
                   <div
                     key={index}
-                    className={`faq-item ${expandedIndex === index ? "expanded" : ""}`}
+                    className={`faq-item ${
+                      expandedIndex === index ? "expanded" : ""
+                    }`}
                   >
                     <div
                       className="faq-question"
                       onClick={() => toggleFAQ(index)}
                     >
-                      <h5 className="faq__quest">{faqItem.question}</h5> 
-                      <span className={`plus-icon ${expandedIndex === index ? "rotated" : ""}`}>
+                      <h5 className="faq__quest">{faqItem.question}</h5>
+                      <span
+                        className={`plus-icon ${
+                          expandedIndex === index ? "rotated" : ""
+                        }`}
+                      >
                         +
                       </span>
                     </div>
@@ -222,8 +291,7 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
-      <LifeGlaneTabs />
-
+      {/* Footer component */}
       <Footer />
     </>
   );

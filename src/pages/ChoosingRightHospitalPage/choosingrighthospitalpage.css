@@ -1,0 +1,72 @@
+.right__mainContainer {
+    padding: 40px 0px;
+}
+
+.right__knowCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        color: #235f9d;
+        font-size: 34px;
+        font-weight: 700 !important;
+    }
+
+    img {
+        height: 500px;
+        border-radius: 10px;
+        margin: 30px 0px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+.rigth__hospitalsCard {
+
+    h3 {
+        font-size: 25px;
+        color: #235f9d;
+        font-weight: 700;
+    }
+
+}
+
+/* mobile responsive */
+@media screen and (max-width: 767px) {
+    .right__knowCard {
+
+        h2 {
+            font-size: 22px;
+            text-align: center;
+        }
+    
+        img {
+            height: 250px;
+            width: 100%;
+            margin: 12px 0px;
+        }
+    
+      }
+
+      .rigth__cont {
+        padding: 0px 0px 0px 20px;
+        
+        li {
+            text-align: justify;
+            hyphens: auto;
+        }
+    
+      }
+}
+
+/* tabs responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .right__knowCard {
+    
+        img {
+            height: 350px;
+        }
+    
+      }
+}

@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import LifeGlaneSlider from '../../components/LifeGlaneSlider/LifeGlaneSlider';
 import './lifeglanetabs.css'; 
+import SliderDrVideos from '../SliderDrVideos/SliderDrVideos';
+import SliderPatientTest from '../SliderPatientTest/SliderPatientTest';
+import SliderGeneralVid from '../SliderGeneralVid/SliderGeneralVid';
 
 const LifeGlaneTabs = () => {
   const [activeTab, setActiveTab] = useState('tab1');
 
   const tabs = [
-    { id: 'tab1', label: 'Tab 1' },
-    { id: 'tab2', label: 'Tab 2' },
-    { id: 'tab3', label: 'Tab 3' },
+    { id: 'tab1', label: 'Doctor Videos' },
+    { id: 'tab2', label: 'Patient Testimonials' },
+    { id: 'tab3', label: 'General Videos' },
   ];
 
   const handleTabClick = (tabId) => {
@@ -31,9 +33,9 @@ const LifeGlaneTabs = () => {
             ))}
           </div>
           <div className="tab-content">
-            {activeTab === 'tab1' && <LifeGlaneSlider />}
-            {activeTab === 'tab2' && <LifeGlaneSlider />}
-            {activeTab === 'tab3' && <LifeGlaneSlider />}
+            {activeTab === 'tab1' && <SliderDrVideos/>}
+            {activeTab === 'tab2' && <SliderPatientTest/>}
+            {activeTab === 'tab3' && <SliderGeneralVid/>}
           </div>
         </div>
       </div>
