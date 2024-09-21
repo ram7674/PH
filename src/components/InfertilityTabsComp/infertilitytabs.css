@@ -1,0 +1,530 @@
+.faq-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .faq-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .faq-question {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #235f9d;
+    transition: color 0.3s;
+  }
+  
+  .faq-question:hover {
+    color: #235f9d;
+  }
+  
+  .faq-question i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #235f9d;
+  }
+  
+  .faq-question h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.open {
+    transform: rotate(90deg);
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .infer__icon {
+    margin-right: 15px;
+  }
+
+  /* faq-item1 css */
+  .facil__mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+    }
+
+    p {
+      margin: 15px 0px;
+    }
+  }
+
+  .facil__leftCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+  }
+
+  .facil__img1 {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .facil__cardimg5 {
+    width: 20%;
+  }
+  
+  .ovula__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      height: 250px;
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .ovula__desc {
+
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+    }
+
+  }
+
+  .ivf__imageCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+  }
+
+  .ivf__desc {
+
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+    }
+
+  }
+
+  .icsi__imageCard {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 250px;
+      height: 200px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+  }
+
+  .icsi__desc {
+
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+    }
+    
+  }
+
+  .preimpl__imageCard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+  }
+
+  .preimpl__desc {
+
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+    }
+
+  }
+
+  /* faq-item2 css */
+  .depert__mainCont {
+
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+    }
+
+    h5 {
+      color: #131212;
+    }
+
+  }
+
+  .depert__imgCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 20px 0px;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* faq-item3 css */
+  .sperm__mainCont{
+
+    h4 {
+      color: #333;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    h5 {
+      color: #333;
+      font-weight: 700;
+    }
+     
+    h3 {
+      font-weight: 700;
+      color: #333;
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+
+  }
+
+  .sperm__imgCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin: 20px 0px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+  }
+
+  .surgical__imgCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+  }
+
+  .Varicocoele__imgCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+  }
+
+  /* faq-item4 css */
+  .semen__mainCont {
+
+    h4 {
+      font-weight: 700;
+      color: #333;
+    }
+
+  }
+
+  /* mobile responsive */
+  @media screen and (max-width: 767px) {
+
+    .faq-container {
+      width: 94%;
+      padding: 6px;
+    }
+
+    .faq-question h3 {
+      font-size: 14px;
+      font-weight: 600;
+      width: 100%;
+    }
+
+    .facil__mainContainer {
+      padding: 0px;
+    }
+
+    .facil__img1 {
+      border-radius: 5px;
+      height: 103px;
+    }
+
+    .facil__leftCard {
+  
+      flex-direction: column;
+
+      img {
+        width: 95%;
+        margin: 5px 0px;
+        border-radius: 6px;
+      }
+  
+    }
+
+    .facil__rightCard {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img {
+        margin: 6px 0px;
+        width: 95%;
+        border-radius: 6px;
+      }
+
+    }
+
+    .ovula__card {
+      flex-direction: column;
+  
+      img {
+        width: 95%;
+        border-radius: 6px;
+        margin: 6px 0px;
+      }
+  
+    }
+
+    ul  {
+
+      li {
+        text-align: justify;
+        hyphens: auto;
+      }
+    }
+
+    .ivf__imageCard {
+
+      img {
+        width: 95%;
+        border-radius: 6px;
+        margin: 15px 0px;
+      }
+
+    }
+
+    .icsi__imageCard {
+
+      flex-direction: column;
+      img {
+        width: 95%;
+        margin: 6px 0px;
+        border-radius: 6px;
+      }
+
+    }
+
+    .preimpl__imageCard {
+
+      img {
+        width: 95%;
+        border-radius: 6px;
+        
+      }
+
+    }
+
+    .depert__imgCard {
+
+      img {
+        width: 95%;
+        height: 180px;
+      }
+    }
+
+    .sperm__imgCard {
+
+      img {
+        width: 97%;
+        border-radius: 6px;
+      }
+    }
+
+    .surgical__imgCard {
+
+      img {
+        width: 97%;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .Varicocoele__imgCard {
+
+      img {
+        width: 97%;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+    }
+
+  }
+
+  /* tablet responsive */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .faq-question h3 {
+      font-size: 16px;
+    }
+
+    .facil__img1 {
+      border-radius: 5px;
+      height: 176px;
+    }
+
+    .facil__leftCard {
+
+      img {
+        width: 49%;
+        margin: 5px;
+        border-radius: 6px;
+      }
+      
+    }
+
+    .ovula__card {
+
+      img {
+        width: 45%;
+        margin: 5px;
+        border-radius: 6px;
+      }
+
+    }
+
+    .ivf__imageCard {
+
+      img {
+        border-radius: 6px;
+        margin-bottom: 15px;
+
+      }
+    }
+
+    .icsi__imageCard {
+
+      img {
+        width: 46%;
+        border-radius: 6px;
+        margin: 6px;
+      }
+
+    }
+
+    .preimpl__imageCard {
+
+      img {
+        border-radius: 6px;
+        width: 90%;
+      }
+
+    }
+
+    .sperm__imgCard {
+
+      img {
+        width: 96%;
+        margin-bottom: 15px;
+        border-radius: 6px;
+      }
+
+    }
+
+    .surgical__imgCard {
+      img {
+        width: 96%;
+        margin-bottom: 15px;
+        border-radius: 6px;
+      }
+    }
+
+    .Varicocoele__imgCard {
+      img {
+        width: 80%;
+        margin-bottom: 15px;
+        border-radius: 6px;
+      }
+  }
+  
+  
+
+  }

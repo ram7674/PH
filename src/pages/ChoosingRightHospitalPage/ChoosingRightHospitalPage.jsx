@@ -2,7 +2,7 @@ import React from "react";
 import "./choosingrighthospitalpage.css";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
-import bestHospitalImg from "../../../public/choosing-right-hosp-img.png"
+import bestHospitalImg from "../../../public/assets/choosing-right-hosp-img.png"
 
 const ChoosingRightHospitalPage = () => {
   return (

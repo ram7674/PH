@@ -4,7 +4,7 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 import logo from "../../../public/assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope,  } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -16,30 +16,53 @@ function Footer() {
             <img src={logo} alt="footer logo" className="footer__logo" />
             <h5 className="footer_subTitles"></h5>
             <p className="footer__desc">
-              Prasad Hospitals Nacharam is the first & only NABH-Accredited
-              hospital in Nacharam, on par with the best hospitals in India for
-              excellence in patient care.
+              <span className="footer__ph">Prasad Hospitals : </span> A
+              NABH-accredited center of excellence, committed to delivering
+              superior patient-centric healthcare. We proudly accept all major
+              insurance plans.
             </p>
             <div className="footer__contactSec">
               <div className="footer__card">
-                <FontAwesomeIcon icon={faPhone} />
-                <span className="footer__num"><a href="tel:+88012 33333">+91 88012 33333</a></span>
+                <span>Nacharam</span>
+
+                <span className="footer__num">
+                  <FontAwesomeIcon icon={faPhone} />
+                  <a href="tel:+88012 33333">+ 91 88012 33333</a>
+                </span>
               </div>
 
               <div className="footer__card">
-                <FontAwesomeIcon icon={faPhone} />
-                <span className="footer__num"><a href="tel:+81212 12707">+91 81212 12707</a></span>
+                <span>Pragathi Nagar</span>
+
+                <span className="footer__num">
+                  <FontAwesomeIcon icon={faPhone} />
+                  <a href="tel:+81212 12707">+ 91 81212 12707</a>
+                </span>
               </div>
 
               <div className="footer__card">
-                <FontAwesomeIcon icon={faPhone} />
-                <span className="footer__num"><a href="tel:+88850 23110">+91 88850 23110</a></span>
+                <span>Manikonda</span>
+                <span className="footer__num">
+                  <FontAwesomeIcon icon={faPhone} />
+                  <a href="tel:+88850 23110">+ 91 88850 23110</a>
+                </span>
               </div>
-              
+
               <div className="footer__card">
-                <FontAwesomeIcon icon={faEnvelope} />
-                <span className="footer__num"><a href="mailto:info@example.com">info@prasadhospitals.in</a></span>
+                <span>Landline Number</span>
+                <span className="footer__num">
+                <FontAwesomeIcon icon={faPhone} />
+                  <a href="tel:+88850 23110"> 040-68244555</a>
+                </span>
               </div>
+
+              <div className="footer__card">
+                <span className="footer__num">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                  <a href="mailto:info@example.com">info@prasadhospitals.in</a>
+                </span>
+              </div>
+
             </div>
           </Col>
 
@@ -121,7 +144,7 @@ function Footer() {
               <Link to="/choosing-the-right-hospital">
                 <li className="footer__liItems">Choosing The Right Hospital</li>
               </Link>
- 
+
               <Link to="/life-after-knee-ligament-surgery">
                 <li className="footer__liItems">
                   Life after Knee Ligament (ACL) Surgery
@@ -143,15 +166,15 @@ function Footer() {
           <Col lg={2} md={6} className="mb-4 mb-md-0">
             <h5 className="footer_subTitles">Locations</h5>
             <ul className="list-unstyled footer__mainItem mb-0">
-              <Link to="/manikonda">
+              <Link to="/best-hospital-in-manikonda">
                 <li className="footer__liItems">Manikonda</li>
               </Link>
 
-              <Link to="/pragatinagar">
+              <Link to="/best-hospital-in-Kukatpally">
                 <li className="footer__liItems">Pragathi Nagar</li>
               </Link>
 
-              <Link to="/nacharam">
+              <Link to="/best-hospital-in-secunderabad">
                 <li className="footer__liItems">Nacharam</li>
               </Link>
             </ul>
@@ -165,13 +188,13 @@ function Footer() {
           <div className="row">
             <div className="col-12 p-0">
               <div className="location__card">
-                <Link to="/manikonda">
+                <Link to="/best-hospital-in-manikonda">
                   <span>Manikonda</span>
                 </Link>
-                <Link to="/pragatinagar">
+                <Link to="/best-hospital-in-Kukatpally">
                   <span>Pragathi Nagar</span>
                 </Link>
-                <Link to="/nacharam">
+                <Link to="/best-hospital-in-secunderabad">
                   <span>Nacharam</span>
                 </Link>
               </div>
@@ -194,9 +217,21 @@ function Footer() {
           </div>
 
           <div className="footer__copySec2">
-            <span>Disclaimer</span> | <span>Privacy Policy</span> |{" "}
-            <span>Site map</span> | <span>Terms & Conditions</span> |{" "}
-            <span>Refund Policy</span>
+            <Link to="/disclaimer">
+              <span>Disclaimer</span>
+            </Link>{" "}
+            |{" "}
+            <Link to="/privacy-policy">
+              <span>Privacy Policy</span>
+            </Link>{" "}
+            |
+            <Link to="/terms-conditions">
+              <span>Terms & Conditions</span>
+            </Link>{" "}
+            |{" "}
+            <Link to="/refund-policy">
+              <span>Refund Policy</span>
+            </Link>
           </div>
         </div>
       </div>

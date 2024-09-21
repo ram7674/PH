@@ -2,8 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './slider.css';
 
-import slider1 from "/assets/slider1.jpg";
-import slider2 from "/assets/slider2.jpg";
+import slider1 from "/assets/banner-home-1.jpg";
+import slider2 from "/assets/banner-home-2.jpg";
 
 const images = [
   {
@@ -38,18 +38,18 @@ function Slider() {
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <div
-            className="d-block w-100 home__sliderSTt"
+            className="home__sliderSTt"
             style={{
               backgroundImage: `url(${image.src})`,
             }}
           >
-            <div className="carousel-content">
+            {/* <div className="carousel-content">
               <h2>{image.heading}</h2>
               <p>{image.text}</p>
               <a href={image.buttonLink} className="btn btn-primary">
                 {image.buttonText}
               </a>
-            </div>
+            </div> */}
           </div>
         </Carousel.Item>
       ))}

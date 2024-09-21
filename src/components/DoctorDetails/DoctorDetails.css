@@ -84,6 +84,7 @@
     margin-top: -70px;
     background-color: #fff;
     border-bottom: 2px solid (90deg, #235f9d -29.1%, #00b7ac 121.6%);
+    margin-bottom: 10px;
 }
 
 .tab-items{
@@ -104,6 +105,32 @@
     color: #235f9d !important;
 }
 
+.tab-drtitle {
+    color: #235f9d;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Active Tab */
+.nav-tabs .nav-link.active {
+    background-color: #034ea1 !important;
+    color: #fff !important;
+}
+
+.tab-drcontent {
+    height: 366px;
+    overflow-y: scroll;
+    padding: 0px 30px 0px;
+}
+
+.drcontent-list {
+    padding: 0px 0px 0px 15px;
+
+    li {
+        text-align: justify;
+        hyphens: auto;
+    }
+}
 
 /* small device responsive */
 @media screen and (max-width: 767px) {
@@ -172,6 +199,19 @@
         font-size: 11px;
     }
 
+    .tab-drcontent {
+        padding: 0px 10px 0px;
+    }
+
+    .drcontent-list {
+        padding: 0px 0px 0px 15px;
+
+        li {
+            text-align: justify;
+            hyphens: auto;
+        }
+    }
+
 }
 
 /* medium device responsive */
@@ -190,5 +230,13 @@
     .tabs__card {
         margin: 50px 0px 0px;
     }
+    
+    .drcontent-list {
+        padding: 0px 0px 0px 15px;
 
+        li {
+            text-align: justify;
+            hyphens: auto;
+        }
+    }
 }

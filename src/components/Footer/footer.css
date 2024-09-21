@@ -63,18 +63,31 @@
 
 .footer__card{
     margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__num {
-    margin-left: 12px;
     cursor: pointer;
 
     a {
         color: #fff;
+        margin-left: 15px;
     }
 }
 
+.footer__ph {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
 
+.footer__desc {
+    margin-bottom: 30px;
+}
+
+.footer__copySec2 span {
+    color: #fff;
+}
 
 
 /* mobile device responsive */

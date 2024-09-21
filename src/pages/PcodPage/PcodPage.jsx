@@ -2,7 +2,7 @@ import React from "react";
 import "./pcodpage.css";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
-import pcodImage from "../../../public/PCOD.png";
+import pcodImage from "../../../public/assets/PCOD.png";
 
 const PcodPage = () => {
   return (

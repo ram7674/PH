@@ -1,0 +1,51 @@
+.privacy__main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy__card {
+    width: 80%;
+
+    h3 {
+        font-weight: 700;
+        color: rgb(46, 46, 46);
+    }
+
+    p {
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 20px;
+        color: rgb(46, 46, 46);
+    }
+
+}
+
+/* mobile responsive */
+@media screen and (max-width: 767px) {
+
+    .privacy__card {
+        width: 100%;
+    }    
+
+    .privacy__main {
+        padding: 25px 0px;
+        hyphens: auto;
+    }
+
+}
+
+/* tablet responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .privacy__card {
+        width: 100%;
+    }  
+    
+}

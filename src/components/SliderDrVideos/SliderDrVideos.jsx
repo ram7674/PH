@@ -1,21 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight, FaYoutube } from "react-icons/fa";
-import "./SliderDrVideos.css";
 
 const SliderDrVideos = () => {
   const items = [
-    { img: "slider-emergency.jpg", text: "Prasad Hospitals Nacharam", content: "Everything you need to know about Black Fungus (Mucormycosis) by Dr. Nishanth, Senior ENT Surgeon ", videoId: "xOZRxLI8pXg" },
-    { img: "slider-treatment.jpg", text: "Infertility Centre, Dr. K. Suma Prasad TV Interview", content: "Infertility Centre, Dr. K. Suma Prasad TV Interview, Prasad Hospitals Nacharam.", videoId: "Zx2hIo-XbKs" },
-    { img: "slider-treatment.jpg", text: "Dr. K. Suma Prasad TV9 Interview - Best Infertility Doctor", content: " Best Infertility Doctor | Prasad Hospitals Nacharam Pragathinagar", videoId: "MdI8D-H8HSk" },
-    { img: "slider-emergency.jpg", text: "Urologist Dr Raghavendar TV Interview - Prasad Hospitals Nacharam", content: "Consultant at Prasad Hospitals Nacharam, Dr. Raghavendar K's interview on Sneha TV Health Talk Program", videoId: "d8Yc3xhG5nU" },
-    { img: "slider-treatment.jpg", text: "Expert ENT care - Prasad Hospitals Nacharam", content: "Problem with your senses? We are here to provide you with the best ENT medical facilities with proficient experts for any problems with the ear, nose and throat. Problems like hearing loss, ear discharge, ear-ache, balance disorders, Tinnitus, nasal blockage, nasal deformity, Sinusitis, Allergic Rhinitis and tumors of the nose and sinuses are addressed with utmost care giving an international standard healthcare experience", videoId: "iwb2eo-XU9w" },
-    { img: "slider-emergency.jpg", text: "Covid-19 Vaccination for Women - Pregnancy, Lactation, Menstural Cycle - All you need to know", content: "Covid-19 Vaccination for Women - Pregnancy, Lactation, Menstural Cycle - All you need to know from Dr. Suma Prasad - Prasad Hospitals Nacharam", videoId: "IY9JldolPUU" },
-    { img: "slider-emergency.jpg", text: "Prasad Hospitals - New Year 2024", content: "As we step into the dawn of a new year, Prasad Hospitals extends heartfelt wishes to our incredible community. ", videoId: "zC1xheaOglw" },
-    { img: "slider-emergency.jpg", text: "Expert Neurology care - Prasad Hospitals Nacharam", content: "Neurological issues like migraines, neuropathy, and dementia begin with simple symptoms like headaches but only upon expert consultation and diagnosis, you can identify the problem and get the best solution for it. We at Prasad Hospitals, with the help of our proficient neurologists, provide you with a comprehensive, individualized and result-oriented approach to address your health complaints", videoId: "TxS0alyiwds" },
-    { img: "slider-emergency.jpg", text: "Young Age Heart Attacks - Dr Sravan kumar - Prasad Hospitals Nacharam - Pragathinagar Road", content: "Dr Sravan kumar - Prasad Hospitals Nacharam - Pragathinagar Road", videoId: "3nrCZMAXUV8" },
-    { img: "slider-emergency.jpg", text: "Expert Pulmonology / Lung Health care- Prasad Hospitals Nacharam", content: "Lungs are one of the highly affected parts of the body due to the pandemic, pollution and also sedentary lifestyle. Our pulmonologists, at Prasad Hospitals, provide you with specialised treatment suitable for your problem resulting in an improved quality of life. Our pulmonology services range from regular lung checks to serious respiratory issues with the best international standard care that you can get.", videoId: "gf8B_sagh1M" },
-    { img: "slider-emergency.jpg", text: "Dr Nishanth Explains about Sinusitis Symptoms & Treatment - Prasad Hospitals Nacharam", content: "Sinusitis Symptoms & Treatment - Prasad Hospitals Nacharam", videoId: "DoGQHXQH-to" },
-    { img: "slider-emergency.jpg", text: "Kidney Problems Advice by Dr. Raghavendar K. - Prasad Hospitals Nacharam", content: "Consultant at Prasad Hospitals Nacharam, Dr. Raghavendar K's interview on Sneha TV about Kidney Problems", videoId: "Q2vTNvzgUiQ" },
+    { img: "drslider-image1.png", text: "Prasad Hospitals Nacharam", content: "Everything you need to know about Black Fungus (Mucormycosis) by Dr. Nishanth, Senior ENT Surgeon ", videoId: "xOZRxLI8pXg" },
+    { img: "drslider-image2.png", text: "Infertility Centre, Dr. K. Suma Prasad TV Interview", content: "Infertility Centre, Dr. K. Suma Prasad TV Interview, Prasad Hospitals Nacharam.", videoId: "Zx2hIo-XbKs" },
+    { img: "drslider-image3.png", text: "Dr. K. Suma Prasad TV9 Interview - Best Infertility Doctor", content: " Best Infertility Doctor | Prasad Hospitals Nacharam Pragathinagar", videoId: "MdI8D-H8HSk" },
+    { img: "drslider-image4.png", text: "Urologist Dr Raghavendar TV Interview - Prasad Hospitals Nacharam", content: "Consultant at Prasad Hospitals Nacharam, Dr. Raghavendar K's interview on Sneha TV Health Talk Program", videoId: "d8Yc3xhG5nU" },
+    { img: "drslider-image5.png", text: "Expert ENT care - Prasad Hospitals Nacharam", content: "Problem with your senses? We are here to provide you with the best ENT medical facilities with proficient experts for any problems with the ear, nose and throat. Problems like hearing loss, ear discharge, ear-ache, balance disorders, Tinnitus, nasal blockage, nasal deformity, Sinusitis, Allergic Rhinitis and tumors of the nose and sinuses are addressed with utmost care giving an international standard healthcare experience", videoId: "iwb2eo-XU9w" },
+    { img: "drslider-image6.png", text: "Covid-19 Vaccination for Women - Pregnancy, Lactation, Menstural Cycle - All you need to know", content: "Covid-19 Vaccination for Women - Pregnancy, Lactation, Menstural Cycle - All you need to know from Dr. Suma Prasad - Prasad Hospitals Nacharam", videoId: "IY9JldolPUU" },
+    { img: "drslider-image7.png", text: "Prasad Hospitals - New Year 2024", content: "As we step into the dawn of a new year, Prasad Hospitals extends heartfelt wishes to our incredible community. ", videoId: "zC1xheaOglw" },
+    { img: "drslider-image8.png", text: "Expert Neurology care - Prasad Hospitals Nacharam", content: "Neurological issues like migraines, neuropathy, and dementia begin with simple symptoms like headaches but only upon expert consultation and diagnosis, you can identify the problem and get the best solution for it. We at Prasad Hospitals, with the help of our proficient neurologists, provide you with a comprehensive, individualized and result-oriented approach to address your health complaints", videoId: "TxS0alyiwds" },
+    { img: "drslider-image9.png", text: "Young Age Heart Attacks - Dr Sravan kumar - Prasad Hospitals Nacharam - Pragathinagar Road", content: "Dr Sravan kumar - Prasad Hospitals Nacharam - Pragathinagar Road", videoId: "3nrCZMAXUV8" },
+    { img: "drslider-image10.png", text: "Expert Pulmonology / Lung Health care- Prasad Hospitals Nacharam", content: "Lungs are one of the highly affected parts of the body due to the pandemic, pollution and also sedentary lifestyle. Our pulmonologists, at Prasad Hospitals, provide you with specialised treatment suitable for your problem resulting in an improved quality of life. Our pulmonology services range from regular lung checks to serious respiratory issues with the best international standard care that you can get.", videoId: "gf8B_sagh1M" },
+    { img: "drslider-image11.png", text: "Dr Nishanth Explains about Sinusitis Symptoms & Treatment - Prasad Hospitals Nacharam", content: "Sinusitis Symptoms & Treatment - Prasad Hospitals Nacharam", videoId: "DoGQHXQH-to" },
+    { img: "drslider-image12.png", text: "Kidney Problems Advice by Dr. Raghavendar K. - Prasad Hospitals Nacharam", content: "Consultant at Prasad Hospitals Nacharam, Dr. Raghavendar K's interview on Sneha TV about Kidney Problems", videoId: "Q2vTNvzgUiQ" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -99,8 +98,8 @@ const SliderDrVideos = () => {
             onClick={() => handleVideoClick(item.videoId)}
           >
             <img
-              src={`/assets/${item.img}`}
-              alt={`Slide ${index}`}
+              src={`/assets/drslide-images/${item.img}`}
+              alt={`Slide ${index + 1}`}
               className="slider-image"
             />
             <div className="slider-content">

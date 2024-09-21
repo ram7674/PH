@@ -4,13 +4,13 @@ import './SliderPatientTest.css';
 
 const SliderPatientTest = () => {
   const items = [
-    { img: "slider-emergency.jpg", text: "Patient Testimonials, Infertility Treatment in Secunderabad, Prasad Hospitals Nacharam", content: "Dr. K. Suma Prasad's patients, Smt. Vasanta's husband about her experience at Prasad Hospitals, Nacharam where she underwent infertility treatment.", videoId: "bkpcbb2e9eY" },
-    { img: "slider-treatment.jpg", text: "Knee Replacement Patient Mrs. Prema Testimonial, Dr. Uday G. Reddy, Prasad Hospitals Nacharam", content: "Mrs. Prema, A School Principal in Hyderabad got her knee replaced by Dr. Uday G. Reddy at Prasad Hospital, Nacharam. She shares her experience with the doctor and her brother talks about the hospital.", videoId: "YEoHV1BFAJE" },
-    { img: "slider-treatment.jpg", text: "Knee Replacement by Dr. Uday G. Reddy - Patient Testimonial - Prasad Hospitals Nacharam", content: "Dr. Veeresam, A BHMS Doctor from Hyderabad shares his experience about his Bilateral Total Knee Replacement Surgery Performed by Dr. Uday G. Reddy at Prasad Hospitals, Nacharam", videoId: "wIOC4NWELAI" },
-    { img: "slider-emergency.jpg", text: "ENT Testimonial - Tonsillectomy by Dr. K. Swami - Prasad Hospitals Nacharam", content: "Mr. Subramanyam, An Aarogyabadrata Card Holder from Nallakunta Police Station, Hyderabad shares his experience about his Tonsillectomy Surgery Performed by Dr. K. Swamy at Prasad Hospitals, Nacharam", videoId: "JOk4pYH8W0s" },
-    { img: "slider-treatment.jpg", text: "Knee Replacement by Dr. Uday G. Reddy - Patient Testimonial - Prasad Hospitals Nacharam", content: "Mr. Bakta Prahalada, an NFC Employee from Hyderabad shares his experience about his Bilateral Total Knee Replacement Surgery Performed by Dr. Uday G. Reddy at Prasad Hospitals, Nacharam", videoId: "07dJMIj3pno" },
-    { img: "slider-emergency.jpg", text: "Straight from the heart - patient's testimonial - Prasad Hospitals Nacharam", content: "patient's testimonial - Prasad Hospitals Nacharam", videoId: "BCGpfVODYuc" },
-    { img: "slider-emergency.jpg", text: "Patient Testimonial - Best Dialysis Centre in Secunderabad - Prasad Hospitals Nacharam", content: "Best Dialysis Centre in Secunderabad - Prasad Hospitals Nacharam", videoId: "Zu_mExeFU8I" },
+    { img: "ptslider-image1.png", text: "Patient Testimonials, Infertility Treatment in Secunderabad, Prasad Hospitals Nacharam", content: "Dr. K. Suma Prasad's patients, Smt. Vasanta's husband about her experience at Prasad Hospitals, Nacharam where she underwent infertility treatment.", videoId: "bkpcbb2e9eY" },
+    { img: "ptslider-image2.png", text: "Knee Replacement Patient Mrs. Prema Testimonial, Dr. Uday G. Reddy, Prasad Hospitals Nacharam", content: "Mrs. Prema, A School Principal in Hyderabad got her knee replaced by Dr. Uday G. Reddy at Prasad Hospital, Nacharam. She shares her experience with the doctor and her brother talks about the hospital.", videoId: "YEoHV1BFAJE" },
+    { img: "ptslider-image3.png", text: "Knee Replacement by Dr. Uday G. Reddy - Patient Testimonial - Prasad Hospitals Nacharam", content: "Dr. Veeresam, A BHMS Doctor from Hyderabad shares his experience about his Bilateral Total Knee Replacement Surgery Performed by Dr. Uday G. Reddy at Prasad Hospitals, Nacharam", videoId: "wIOC4NWELAI" },
+    { img: "ptslider-image4.png", text: "ENT Testimonial - Tonsillectomy by Dr. K. Swami - Prasad Hospitals Nacharam", content: "Mr. Subramanyam, An Aarogyabadrata Card Holder from Nallakunta Police Station, Hyderabad shares his experience about his Tonsillectomy Surgery Performed by Dr. K. Swamy at Prasad Hospitals, Nacharam", videoId: "JOk4pYH8W0s" },
+    { img: "ptslider-image5.png", text: "Knee Replacement by Dr. Uday G. Reddy - Patient Testimonial - Prasad Hospitals Nacharam", content: "Mr. Bakta Prahalada, an NFC Employee from Hyderabad shares his experience about his Bilateral Total Knee Replacement Surgery Performed by Dr. Uday G. Reddy at Prasad Hospitals, Nacharam", videoId: "07dJMIj3pno" },
+    { img: "ptslider-image6.png", text: "Straight from the heart - patient's testimonial - Prasad Hospitals Nacharam", content: "patient's testimonial - Prasad Hospitals Nacharam", videoId: "BCGpfVODYuc" },
+    { img: "ptslider-image7.png", text: "Patient Testimonial - Best Dialysis Centre in Secunderabad - Prasad Hospitals Nacharam", content: "Best Dialysis Centre in Secunderabad - Prasad Hospitals Nacharam", videoId: "Zu_mExeFU8I" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -92,8 +92,8 @@ const SliderPatientTest = () => {
             onClick={() => handleVideoClick(item.videoId)}
           >
             <img
-              src={`/assets/${item.img}`}
-              alt={`Slide ${index}`}
+              src={`/assets/drslide-images/${item.img}`}
+              alt={`Slide ${index + 1}`}
               className="slider-image"
             />
             <div className="slider-content">

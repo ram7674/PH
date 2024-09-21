@@ -2,7 +2,7 @@ import React from "react";
 import "./lifeaftersurgerypage.css";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
-import lifeKnewImage from "../../../public/Life-after-image.png";
+import lifeKnewImage from "../../../public/assets/Life-after-image.png";
 
 const LifeAfterSurgeryPage = () => {
   return (

@@ -152,15 +152,15 @@ function MegaNavbar() {
                     <Container>
                       <div className="row">
                         <div className="col-sm-12">
-                          <Link to="/manikonda">
+                          <Link to="/best-hospital-in-manikonda">
                             <span className="dropdown-item">Manikonda</span>
                           </Link>
-                          <Link to="/pragatinagar">
+                          <Link to="/best-hospital-in-Kukatpally">
                             <span className="dropdown-item">
                               Pragathi Nagar
                             </span>
                           </Link>
-                          <Link to="/nacharam">
+                          <Link to="/best-hospital-in-secunderabad">
                             <span className="dropdown-item">Nacharam</span>
                           </Link>
                         </div>

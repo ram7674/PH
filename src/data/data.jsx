@@ -55,57 +55,13 @@ const data = {
 
   doctors: {
     /* nacharam doctors data */
-    "Dr. K. Suma Prasad": {
-    "qualification": "MBBS, DGO, MD - Obstetrics & Gynaecology",
-    "overview": {
-      "heading": "Overview",
-      "content": [
-        "Dr. Suma Prasad is a renowned infertility specialist with over 20 years of experience.",
-        "She has successfully treated thousands of couples with reproductive challenges.",
-        "Her research and contributions to the field have been widely recognized."
-      ]
-    },
-    "fellowship": {
-      "heading": "Fellowship & Membership",
-      "content": [
-        "Member of American Medical Association",
-        "Member of American Medical Association1",
-        "Member of American Medical Association2"
-      ]
-    },
-    "expertise": {
-      "heading": "Field of Expertise",
-      "content": [
-        "Gynecologist & IVF Specialist"
-      ]
-    },
-    "languages": {
-      "heading": "Languages Spoken",
-      "content": [
-        "English",
-        "Telugu"
-      ]
-    },
-    "publications": {
-      "heading": "Talks & Publications",
-      "content": [
-        "Gynecology Advances",
-        "Women's Health"
-      ]
-    },
-    "awards": {
-      "heading": "Awards & Achievements",
-      "content": [
-        "Recipient of Best IVF Specialist Award 2021",
-        "Recognized by the Indian Medical Association"
-      ]
-    },
-    "image": "php-dr-k-suma-prasad.jpg"
-  },
     "Dr. k. Suma Prasad": {
       qualification: "MBBS, DGO, MD - Obstetrics & Gynaecology",
-      overview:
-        "2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr K Suma Prasad, MD, DGO., Infertility specialist known for her specialized skills in improving IVF success through modern technology. With a strong research background, Dr Suma Prasad has vast experience in handling implantation failure and improving IVF & ICSI results through advanced techniques. With experience for more than 25years, Dr Suma Prasad is popular in kukatpally as a friendly and a very supportive doctor.",
+        "PCOD - Dr Suma Prasad has an experience of 20 years in a scientific analysis and treatment to the PCOD problem, a hormone imbalance affecting young women leading to obesity and menstrual problems.",
+        "Patients specially appreciate the short waiting period and quick access to the doctor. Graduated from Gandhi Medical College, Hyderabad, Dr Suma Prasad is a Fetal Medicine Diploma holder from UCL, London and a Diploma in Advance Endoscopic Surgery and Hysteroscopy from Keil’s school of endoscopy, Germany. Dr Suma Prasad has specialized in Intracytoplasmic Sperm Injection (ICSI), Testicular sperm Extraction (TESE) & Preimplantation Genetic Screening (PGS). She has extensive experience in treating male infertility & PCOD. Her research publications are extensive and available on our website.",
+      ],
       fellowship: "Member of American Medical Association",
       expertise: "Gynecologist & IVF Specialist",
       languages: ["English", "Telugu"],
@@ -114,8 +70,11 @@ const data = {
     },
     "Dr. k Shravanya": {
       qualification: "MBBS, DGO, FMAS, DMAS",
-      overview:
-        "1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr K Shravanya is a Gynaecologist, Obstetrician & an Infertility specialist with the fellowship in minimally invasive surgeries. She completed MBBS from NTRUHS and post-graduation from Gandhi Medical College. Further she has pursued Infertility fellowship from IMA (Indian Medical Association) and took an advanced diploma in ART & Reproductive Medicine at UKSH (University Medical Centre Schleswig Holstein, Germany). She has completed her fellowship and diploma in surgery under Dr R. K. Mishra (World Laparoscopy hospital, Delhi).",
+        "Initially she has done her practices at SriDevi Nursing home, Warasiguda Hyderabad and currently continuing with Prasad Infertility solutions, kphb hyderabad . She took part in presentations at State conferences and won a prize for poster presentation of high-risk cases in Obstetrics (Second Trimester Rupture Uterus). Her interest towards the passion made her to be a part of an article on Evaluation of pregnancy outcome in heart disease complicating pregnancy in (JMEDS - The Journal of Medical Sciences).",
+        "Dr Shravanya is known for her empathic and ethical approach towards patient care and has good experience in managing high risk pregnancy, normal vaginal delivery, caesarean sections, gynaecological procedures, PCOD/PCOS and Menstrual Irregularities, Infertility Laparoscopy, hysteroscopic procedures, early pregnancy care and multiple procedures.",
+      ],
       fellowship: "Fellow of Royal College of Physicians",
       expertise: "Infertility Specialist",
       languages: ["English", "Hindi"],
@@ -346,8 +305,10 @@ const data = {
     /* pragathinagar doctors data */
     "Dr. V Sravan Kumar": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. Sravan Kumar V is a Cardiologist and Interventional Cardiologist in JP Nagar, Bangalore and has an experience of 12 years in these fields. Dr. Sravan Kumar V practices at Practo Instant Full Time 2 in JP Nagar, Bangalore,Prasad Hospital in Pragathi Nagar, Hyderabad and Prasad Hospital in Nacharam, Hyderabad. He completed MBBS from Santhiram Medical College, Nandyal in 2010,MD - Tuberculosis & Respiratory Diseases/Medicine from JSS University, Mysore in 2015 and DM - Cardiology from GB Pant Hospital, New Delhi in 2020.",
+        "Some of the services provided by the doctor are: Cardiology Consultation,Pacemaker Implantation,Electrocardiography (ECG),Cardiac Catheterisation and 2D - Echocardiography (2D-Echo) etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -356,8 +317,10 @@ const data = {
     },
     "Dr. Siddharth Potluri": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. Siddharth Potluri is a Orthopedic surgeon in Pragathi Nagar, Hyderabad and has an experience of 13 years in this field. Dr. Siddharth Potluri practices at Prasad Hospital in Pragathi Nagar, Hyderabad,Prasad Hospitals in Manikonda, Hyderabad and Apollo Clinic in Manikonda, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2011,MS - Orthopaedics from Dr. NTR University of Health Sciences Andhra Pradesh in 2016 and Mch/MMed Programme Fellowship from NHS in 2021.",
+        "Some of the services provided by the doctor are: Knee Replacement,Minimally Invasive Knee Correction,ACL Surgery,Arthritis Management and Frozen Shoulder Treatment etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -376,8 +339,10 @@ const data = {
     },
     "Dr. Y Ramesh": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. Yerrabothu Ramesh is a General Medicine and Internal Medicine in Pragathi Nagar, Hyderabad and has an experience of 10 years in these fields. Dr. Yerrabothu Ramesh practices at Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Rajiv Gandhi University of Health Sciences in 2014 and MD - General Medicine from Kamineni Institute of Medical Sciences, Narketpally in 2020.",
+        "Some of the services provided by the doctor are: Anemia Treatment,Dengue Fever Treatment,Abdominal Pain Treatment,Chronic Obstructive Pulmonary Disease (COPD) Treatment and Diabetic Ulcer Treatment etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -386,8 +351,10 @@ const data = {
     },
     "Dr. Navya Mandadapu": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. Navya Mandadapu is a Family Physician and General Physician in Pragathi Nagar, Hyderabad and has an experience of 10 years in these fields. Dr. Navya Mandadapu practices at Prasad Hospital in Pragathi Nagar, Hyderabad. She completed MBBS from Bharath University, Chennai in 2013 and DNB - Family Medicine from National Board of Examination, India in 2017.",
+        "Some of the services provided by the doctor are: Balance Exercises,Piles Treatment,Typhoid Fever Treatment,Dressings and Acute Diarrhea Treatment etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -396,8 +363,10 @@ const data = {
     },
     "Dr. S Nishanth": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. S.Nishanth is a ENT/ Otorhinolaryngologist in Nacharam, Hyderabad and has an experience of 12 years in this field. Dr. S.Nishanth practices at Prasad Hospital in Nacharam, Hyderabad and Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MS - ENT from Manipal University in 2017 and MBBS from Gandhi Medical College, Hyderabad in 2012.",
+        "Some of the services provided by the doctor are: Microscopic Voice Surgery,Canalith Repositioning (CR),Ossiculoplasty,Tinnitus Treatment and Nasal and Sinus Allergy Care etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -406,8 +375,9 @@ const data = {
     },
     "Dr. V Revanth": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. Revanth V is a Radiologist in Kondapur, Hyderabad and has an experience of 15 years in this field. Dr. Revanth V practices at KIMS Hospital in Kondapur, Hyderabad and Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Kurnool Medical College, Kurnool in 2009 and MD - Radio Diagnosis/Radiology from Navodaya Medical College in 2013.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -416,8 +386,10 @@ const data = {
     },
     "Dr. Sravanthi Pavuluri": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. Sravanthi Pavuluri is a Neurologist in Pragathi Nagar, Hyderabad and has an experience of 10 years in this field. Dr. Sravanthi Pavuluri practices at Prasad Hospital in Pragathi Nagar, Hyderabad. She completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2013,MD - General Medicine from Dr. NTR University of Health Sciences Andhra Pradesh in 2017 and DM - Neurology from Rajiv Gandhi University of Health Sciences in 2021.",
+        "Some of the services provided by the doctor are: Vascular Surgery,Cerebrospinal Fluid Shunt,Parkinson's Disease Treatment,Neuromuscular Disorders and Epilepsy surgery etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -426,8 +398,10 @@ const data = {
     },
     "Dr. N Rithvic": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Dr. M.Rithvic Nimmakayala is a Neurosurgeon in Pragathi Nagar, Hyderabad and has an experience of 6 years in this field. Dr. M.Rithvic Nimmakayala practices at Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2014,MS - General Surgery from Dr. NTR University of Health Sciences Andhra Pradesh in 2018 and MCh - Neuro Surgery from The Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU) in 2022.",
+        "Some of the services provided by the doctor are: Vertigo Treatment,Epilepsy Treatment, Laminectomy,Foot Drop and Brain Aneurysm Treatment etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -507,19 +481,18 @@ const data = {
   },
 
   specialtiesData: {
-
     Infertility: {
       bannerbg:
         "infertility-doctors-list.png" /* here use only related specialties banner image changes below images */,
-      icons: "",
+      icons: "icon-infertility.png",
       title: "Infertility",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Center for Infertility at Prasad Hospitals has India’s best specialists with good experience and have a high success rate. Prasad Hospitals, the Best Infertility Hospitals in Hyderabad, treats the patients with the advanced technologies in the processes like IVF, ICSI, Male Infertility, IUI, PGD, and many. Many patients with fertility issues approached us and got the best treatment with the best success rate.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "The Center for Infertility at Prasad Hospitals has the Best Infertility Specialists In Hyderabad with good experience and have a high success rate. Prasad Hospitals, the Best Infertility Hospitals in Hyderabad, treats the patients with the advanced technologies in the processes like IVF, ICSI, Male Infertility, IUI, PGD, and many. Many patients with fertility issues approached us and got the best treatment with the best success rate.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. k. Suma Prasad", "Dr. Tejashwani"],
 
@@ -611,15 +584,15 @@ const data = {
 
     Gynecology: {
       bannerbg: "banner-gynecology.png",
-      icons: "",
+      icons: "icon-gynecology.png",
       title: "Gynecology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "Our Doctors of Gynecology and Obstetrics believes that best healthcare is crucial for a mother and her child. We ensure that she gets the best. Whether you just started your period or you’re a great-grandmother, you should.",
-      ourStoryImage: "",
+        "Prasad Hospitals with its vision to provide the best health care to the women, now well renowned as the Best Gynecology Hospitals in Hyderabad. The Department of Gynecology and Obstetrics at Prasad Hospitals believes that the best healthcare is crucial for a mother and her child. We have the Best Gynecology Specialists who are highly experienced and adept modern techniques and are prominently known at Hyderabad. The woman either facing the irregular periods or any reproductive issues, our doctors provide the best treatment with care and friendly atmosphere.",
+      ourStoryImage: "why-choose-img.jpg",
       whyPrasadTittle: "Why Prasad",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: [
         "Dr. k. Suma Prasad",
@@ -681,15 +654,15 @@ const data = {
 
     Cardiology: {
       bannerbg: "banner-cardiology.png",
-      icons: "",
+      icons: "icon-cardiology.png",
       title: "Cardiology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "At Prasad Hospitals, our Cardiology Department is dedicated to providing comprehensive heart care, from diagnostics to advanced treatments. Our team of expert cardiologists specializes in managing a wide range of heart conditions, including",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. V Sravan Kumar", "Dr. Sampath"],
 
@@ -765,15 +738,15 @@ const data = {
 
     Orthopedics: {
       bannerbg: "banner-orthopedics.png",
-      icons: "",
+      icons: "icon-orthopedics.png",
       title: "Orthopedics",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Centre for Orthopedics, Trauma & Joint Diseases at Prasad Hospitals is on par with the best Joint Replacement Units in India with the 0% surgical-side infection rate. All types of Joint Replacements (Hip, Knee & Shoulder) are performed.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "The Centre for Orthopedics, Trauma & Joint Diseases at Prasad Hospitals is on par with the best Joint Replacement Units in India with the 0% surgical-side infection rate. All types of Joint Replacements (Hip, Knee & Shoulder) are performed here. Prasad Hospitals have the best modular operation theatres with the latest technology called Laminar Flow, for joint resurfacing procedures. Being the Best Orthopedic Hospital in Hyderabad, Prasad Hospitals have the experienced orthopedic doctors who are specialized with advanced techniques like Computer Assisted Surgery (CAS), Arthroscopy (Diagnostic & Therapeutic) of knee & shoulder & Arthroscopic Surgeries with advanced techniques in ligament repair",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: [
         "Dr. Siddharth Potluri",
@@ -858,15 +831,15 @@ const data = {
 
     GeneralPhysician: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-genera medicine.png",
       title: "GeneralPhysician",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "The Division of General Internal Medicine at Prasad Hospitals consists of a Top General Physician in Hyderabad, group of specialist doctors and allied health staff who are dedicated to providing patient-centered, evidence-based medical care in a clinical environment supported by education and research. The internal medicine clinic comprises of a multi-disciplinary team of doctors provide holistic outpatient care for the adult population and consultative services for individuals suffering from complicated clinical problems. Prasad Hospitals have the Top General Physician in Hyderabad, with a comprehensive Clinical Programme. ",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: [
         "Dr. Y Ramesh",
@@ -934,15 +907,15 @@ const data = {
 
     ENT: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-ear-nose-throat.png",
       title: "Ear Nose Throat (ENT)",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Ear, Nose & Throat (ENT) specialists at Prasad Hospitals diagnose and treat problems such as hoarseness, hearing loss, vertigo, nosebleeds and sinusitis. Our Department of ENT has earned a pedagogy in treating common ear-related problems including hearing.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Prasad Hospitals is one of the Best ENT Hospitals in Hyderabad who diagnose and treat problems such as hoarseness, hearing loss, vertigo, nosebleeds, and sinusitis. Our Department of ENT has earned a pedagogy in treating common ear-related problems including hearing loss, ear discharge, ear-ache, balance disorders, and Tinnitus. Problems associated with the nose such as nasal blockage, nasal deformity, Sinusitis, Allergic Rhinitis and tumors of the nose and sinuses are also redressed here. The common problems associated with the throat like sore throat including tonsillitis, snoring, hoarse voice, swallowing disorders and tumors of the throat and larynx are well- treated by our ENT panelists.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["DR. Nishanth"],
 
@@ -992,15 +965,15 @@ const data = {
 
     Pediatrics: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-pediatrics.png",
       title: "Pediatrics",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Pediatrics department of Prasad Hospitals serves the medical needs of infants, children and adolescents with compassionate care, bringing innovation to work to retain that innocent smile on those beautiful faces. The Center for Pediatrics provides comprehensive healthcare services.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "The Pediatrics Department of Prasad Hospitals, the Best Children Hospital in Hyderabad, serves the medical needs of infants, children, and adolescents with compassionate care, bringing innovation to work to retain that innocent smile on those beautiful faces. Prasad Hospitals, the Best Children Hospital in Hyderabad, provides health services for the children from birth to early adulthood. Department of Pediatrics provides the full range of clinical services for children and adolescents. Our Pediatricians are well experienced and best in pediatric surgeries. Our Department of Pediatrics educates and gives emotional support to all the patients and their families",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: [
         "Dr. Shyam Sunder",
@@ -1123,15 +1096,15 @@ const data = {
 
     Radiology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-radiology.png",
       title: "Radiology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Radiology Department is equipped with the latest imaging technologies to support accurate diagnosis and effective treatment planning. Services:",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. V Revanth", "Dr. Suprabatham"],
 
@@ -1191,20 +1164,19 @@ const data = {
             "You can contact the emergency department by calling the hospital's emergency hotline.",
         },
       ],
-
     },
 
     Neurology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-neurology.png",
       title: "Neurology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "Our Neurologists can help you address the full range of neurological issues, including migraines, neuropathy and dementia. Because of their experience with a variety of neurological problems, neurologists at Prasad Hospitals are especially skilled at pinpointing the cause of unusual or severe symptoms",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Prasad Hospitals have the Best Neurologist in Hyderabad, who can help you address the full range of neurological issues, including migraines, neuropathy, and dementia. Because of their experience with a variety of neurological problems, Neurologists at Prasad Hospitals are especially skilled at pinpointing the cause of unusual or severe symptoms. Neurologists work with you and other specialists at Prasad Hospitals as needed to offer you a comprehensive, individualized approach to addressing your neurological condition.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Sravanthi Pavuluri", "Dr. P.Chandra Shekar"],
 
@@ -1285,15 +1257,15 @@ const data = {
 
     Neurosurgery: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-neurosurgery.png",
       title: "Neurosurgery",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Neurosurgery Department is committed to offering world-class treatment for brain, spine, and nervous system disorders. Our experienced neurosurgeons handle complex surgeries with precision and care. Services",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. N Rithvic", "Dr. Shyam"],
 
@@ -1356,15 +1328,15 @@ const data = {
 
     Neonatology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-neonatology.png",
       title: "Neonatology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Neonatology Department provides specialized care for newborns, including those born prematurely or with health complications. Our neonatal intensive care unit (NICU) is equipped to handle delicate cases with compassion and expertise. Services",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Mohan Chand Gutta", "Dr. Madhavchari"],
 
@@ -1431,20 +1403,19 @@ const data = {
             "You can contact the emergency department by calling the hospital's emergency hotline.",
         },
       ],
-
     },
 
     Pulmonology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-pulmonology.png",
       title: "Pulmonology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "Prasads’ Department of Pulmonology offers comprehensive evaluation and treatment to all your respiratory disorders. Although comprehensive, our pulmonary medicine approach is tweaked by pulmonary specialists to attend to the pressing needs of each individual.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Prasad Hospital's Department of Pulmonology offers comprehensive evaluation and treatment to all respiratory disorders. Prasad Hospitals have the Top Pulmonologists in Hyderabad. Being comprehensive, our lung specialists tweaks the pulmonary medicine approach to attend the pressing needs of each individual. Our core objective is to ensure the best and improved quality of life for all the patients. The department of pulmonology at Prasad Hospitals extends its services from normal lung health checks to serious respiratory disorders.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Yashwanth KO", "Dr. Rajesh Palvai"],
 
@@ -1521,15 +1492,15 @@ const data = {
 
     Urology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-urology.png",
       title: "Urology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "Prasad’s Institute of Urology offers world-class & comprehensive urology care that comprises of diagnostics and treatment for urology cancers, prostate diseases, laproscopic urology, reconstructive urology surgery, stone disease, erectile dysfunction, paediatric urology, paediatric renal transplant.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Prasad's Institute of Urology, the Best Urology Hospital in Hyderabad, offers world-class & comprehensive urology care that comprises of diagnostics and treatment for urology cancers, prostate diseases, laparoscopic urology, reconstructive urology surgery, stone disease, erectile dysfunction, pediatric urology, pediatric renal transplant, and andrology.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Kalyan Varma", "Dr. Srikanth Munna"],
 
@@ -1600,15 +1571,15 @@ const data = {
 
     Nephrology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-nephrology.png",
       title: "Nephrology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "Nephrology is the area in modern medicine that involves the diagnosis and treatment kidney ailments. A nephrologist diagnoses and decides the treatment for this of kidney disease, by balancing fluids in the body, regulating blood pressure, electrolytes.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Nephrology is the area in modern medicine that involves the diagnosis and treatment kidney ailments. A nephrologist diagnoses and decides the treatment for this of kidney disease, by balancing fluids in the body, regulating blood pressure, electrolytes.Nephrology is the area in modern medicine that involves the diagnosis and treatment of kidney ailments. A nephrologist diagnoses and decides the treatment for this of kidney disease, by balancing fluids in the body, regulating blood pressure, electrolytes, and administering dialysis. Prasad Hospitals, have the Best Nephrologist in Hyderabad, who treat different kidney disorders like acid-base disorders, electrolyte disorders, nephrolithiasis (kidney stones), High Blood Pressure, acute kidney disorder and last-stage of renal disease. Other kidney-related ailments include acquired conditions such as autoimmune diseases (e.g., lupus) and systemic vasculitides, as well as congenital or genetic conditions such as polycystic kidney disease.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Nagarjuna CH", "Dr. Ramesh Chadda"],
 
@@ -1618,10 +1589,7 @@ const data = {
           sections: [
             {
               tabsTitle: "List of Services",
-              tabsdesc: [
-                "Out-patient consultation.",
-                "Dialysis.",
-              ],
+              tabsdesc: ["Out-patient consultation.", "Dialysis."],
             },
             {
               tabsTitle: "Dialysis",
@@ -1668,52 +1636,52 @@ const data = {
 
     SurgicalGastroenterology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-surgical-gastroenterology.png",
       title: "SurgicalGastroenterology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Surgical Gastroenterology Department offers expert care for a range of gastrointestinal disorders that require surgical intervention. Services",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Kapil Tejaswy"],
 
-      "departmentContentTab": [
+      departmentContentTab: [
         {
-          "mainTitle": "SurgicalGastroenterology",
-          "sections": [
+          mainTitle: "SurgicalGastroenterology",
+          sections: [
             {
-              "tabsTitle": "List of Services",
-              "tabsdesc": [
+              tabsTitle: "List of Services",
+              tabsdesc: [
                 "We offer 24/7 emergency services with a multidisciplinary team of doctors.",
-                "Our emergency services are designed to handle any urgent medical needs."
-              ]
+                "Our emergency services are designed to handle any urgent medical needs.",
+              ],
             },
             {
-              "tabsTitle": "Specialized Care",
-              "tabsdesc": [
+              tabsTitle: "Specialized Care",
+              tabsdesc: [
                 "Specialized care provided by expert doctors in various fields.",
-                "We have a team of specialists available for advanced treatments."
-              ]
+                "We have a team of specialists available for advanced treatments.",
+              ],
             },
             {
-              "tabsTitle": "Advanced Treatments",
-              "tabsdesc": [
+              tabsTitle: "Advanced Treatments",
+              tabsdesc: [
                 "We offer advanced treatment options for complex conditions.",
-                "Our state-of-the-art facilities ensure the best care."
-              ]
+                "Our state-of-the-art facilities ensure the best care.",
+              ],
             },
             {
-              "tabsTitle": "Comprehensive Diagnostics",
-              "tabsdesc": [
+              tabsTitle: "Comprehensive Diagnostics",
+              tabsdesc: [
                 "Comprehensive diagnostic services available to pinpoint conditions.",
-                "We use the latest technology for accurate diagnosis."
-              ]
-            }
-          ]
-        }
+                "We use the latest technology for accurate diagnosis.",
+              ],
+            },
+          ],
+        },
       ],
 
       treatmentProcedures: [
@@ -1747,52 +1715,52 @@ const data = {
 
     Dental: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-dental.png",
       title: "Dental",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Dental Department provides comprehensive oral care for patients of all ages. Our experienced dentists use the latest technology to ensure your smile stays healthy. Services",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Ravi Sekhar"],
 
-      "departmentContentTab": [
+      departmentContentTab: [
         {
-          "mainTitle": "Dental",
-          "sections": [
+          mainTitle: "Dental",
+          sections: [
             {
-              "tabsTitle": "List of Services",
-              "tabsdesc": [
+              tabsTitle: "List of Services",
+              tabsdesc: [
                 "We offer 24/7 emergency services with a multidisciplinary team of doctors.",
-                "Our emergency services are designed to handle any urgent medical needs."
-              ]
+                "Our emergency services are designed to handle any urgent medical needs.",
+              ],
             },
             {
-              "tabsTitle": "Specialized Care",
-              "tabsdesc": [
+              tabsTitle: "Specialized Care",
+              tabsdesc: [
                 "Specialized care provided by expert doctors in various fields.",
-                "We have a team of specialists available for advanced treatments."
-              ]
+                "We have a team of specialists available for advanced treatments.",
+              ],
             },
             {
-              "tabsTitle": "Advanced Treatments",
-              "tabsdesc": [
+              tabsTitle: "Advanced Treatments",
+              tabsdesc: [
                 "We offer advanced treatment options for complex conditions.",
-                "Our state-of-the-art facilities ensure the best care."
-              ]
+                "Our state-of-the-art facilities ensure the best care.",
+              ],
             },
             {
-              "tabsTitle": "Comprehensive Diagnostics",
-              "tabsdesc": [
+              tabsTitle: "Comprehensive Diagnostics",
+              tabsdesc: [
                 "Comprehensive diagnostic services available to pinpoint conditions.",
-                "We use the latest technology for accurate diagnosis."
-              ]
-            }
-          ]
-        }
+                "We use the latest technology for accurate diagnosis.",
+              ],
+            },
+          ],
+        },
       ],
 
       treatmentProcedures: [
@@ -1826,52 +1794,52 @@ const data = {
 
     GeneralSurgeon: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-general-surgery.png",
       title: "GeneralSurgeon",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our General Surgery Department specializes in a wide range of surgical procedures using both traditional and minimally invasive techniques.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Basaweshwar", "Dr. Akshitha"],
 
-      "departmentContentTab": [
+      departmentContentTab: [
         {
-          "mainTitle": "GeneralSurgeon",
-          "sections": [
+          mainTitle: "GeneralSurgeon",
+          sections: [
             {
-              "tabsTitle": "List of Services",
-              "tabsdesc": [
+              tabsTitle: "List of Services",
+              tabsdesc: [
                 "We offer 24/7 emergency services with a multidisciplinary team of doctors.",
-                "Our emergency services are designed to handle any urgent medical needs."
-              ]
+                "Our emergency services are designed to handle any urgent medical needs.",
+              ],
             },
             {
-              "tabsTitle": "Specialized Care",
-              "tabsdesc": [
+              tabsTitle: "Specialized Care",
+              tabsdesc: [
                 "Specialized care provided by expert doctors in various fields.",
-                "We have a team of specialists available for advanced treatments."
-              ]
+                "We have a team of specialists available for advanced treatments.",
+              ],
             },
             {
-              "tabsTitle": "Advanced Treatments",
-              "tabsdesc": [
+              tabsTitle: "Advanced Treatments",
+              tabsdesc: [
                 "We offer advanced treatment options for complex conditions.",
-                "Our state-of-the-art facilities ensure the best care."
-              ]
+                "Our state-of-the-art facilities ensure the best care.",
+              ],
             },
             {
-              "tabsTitle": "Comprehensive Diagnostics",
-              "tabsdesc": [
+              tabsTitle: "Comprehensive Diagnostics",
+              tabsdesc: [
                 "Comprehensive diagnostic services available to pinpoint conditions.",
-                "We use the latest technology for accurate diagnosis."
-              ]
-            }
-          ]
-        }
+                "We use the latest technology for accurate diagnosis.",
+              ],
+            },
+          ],
+        },
       ],
 
       treatmentProcedures: [
@@ -1904,25 +1872,25 @@ const data = {
 
     Dermatology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-dermatology.png",
       title: "Dermatology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Dermatology department offers world-class medical and surgical dermatologic care for the scores of patients who seek advanced diagnostic and therapeutic interventions for a variety of problems related to the skin, hair, and nails. The department takes.",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "The Dermatology department offers world-class medical and surgical dermatologic care for the scores of patients who seek advanced diagnostic and therapeutic interventions for a variety of problems related to the skin, hair, and nails. Prasad Hospitals being the Best Skin Hospitals in Hyderabad, Dermatology Department takes immense pride in the fact that it has a beautiful effect on how people look and feel about themselves thereby increasing their confidence and giving them an edge. Be it a toddler with a rash or a child with eczema or a teenager with persisting pimples or a youngster who has sun-tanned himself too much – our Dermatologists take care of these with deep-rooted impact with a holistic approach to the skin. The friendly Dermatologists at Prasad Hospitals also spend a lot of time with the patients and give them tips on better managing skin, hair, and nail concerns.",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Sravanthi"],
 
-      "departmentContentTab": [
+      departmentContentTab: [
         {
-          "mainTitle": "Dermatology",
-          "sections": [
+          mainTitle: "Dermatology",
+          sections: [
             {
-              "tabsTitle": "List of Services",
-              "tabsdesc": [
+              tabsTitle: "List of Services",
+              tabsdesc: [
                 "Acne",
                 "Eczema",
                 "Dermatitis",
@@ -1934,10 +1902,10 @@ const data = {
                 "Common skin infections",
                 "Vitiligo",
                 "Genetic skin diseases",
-              ]
+              ],
             },
-          ]
-        }
+          ],
+        },
       ],
 
       treatmentProcedures: [
@@ -1970,52 +1938,52 @@ const data = {
 
     Anesthesiology: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-anesthesiology.png",
       title: "Anesthesiology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Anaesthesiology Department ensures that patients receive the best care before, during, and after surgical procedures. We focus on patient safety and comfort throughout their treatment. Services",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. S. Raghavender", "Dr. Jayanth Varma Bahadur"],
 
-      "departmentContentTab": [
+      departmentContentTab: [
         {
-          "mainTitle": "Anesthesiology",
-          "sections": [
+          mainTitle: "Anesthesiology",
+          sections: [
             {
-              "tabsTitle": "List of Services",
-              "tabsdesc": [
+              tabsTitle: "List of Services",
+              tabsdesc: [
                 "We offer 24/7 emergency services with a multidisciplinary team of doctors.",
-                "Our emergency services are designed to handle any urgent medical needs."
-              ]
+                "Our emergency services are designed to handle any urgent medical needs.",
+              ],
             },
             {
-              "tabsTitle": "Specialized Care",
-              "tabsdesc": [
+              tabsTitle: "Specialized Care",
+              tabsdesc: [
                 "Specialized care provided by expert doctors in various fields.",
-                "We have a team of specialists available for advanced treatments."
-              ]
+                "We have a team of specialists available for advanced treatments.",
+              ],
             },
             {
-              "tabsTitle": "Advanced Treatments",
-              "tabsdesc": [
+              tabsTitle: "Advanced Treatments",
+              tabsdesc: [
                 "We offer advanced treatment options for complex conditions.",
-                "Our state-of-the-art facilities ensure the best care."
-              ]
+                "Our state-of-the-art facilities ensure the best care.",
+              ],
             },
             {
-              "tabsTitle": "Comprehensive Diagnostics",
-              "tabsdesc": [
+              tabsTitle: "Comprehensive Diagnostics",
+              tabsdesc: [
                 "Comprehensive diagnostic services available to pinpoint conditions.",
-                "We use the latest technology for accurate diagnosis."
-              ]
-            }
-          ]
-        }
+                "We use the latest technology for accurate diagnosis.",
+              ],
+            },
+          ],
+        },
       ],
 
       treatmentProcedures: [
@@ -2048,52 +2016,52 @@ const data = {
 
     CriticalCare: {
       bannerbg: "Banner-doctors-list.png",
-      icons: "",
+      icons: "icon-criticalcare.png",
       title: "CriticalCare",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
-        "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
-      ourStoryImage: "",
-      whyPrasadTittle: "",
+        "Our Critical Care Unit is equipped with the latest technology to provide intensive treatment for critically ill patients. Our expert team of intensivists and nurses is available 24/7 to manage life-threatening conditions. Services",
+      ourStoryImage: "why-choose-img.jpg",
+      whyPrasadTittle: "Why Prasad?",
       whyDescription:
-        "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.",
+        "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
       doctors: ["Dr. Manogna", "Dr. Kishore", "Dr. Gowtham"],
 
-      "departmentContentTab": [
+      departmentContentTab: [
         {
-          "mainTitle": "CriticalCare",
-          "sections": [
+          mainTitle: "CriticalCare",
+          sections: [
             {
-              "tabsTitle": "List of Services",
-              "tabsdesc": [
+              tabsTitle: "List of Services",
+              tabsdesc: [
                 "We offer 24/7 emergency services with a multidisciplinary team of doctors.",
-                "Our emergency services are designed to handle any urgent medical needs."
-              ]
+                "Our emergency services are designed to handle any urgent medical needs.",
+              ],
             },
             {
-              "tabsTitle": "Specialized Care",
-              "tabsdesc": [
+              tabsTitle: "Specialized Care",
+              tabsdesc: [
                 "Specialized care provided by expert doctors in various fields.",
-                "We have a team of specialists available for advanced treatments."
-              ]
+                "We have a team of specialists available for advanced treatments.",
+              ],
             },
             {
-              "tabsTitle": "Advanced Treatments",
-              "tabsdesc": [
+              tabsTitle: "Advanced Treatments",
+              tabsdesc: [
                 "We offer advanced treatment options for complex conditions.",
-                "Our state-of-the-art facilities ensure the best care."
-              ]
+                "Our state-of-the-art facilities ensure the best care.",
+              ],
             },
             {
-              "tabsTitle": "Comprehensive Diagnostics",
-              "tabsdesc": [
+              tabsTitle: "Comprehensive Diagnostics",
+              tabsdesc: [
                 "Comprehensive diagnostic services available to pinpoint conditions.",
-                "We use the latest technology for accurate diagnosis."
-              ]
-            }
-          ]
-        }
+                "We use the latest technology for accurate diagnosis.",
+              ],
+            },
+          ],
+        },
       ],
 
       treatmentProcedures: [
@@ -2110,7 +2078,7 @@ const data = {
             "We offer 24/7 emergency services with a multidisciplinary team of doctors.",
         },
       ],
-      
+
       faq: [
         {
           question: "What services are offered in Accident and Emergency Care?",
@@ -2133,7 +2101,7 @@ const data = {
       description: "The Department of Accident and Emergency Care at prasad Hospitals treats everything from life-threatening crises like heart attacks and strokes to the likes of cuts and fractures with the same care. Available 24x7, ED treats infants, children, adolescents and adults in the need of all kinds of medical emergency",
       ourStoryImage: "",
       whyPrasadTittle: "",
-      whyDescription: "The emergency department at prasad Hospital has a team of multidisciplinary doctors, nurses trained in critical care and emergency, and specialists who are available around the clock. Once the patient is admitted, a triage of nurses examines and allows a zone to the patient depending on the severity of the condition. Patients with life-threatening and time-critical conditions like heart attack, stroke, and major accidents are immediately attended to by a doctor and managed in a separate dedicated zone called the Resuscitation Bay. The patient is directly shifted to this bay without any delay where a team of expert doctors and nurses immediately assess and start interventions to stabilize the patient. Using state-of-the-art diagnostic equipment, prasad Hospitals is quickly able to scan the body for internal injuries and start the right course of treatment for better care and recovery.", 
+      whyDescription: "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.", 
       
       doctors: [
         "",

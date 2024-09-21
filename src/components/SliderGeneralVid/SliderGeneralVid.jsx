@@ -4,14 +4,14 @@ import './SliderGeneralVid.css';
 
 const SliderGeneralVid = () => {
   const items = [
-    { img: "slider-emergency.jpg", text: "Eye Department Inauguration by NVSS Prabhakar Uppal MLA, Prasad Hospitals Nacharam", content: "Sri NVSS Prabhakar, MLA Uppal Inaugurated the opthatlamology department at Prasad Hospital, Nacharam in there presence of the hospital's MD, Dr. K. Suma Prasad & CEO Ramana Kovelamudi", videoId: "8I4qwHrQa2Y" },
-    { img: "slider-treatment.jpg", text: "The RIGHT Precautionary Measures, Covid19-Prasad Hospitals Nacharam", content: "The RIGHT Precautionary Measures, Covid19-Prasad Hospitals Nacharam", videoId: "kqzHUO1jIpo" },
-    { img: "slider-treatment.jpg", text: "Total Knee replacement surgery done @prasadhospitals by Dr Uday Sekhar Reddy, Prasad Hospitals", content: "Brilliant results post-surgery that helped her get back to walking happily like before! Just another day in making lives better and healthier @prasadhospitals", videoId: "snqkumVkakA" },
-    { img: "slider-emergency.jpg", text: "Multispecialty Hospital in Hyderabad, Quality Health Care Services, Prasad Hospitals Nacharam", content: "We are one of the best private hospitals in Hyderabad with experienced team of doctors and staff who are dedicated to providing quality healthcare to the patients.", videoId: "LabJNjJ98b0" },
-    { img: "slider-treatment.jpg", text: "Best Hospital in Nacharam, Tarnaka, Habsiguda, ECIL, Uppal, Boduppal - Prasad Hospitals Nacharam", content: "Prasad Hospitals Nacharam is the first and only hospital in Nacharam with NABH Accreditation. Prasad Hospitals has received the BEST HOSPITAL Award in 2017 under National Chapter. Prasad Hospitals has internationally trained doctors and state of the art operation theatres. Patients who are covered under Aarogyasri, EHS , Aarogyabadrata, CCMB, IICT, IG Mint, FCI and all major government and private insurances may avail cashless facility at Prasad hospitals Nacharam", videoId: "0iiUkOm30MU" },
-    { img: "slider-emergency.jpg", text: "Prasad Hospitals Nacharam Free Medical Camp - 31.08.14 - Prasad Hospitals Nacharam", content: "Prasad Hospitals Nacharam organized a free health camp for over 1000 people in the hospital. Uppal MLA Sri NVSS Prabhakar, Malkajgiri MLA Sri Kanaka Reddy, Hospital MD Dr. K. Suma Prasad attended the camp", videoId: "OLow0AHSvWI" },
-    { img: "slider-emergency.jpg", text: "All you need to know about Brain Stroke - Patient Education - Neurology - Prasad Hospitals", content: "Brain Stroke - Patient Education - Neurology - Prasad Hospitals", videoId: "9jZLKppCsG0" },
-    { img: "slider-emergency.jpg", text: "What happens to your body when you go Vegan? - Vegan Day - Prasad Hospitals Nacharam", content: " your body when you go Vegan? - Vegan Day - Prasad Hospitals Nacharam", videoId: "XW27r2Go4w4" },
+    { img: "gslider-image1.png", text: "Eye Department Inauguration by NVSS Prabhakar Uppal MLA, Prasad Hospitals Nacharam", content: "Sri NVSS Prabhakar, MLA Uppal Inaugurated the opthatlamology department at Prasad Hospital, Nacharam in there presence of the hospital's MD, Dr. K. Suma Prasad & CEO Ramana Kovelamudi", videoId: "8I4qwHrQa2Y" },
+    { img: "gslider-image2.png", text: "The RIGHT Precautionary Measures, Covid19-Prasad Hospitals Nacharam", content: "The RIGHT Precautionary Measures, Covid19-Prasad Hospitals Nacharam", videoId: "kqzHUO1jIpo" },
+    { img: "gslider-image3.png", text: "Total Knee replacement surgery done @prasadhospitals by Dr Uday Sekhar Reddy, Prasad Hospitals", content: "Brilliant results post-surgery that helped her get back to walking happily like before! Just another day in making lives better and healthier @prasadhospitals", videoId: "snqkumVkakA" },
+    { img: "gslider-image4.png", text: "Multispecialty Hospital in Hyderabad, Quality Health Care Services, Prasad Hospitals Nacharam", content: "We are one of the best private hospitals in Hyderabad with experienced team of doctors and staff who are dedicated to providing quality healthcare to the patients.", videoId: "LabJNjJ98b0" },
+    { img: "gslider-image5.png", text: "Best Hospital in Nacharam, Tarnaka, Habsiguda, ECIL, Uppal, Boduppal - Prasad Hospitals Nacharam", content: "Prasad Hospitals Nacharam is the first and only hospital in Nacharam with NABH Accreditation. Prasad Hospitals has received the BEST HOSPITAL Award in 2017 under National Chapter. Prasad Hospitals has internationally trained doctors and state of the art operation theatres. Patients who are covered under Aarogyasri, EHS , Aarogyabadrata, CCMB, IICT, IG Mint, FCI and all major government and private insurances may avail cashless facility at Prasad hospitals Nacharam", videoId: "0iiUkOm30MU" },
+    { img: "gslider-image6.png", text: "Prasad Hospitals Nacharam Free Medical Camp - 31.08.14 - Prasad Hospitals Nacharam", content: "Prasad Hospitals Nacharam organized a free health camp for over 1000 people in the hospital. Uppal MLA Sri NVSS Prabhakar, Malkajgiri MLA Sri Kanaka Reddy, Hospital MD Dr. K. Suma Prasad attended the camp", videoId: "OLow0AHSvWI" },
+    { img: "gslider-image7.png", text: "All you need to know about Brain Stroke - Patient Education - Neurology - Prasad Hospitals", content: "Brain Stroke - Patient Education - Neurology - Prasad Hospitals", videoId: "9jZLKppCsG0" },
+    { img: "gslider-image8.png", text: "What happens to your body when you go Vegan? - Vegan Day - Prasad Hospitals Nacharam", content: " your body when you go Vegan? - Vegan Day - Prasad Hospitals Nacharam", videoId: "XW27r2Go4w4" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -93,8 +93,8 @@ const SliderGeneralVid = () => {
             onClick={() => handleVideoClick(item.videoId)}
           >
             <img
-              src={`/assets/${item.img}`}
-              alt={`Slide ${index}`}
+              src={`/assets/drslide-images/${item.img}`}
+              alt={`Slide ${index + 1}`}
               className="slider-image"
             />
             <div className="slider-content">

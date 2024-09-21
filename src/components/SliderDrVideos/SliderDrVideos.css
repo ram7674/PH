@@ -203,6 +203,7 @@ iframe {
   .slider-text {
     font-size: 10px !important;
     height: 59px;
+    overflow-x: hidden;
   }
   
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutpregnancycarepage.css";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
-import pegnancyCareImage from "../../../public/Pregnancy-Care.png";
+import pegnancyCareImage from "../../../public/assets/Pregnancy-Care.png";
 
 const AboutPregnancyCarePage = () => {
   return (

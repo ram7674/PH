@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
 import "./centreofexcellence.css";
-import whyChooseImg from "../../../public/assets/why-choose-img.jpg";
 import { useParams, useNavigate } from "react-router-dom";
-import data from "../../data/data"; // Assuming data is in this path
+import data from "../../data/data";
+import InfertilityTabs from "../../components/InfertilityTabsComp/InfertilityTabs"
 
 const CentreofExcellence = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -60,6 +60,9 @@ const CentreofExcellence = () => {
 
   const currentDoctors = specialtyData?.doctors || [];
 
+  // Check if the current specialty is 'infertility'
+  const isInfertilityPage = specialty === 'Infertility';
+
   return (
     <>
       {/* Navbar component */}
@@ -88,7 +91,9 @@ const CentreofExcellence = () => {
           <div className="row select__container">
             <div className="col-12 col-lg-11 p-0">
               <div className="select__card">
-                <div className="select__cardleft">{/* Icons place here */}</div>
+                <div className="select__cardleft">
+                  <img src={`/assets/icons/${specialtyData.icons}`} alt="" />
+                </div>
                 <div className="select__cardright">
                   <h3>{specialtyData.title}</h3>
                   <p>{specialtyData.description}</p>
@@ -99,16 +104,16 @@ const CentreofExcellence = () => {
             <div className="why__section">
               <div className="why__card1">
                 <img
-                  src={whyChooseImg}
+                  src={`/assets/${specialtyData.ourStoryImage}`}
                   alt="Our Story"
                   className="why__secimg"
                 />
-                <div className="why-sec-imgcard">
+                {/* <div className="why-sec-imgcard">
                   <span>OUR STORY</span>
                   <span>
                     Know <br /> About Us
                   </span>
-                </div>
+                </div> */}
               </div>
 
               <div className="why__card2">
@@ -119,6 +124,10 @@ const CentreofExcellence = () => {
           </div>
         </div>
       </div>
+
+      {/* Conditionally render InfertilityTabs */}
+      {isInfertilityPage && <InfertilityTabs/>}
+
 
       {/* Tabs container */}
       <div className="container pt-5">

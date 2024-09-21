@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutpneumoniapage.css";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
-import PneumoniaImage from "../../../public/All-You-Should-Know-About-Pneumonia-blog-image.png"
+import PneumoniaImage from "../../../public/assets/All-You-Should-Know-About-Pneumonia-blog-image.png"
 
 const AboutPneumoniaPage = () => {
   return (
