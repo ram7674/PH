@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./InfertilityTabs.css";
+import "./infertilitytabs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClinicMedical,
