@@ -1,5 +1,5 @@
 import React from "react";
-import "./manikonda.css";
+import "./Manikonda.css";
 import MegaNavbar from "../../components/Navbar/MegaNavbar";
 import Footer from "../../components/Footer/Footer";
 import Slider from "../../components/SliderHomePage/Slider";
