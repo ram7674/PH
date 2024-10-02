@@ -4,7 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import "./centreofexcellence.css";
 import { useParams, useNavigate } from "react-router-dom";
 import data from "../../data/data";
-import InfertilityTabs from "../../components/InfertilityTabsComp/InfertilityTabs"
+import InfertilityTabs from "../../components/InfertilityTabsComp/InfertilityTabs";
+import { Helmet } from "react-helmet";
 
 const CentreofExcellence = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -61,10 +62,29 @@ const CentreofExcellence = () => {
   const currentDoctors = specialtyData?.doctors || [];
 
   // Check if the current specialty is 'infertility'
-  const isInfertilityPage = specialty === 'Infertility';
+  const isInfertilityPage = specialty === "Infertility";
 
   return (
     <>
+      {/* meta taga for seo */}
+      <Helmet>
+        {/* Character encoding */}
+        <meta charSet="utf-8" />
+        {/* SEO Title */}
+        <title>{specialtyData.title}</title>
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://prasadhospitals.in" />
+        {/* Meta Description */}
+        <meta name="description" content={specialtyData.description} />
+        {/* Meta Keywords */}
+        <meta
+          name="keywords"
+          content="Best Hospitals In Hyderabad, Best Multi Specialty Hospitals In Hyderabad, Top Hospitals In Hyderabad, Top Multi Specialty Hospitals In Hyderabad"
+        />
+        {/* Meta author */}
+        <meta name="author" content="prasadsolutions.in" />
+      </Helmet>
+
       {/* Navbar component */}
       <MegaNavbar />
 
@@ -126,8 +146,7 @@ const CentreofExcellence = () => {
       </div>
 
       {/* Conditionally render InfertilityTabs */}
-      {isInfertilityPage && <InfertilityTabs/>}
-
+      {isInfertilityPage && <InfertilityTabs />}
 
       {/* Tabs container */}
       <div className="container pt-5">

@@ -2,8 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './slider.css';
 
-import slider1 from "/assets/banner-home-1.jpg";
-import slider2 from "/assets/banner-home-2.jpg";
+import slider1 from "/assets/homepage-slider-images/banner-home-1.jpg";
+import slider2 from "/assets/homepage-slider-images/banner-home-2.jpg";
 
 const images = [
   {
@@ -34,6 +34,7 @@ const images = [
 
 function Slider() {
   return (
+    <>
     <Carousel fade controls indicators interval={2000}>
       {images.map((image, index) => (
         <Carousel.Item key={index}>
@@ -54,6 +55,8 @@ function Slider() {
         </Carousel.Item>
       ))}
     </Carousel>
+
+    </>
   );
 }
 

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../../data/data";
-import MegaNavbar from "../Navbar/MegaNavbar";
-import Footer from "../Footer/Footer";
-import "./DoctorDetails.css";
+import "./doctordetails.css";
+import MegaNavbar from "../../components/Navbar/MegaNavbar";
+import Footer from "../../components/Footer/Footer";
 
 const DoctorDetails = () => {
   const [activeTab, setActiveTab] = useState("overview");

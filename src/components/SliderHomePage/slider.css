@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-size: 50% 50% !important;
+}
+
 .carousel-control-next, .carousel-control-prev {
     width: 8% !important;
 }
@@ -29,14 +33,22 @@
 
 /* mobile media queries */
 @media screen and (max-width: 767px) {
+
   .home__sliderSTt{
-    height: 52vh;
+    height: 33vh;
   }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 14% !important;
+  }
+
 }
 
 /* tablet media queries */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
   .home__sliderSTt{
     height: 60vh;
   }
+
 }

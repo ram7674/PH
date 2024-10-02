@@ -482,8 +482,7 @@ const data = {
 
   specialtiesData: {
     Infertility: {
-      bannerbg:
-        "infertility-doctors-list.png" /* here use only related specialties banner image changes below images */,
+      bannerbg:"banner-infertility.png",
       icons: "icon-infertility.png",
       title: "Infertility",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -830,9 +829,9 @@ const data = {
     },
 
     GeneralPhysician: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-general-medicine.png",
       icons: "icon-genera medicine.png",
-      title: "GeneralPhysician",
+      title: "General Physician",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
         "The Division of General Internal Medicine at Prasad Hospitals consists of a Top General Physician in Hyderabad, group of specialist doctors and allied health staff who are dedicated to providing patient-centered, evidence-based medical care in a clinical environment supported by education and research. The internal medicine clinic comprises of a multi-disciplinary team of doctors provide holistic outpatient care for the adult population and consultative services for individuals suffering from complicated clinical problems. Prasad Hospitals have the Top General Physician in Hyderabad, with a comprehensive Clinical Programme. ",
@@ -906,7 +905,7 @@ const data = {
     },
 
     ENT: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-ent.png",
       icons: "icon-ear-nose-throat.png",
       title: "Ear Nose Throat (ENT)",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -964,7 +963,7 @@ const data = {
     },
 
     Pediatrics: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-pediatrics.png",
       icons: "icon-pediatrics.png",
       title: "Pediatrics",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1095,7 +1094,7 @@ const data = {
     },
 
     Radiology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-radiology.png",
       icons: "icon-radiology.png",
       title: "Radiology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1167,7 +1166,7 @@ const data = {
     },
 
     Neurology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-neurology.png",
       icons: "icon-neurology.png",
       title: "Neurology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1256,7 +1255,7 @@ const data = {
     },
 
     Neurosurgery: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-neurosurgery.png",
       icons: "icon-neurosurgery.png",
       title: "Neurosurgery",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1327,7 +1326,7 @@ const data = {
     },
 
     Neonatology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-neonatology.png",
       icons: "icon-neonatology.png",
       title: "Neonatology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1406,7 +1405,7 @@ const data = {
     },
 
     Pulmonology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-pulmonology.png",
       icons: "icon-pulmonology.png",
       title: "Pulmonology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1491,7 +1490,7 @@ const data = {
     },
 
     Urology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-urology.png",
       icons: "icon-urology.png",
       title: "Urology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1570,7 +1569,7 @@ const data = {
     },
 
     Nephrology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-nephrology.png",
       icons: "icon-nephrology.png",
       title: "Nephrology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1635,9 +1634,9 @@ const data = {
     },
 
     SurgicalGastroenterology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-gastroenterology.png",
       icons: "icon-surgical-gastroenterology.png",
-      title: "SurgicalGastroenterology",
+      title: "Surgical Gastroenterology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
         "Our Surgical Gastroenterology Department offers expert care for a range of gastrointestinal disorders that require surgical intervention. Services",
@@ -1714,7 +1713,7 @@ const data = {
     },
 
     Dental: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-dental-care.png",
       icons: "icon-dental.png",
       title: "Dental",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1793,9 +1792,9 @@ const data = {
     },
 
     GeneralSurgeon: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-general-medicine.png",
       icons: "icon-general-surgery.png",
-      title: "GeneralSurgeon",
+      title: "General Medicine",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
         "Our General Surgery Department specializes in a wide range of surgical procedures using both traditional and minimally invasive techniques.",
@@ -1871,7 +1870,7 @@ const data = {
     },
 
     Dermatology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-dermatology.png",
       icons: "icon-dermatology.png",
       title: "Dermatology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -1937,7 +1936,7 @@ const data = {
     },
 
     Anesthesiology: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-anesthesiology.png",
       icons: "icon-anesthesiology.png",
       title: "Anesthesiology",
       subtitle: "Accident and Emergency Care Services in Bangalore",
@@ -2015,9 +2014,9 @@ const data = {
     },
 
     CriticalCare: {
-      bannerbg: "Banner-doctors-list.png",
+      bannerbg: "banner-critical-care.png",
       icons: "icon-criticalcare.png",
-      title: "CriticalCare",
+      title: "Critical Care",
       subtitle: "Accident and Emergency Care Services in Bangalore",
       description:
         "Our Critical Care Unit is equipped with the latest technology to provide intensive treatment for critically ill patients. Our expert team of intensivists and nurses is available 24/7 to manage life-threatening conditions. Services",
