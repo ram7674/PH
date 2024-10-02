@@ -2,11 +2,5 @@
     "installCommand": "npm install",
     "buildCommand": "npm run build:vercel",
     "cleanUrls": true,
-    "outputDirectory": "dist",
-    "redirects": [
-        {
-            "source": "/assets/:filePath",
-            "destination": "/assets/:filePath"
-        }
-    ]
+    "outputDirectory": "dist"
 }
