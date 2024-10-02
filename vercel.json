@@ -2,7 +2,11 @@
     "installCommand": "npm install",
     "buildCommand": "npm run build",
     "cleanUrls": true,
-    "rewrites": [
-        { "source": "/assets/([a-zA-Z]*)", "destination": "/assets" }
+    "outputDirectory": "dist",
+    "redirects": [
+        {
+            "source": "/assets/:filePath",
+            "destination": "/assets/:filePath"
+        }
     ]
 }
