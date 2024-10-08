@@ -74,7 +74,6 @@
     align-items: center;
     padding: 70px;
     position: relative;
-    margin-top: 55px !important;
 }
 
 .why__secimg{
@@ -370,9 +369,9 @@
 
 /* Style for the active tab */
 .nav-tabs .nav-item .nav-link.active {
-  background-color: #034ea1; /* Change this to the color you want for the active tab */
-  color: #ffffff; /* Text color for the active tab */
-  border-color: #034ea1; /* Border color for the active tab */
+  background-color: #034ea1;
+  color: #ffffff;
+  border-color: #034ea1;
 }
 
 /* Style for tab content */
@@ -402,11 +401,21 @@
     flex-direction: column !important;
     text-align: center;
   }
+  .center__ex__main {
+    height: 100%;
+  }
+
+  .select__cardleft {
+    width: 70%;
+    height: 123px;
+    margin-bottom: 15px;
+  }
 
   .select__cardright{
 
     width: 100%;
     padding: 0px;
+    align-items: center;
 
     h3 {
       font-size: 22px;
@@ -530,10 +539,6 @@
     height: 30px;
   }
 
-  .center__ex__main {
-    height: 167px;
-  }
-
   .treat-procetitle {
     font-size: 24px;
     font-weight: 800;
@@ -551,13 +556,18 @@
   }
 
   .tab-section-content p {
-    margin: 8px 0px;
+    margin: 0px;
+    text-align: left;
   }
 
 }
 
 /* tablet responsive */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .center__ex__main {
+    height: 100%;
+  }
 
   .select__cardleft {
     width: 30%;
@@ -580,13 +590,13 @@
 
       text-align: justify;
       hyphens: auto;
-      height: 58px;
+      height: 98px;
       overflow-y: scroll;
       overflow-x: hidden;
       line-height: 20px;
       font-size: 14px;
       padding-right: 12px;
-
+      margin-bottom: 0px;
     }
 
   }
@@ -599,6 +609,7 @@
     padding: 0px 0px 50px !important;
     justify-content: center;
     align-items: start;
+    margin-top: 55px !important;
   }
 
   .why__card1 {
@@ -613,7 +624,7 @@
   }
 
   .why__secimg {
-    height: 268px;
+    height: 231px;
     width: 100%;
     border-radius: 4px;
   }
@@ -623,7 +634,7 @@
     padding: 0px;
 
     p {
-      height: 416px;
+      height: 176px;
       overflow-y: scroll;
       overflow-x: hidden;
       padding-right: 10px;

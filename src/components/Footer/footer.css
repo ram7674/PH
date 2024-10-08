@@ -76,6 +76,11 @@
     }
 }
 
+.landph-uni-code {
+    color: #fff;
+    font-weight: 600;
+}
+
 .footer__ph {
     font-weight: 800;
     letter-spacing: 1px;

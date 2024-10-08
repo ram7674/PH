@@ -4,6 +4,7 @@ import "./meganavbar.css";
 import { Link } from "react-router-dom";
 
 import logo from "/assets/logo.png";
+import logoSmBgWhite from "/assets/logo-sm-white.png";
 
 function MegaNavbar() {
   return (
@@ -19,11 +20,23 @@ function MegaNavbar() {
                     <img src={logo} alt="logo" className="logo" />
                   </Link>
                   <div className="topnav__left__card">
-                    <button className="accesslab__btn">
-                      Access Lab Reports
-                    </button>
-                    <button className="appoint__btn">Appointment</button>
-                    <button className="emer__btn">Emergency</button>
+                    <a
+                      href="https://mocdoc.com/ptuser/loginform"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="accesslab__btn">
+                        Access Lab Reports
+                      </button>
+                    </a>
+                    <a
+                      href="https://wa.link/0w9hsh"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="appoint__btn">Appointment</button>
+                    </a>
+                    <a href="tel:+918801233333"><button className="emer__btn">Emergency</button></a>
                   </div>
                 </div>
               </div>
@@ -35,7 +48,7 @@ function MegaNavbar() {
         <Navbar expand="lg" className="main__navbar">
           <Container>
             <Link to="/">
-              <img src={logo} alt="logo" className="logo-sm" />
+              <img src={logoSmBgWhite} alt="logo" className="logo-sm" />
             </Link>
             <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -56,7 +69,6 @@ function MegaNavbar() {
                   <div className="dropdown-menu mega-menu nav__itemsW">
                     <Container>
                       <div className="row">
-                        
                         <ul className="col-sm-12">
                           <Link to="/center-of-excellence/Infertility">
                             <li className="dropdown-item">Infertility</li>
@@ -131,7 +143,6 @@ function MegaNavbar() {
                             <li className="dropdown-item">CriticalCare</li>
                           </Link>
                         </ul>
-
                       </div>
                     </Container>
                   </div>

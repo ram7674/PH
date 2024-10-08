@@ -7,11 +7,11 @@ const MethodCard = () => {
   // Define tabs, images, and content
   const tabs = ["Why Prasad?", "NABH Accredited", "47 Years of Legacy", "0% Surgical-Side Infection Rate", "Empanalled With All Corporates"];
   const images = [
-    "/path/to/image1.jpg",
-    "/path/to/image2.jpg",
-    "/path/to/image3.jpg",
-    "/path/to/image2.jpg",
-    "/path/to/image3.jpg",
+    "/assets/bannere-whyprasad.jpg",
+    "/assets/bannere-whyprasad.jpg",
+    "/assets/bannere-whyprasad.jpg",
+    "/assets/bannere-whyprasad.jpg",
+    "/assets/bannere-whyprasad.jpg",
   ];
   const content = [
     {

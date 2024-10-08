@@ -58,9 +58,10 @@ const data = {
     "Dr. k. Suma Prasad": {
       qualification: "MBBS, DGO, MD - Obstetrics & Gynaecology",
       overview: [
+        "MBBS, DGO, MD - Obstetrics & Gynaecology Infertility Specialist,Gynecologist,Obstetrician,Laparoscopic Surgeon (Obs & Gyn) 36 Years Experience Overall  (32 years as specialist)",
         "Dr K Suma Prasad, MD, DGO., Infertility specialist known for her specialized skills in improving IVF success through modern technology. With a strong research background, Dr Suma Prasad has vast experience in handling implantation failure and improving IVF & ICSI results through advanced techniques. With experience for more than 25years, Dr Suma Prasad is popular in kukatpally as a friendly and a very supportive doctor.",
         "PCOD - Dr Suma Prasad has an experience of 20 years in a scientific analysis and treatment to the PCOD problem, a hormone imbalance affecting young women leading to obesity and menstrual problems.",
-        "Patients specially appreciate the short waiting period and quick access to the doctor. Graduated from Gandhi Medical College, Hyderabad, Dr Suma Prasad is a Fetal Medicine Diploma holder from UCL, London and a Diploma in Advance Endoscopic Surgery and Hysteroscopy from Keil’s school of endoscopy, Germany. Dr Suma Prasad has specialized in Intracytoplasmic Sperm Injection (ICSI), Testicular sperm Extraction (TESE) & Preimplantation Genetic Screening (PGS). She has extensive experience in treating male infertility & PCOD. Her research publications are extensive and available on our website.",
+        "Patients specially appreciate the short waiting period and quick access to the doctor. Graduated from Gandhi Medical College, Hyderabad, Dr Suma Prasad is a Fetal Medicine Diploma holder from UCL, London and a Diploma in Advance Endoscopic Surgery and Hysteroscopy from Keil's school of endoscopy, Germany. Dr Suma Prasad has specialized in Intracytoplasmic Sperm Injection (ICSI), Testicular sperm Extraction (TESE) & Preimplantation Genetic Screening (PGS). She has extensive experience in treating male infertility & PCOD. Her research publications are extensive and available on our website.",
       ],
       fellowship: "Member of American Medical Association",
       expertise: "Gynecologist & IVF Specialist",
@@ -71,6 +72,7 @@ const data = {
     "Dr. k Shravanya": {
       qualification: "MBBS, DGO, FMAS, DMAS",
       overview: [
+        "MBBS, DGO Gynecologist,Obstetrician 11 Years Experience Overall  (8 years as specialist)",
         "Dr K Shravanya is a Gynaecologist, Obstetrician & an Infertility specialist with the fellowship in minimally invasive surgeries. She completed MBBS from NTRUHS and post-graduation from Gandhi Medical College. Further she has pursued Infertility fellowship from IMA (Indian Medical Association) and took an advanced diploma in ART & Reproductive Medicine at UKSH (University Medical Centre Schleswig Holstein, Germany). She has completed her fellowship and diploma in surgery under Dr R. K. Mishra (World Laparoscopy hospital, Delhi).",
         "Initially she has done her practices at SriDevi Nursing home, Warasiguda Hyderabad and currently continuing with Prasad Infertility solutions, kphb hyderabad . She took part in presentations at State conferences and won a prize for poster presentation of high-risk cases in Obstetrics (Second Trimester Rupture Uterus). Her interest towards the passion made her to be a part of an article on Evaluation of pregnancy outcome in heart disease complicating pregnancy in (JMEDS - The Journal of Medical Sciences).",
         "Dr Shravanya is known for her empathic and ethical approach towards patient care and has good experience in managing high risk pregnancy, normal vaginal delivery, caesarean sections, gynaecological procedures, PCOD/PCOS and Menstrual Irregularities, Infertility Laparoscopy, hysteroscopic procedures, early pregnancy care and multiple procedures.",
@@ -83,8 +85,12 @@ const data = {
     },
     "Dr. S. Raghavender": {
       qualification: "MD - General Medicine, MBBS",
-      overview:
-        "3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "Dr. S Raghavender is a General MD - General Medicine, MBBSGeneral Physician, Internal Medicine13 Years Experience Overall  (8 years as specialist)",
+        "practices at Prasad Hospitalin Nacharam, Hyderabad and Dr Raghavs Medical Centre in AS Rao Nagar, Hyderabad.",
+        "He completed MD - General Medicine from Dr. NTR University of Health Sciences Andhra Pradesh in 2016 and MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2011.",
+        "Some of the services provided by the doctor are: Acne / Pimples Treatment,Cough Treatment,Geriatric Healthcare,Bad Breath (Halitosis) Treatment and Typhoid Fever Treatment etc.",
+      ],
       fellowship: "Member of Orthopedic Society",
       expertise: "Orthopedic Surgeon",
       languages: ["English", "Kannada"],
@@ -93,8 +99,13 @@ const data = {
     },
     "Dr. Vamshi Krishna RVN": {
       qualification: "MD - General Medicine, MBBS",
-      overview:
-        "4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "MD - Physician, MRCP (UK) General Physician 15 Years Experience Overall",
+        "Dr. R.N.V. Vamsi Krishna is a Doctor in Nacharam, Hyderabad and has an experience of 15 years in this field.",
+        "Dr. R.N.V. Vamsi Krishna practices at Prasad Hospital in Nacharam, Hyderabad.",
+        "He completed MD - Physician from Sechenov Moscow Medical Academy in 2009 and MRCP (UK) from Royal Colleges Of Physicians,london, Uk in 2021.",
+        "Some of the services provided by the doctor are: Jaundice Treatment,Dressings,Health Care Checkup,Insulin Treatment and Gastroenteritis Treatment etc",
+      ],
       fellowship: "Fellow of International Orthopedic Society",
       expertise: "Sports Injuries",
       languages: ["English", "Gujarati"],
@@ -103,8 +114,14 @@ const data = {
     },
     "Dr. Lakshmi Prasanna": {
       qualification: "MBBS, Diploma in Child Health (DCH)",
-      overview:
-        "5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "MBBS, Diploma in Child Health (DCH) Pediatrician 15 Years Experience Overall  (8 years as specialist)",
+        "Dr. Laxmi Prasanna I is a Pediatrician in Nacharam, Hyderabad and has an experience of 15 years in this field.",
+        "Dr. Laxmi Prasanna I practices at Prasad Hospital in Nacharam, Hyderabad.",
+        "She completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2009 and Diploma in Child Health (DCH) from The College Of Physicians And Surgeons Of Mumbaiin 2016.",
+        "She is a member of Medical Council of India (MCI).",
+        "Some of the services provided by the doctor are: Congenital Disorders Evaluation / Treatment,Health Checkup (General),Development Assessment,Children's Health and Growth & Development Evaluation / Management etc.",
+      ],
       fellowship: "Member of Gynecological Society",
       expertise: "Obstetrician",
       languages: ["English", "Marathi"],
@@ -113,8 +130,10 @@ const data = {
     },
     "Dr. Madhavchari": {
       qualification: "Diploma in Child Health (DCH)",
-      overview:
-        "6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "Diploma in Child Health (DCH)Pediatrician13 Years Experience Overall",
+        "Dr. Madhav Chary is a paediatrician based in Hyderabad. He completed his DCh and DNB in paediatrics after his graduation. He is available for consultation regarding all general pediatric illnesses and ailments like fever, cough, cold, respiratory problems, allergies, viral fever, cold, stomach disorders etc. offering medicinal care for treatments. Dr Madhav Chary also specialises in the treatment of infectious diseases as well as chronic diseases like chickenpox, measles and jaundice and is consulted during emergency situations. He is consulted for pediatric emergencies and takes care of critical situations with ease.",
+      ],
       fellowship: "Fellow of American College of Gynecology",
       expertise: "Gynecology and Obstetrics",
       languages: ["English", "Tamil"],
@@ -123,8 +142,14 @@ const data = {
     },
     "Dr. Tejashwani": {
       qualification: "MBBS, DGO",
-      overview:
-        "7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, DGO Gynecologist, Infertility Specialist, Obstetrician, Laparoscopic Surgeon (Obs & Gyn) 15 Years Experience Overall  (12 years as specialist)",
+        "Dr. Tejaswini, Chief Consultant Gynecologist & Infertility specialist at Prasad Hospitals, Nacharam for 9 yrs. Post graduated in Gynecology from Gandhi Medical College, She is a Member of the Institutional Stem cell Committee at Prasad's research foundation, Member of The American Society for Reproductive Medicine, European Society of Human Reproduction and Embryology and has been part of infertility workshops and seminars.",
+        "Dr. Tejaswini is very popular for her empathetic and quality patient care. Her main interest is in treating PCOD & infertility.",
+        "Dr. Tejaswini is the senior-most Infertility specialist in Dr. Suma Prasad's team and has high success in IUI and IVF cases.",
+        "Dr.Tejashwani is being supported by the infrastructure with 24hrs Labour room services (Prasad Hospitals - hospital in and around Nacharam). She has good protocols for Labour Room care. She has been efficiently managing high-risk pregnancies.",
+        "Dr.Tejashwani's success rate in PCOD & infertility at Prasad Hospitals has been increasing rapidly from the past couple of years."
+      ],
       fellowship: "Fellow of Pulmonology Society",
       expertise: "Pulmonologist",
       languages: ["English", "Malayalam"],
@@ -133,8 +158,13 @@ const data = {
     },
     "Dr. Sneha": {
       qualification: "MBBS, DGO",
-      overview:
-        "8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, MS - Obstetrics & Gynaecology Obstetrician, Gynecologist 6 Years Experience Overall  (2 years as specialist)",
+        "Dr. Sneha Teddu is a Obstetrician and Gynecologist in Nacharam, Hyderabad and has an experience of 6 years in these fields.",
+        "Dr. Sneha Teddu practices at Prasad Hospital in Nacharam, Hyderabad.",
+        "She completed MBBS from Dr. NTR University Of Health Sciences, Vijaywada in 2018 and MS - Obstetrics & Gynaecology from Gandhi Medical College, Secundrabad in 2022.",
+        "Some of the services provided by the doctor are: Unilateral Salpingo-Oophorectomy,menopause advice,Gynaec Laparoscopy,Female Care and Maternal Fetal Medicine etc.",
+      ],
       fellowship: "Fellow of Pulmonology Society",
       expertise: "Asthma Specialist",
       languages: ["English", "Spanish"],
@@ -143,8 +173,10 @@ const data = {
     },
     "Dr. P.Chandra Shekar": {
       qualification: ".....MBBS, DM Nephrology.....",
-      overview:
-        "9 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview: [
+        "DM - Neurology, MBBS, MD - General Medicine Neurologist, General Physician 15 Years Experience Overall  (7 years as specialist)",
+        "Dr. P.Chandra Shekar is a Neurologist and Internal Medicine in Nacharam, Hyderabad and has an experience of 5 years in these fields. Dr. P.Chandra Shekar practices at S.S. Neuro Care Centre in Nacharam, Hyderabad and Max Cure Hospitals Secretariat , Hyderabad. He has completed DM - Neurology from Gandhi Medical College, Hyderabad in 2017,MD - General Medicine from Gandhi Medical College, Hyderabad in 2014 MBBS from Kakatiya Medical College, Wrangal in 2009 and .",
+      ],
       fellowship: "Fellow of Nephrology Society",
       expertise: "Kidney Transplant",
       languages: ["English", "Punjabi"],
@@ -153,8 +185,11 @@ const data = {
     },
     "Dr. Karthik": {
       qualification: "MBBS, MS - Orthopaedics",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, MS - Orthopaedics Orthopedic surgeon 11 Years Experience Overall  (9 years as specialist)",
+        "Dr. S S Karthik is a Orthopedic surgeon in Nacharam, Hyderabad and has an experience of 11 years in this field. Dr. S S Karthik practices at Prasad Hospital in Nacharam, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2012 and MS - Orthopaedics from Dr. NTR University of Health Sciences Andhra Pradesh in 2015.",
+        "Some of the services provided by the doctor are: Shoulder Replacement,Shoulder Pain,Primary Hip and Knee Arthroplasty,Joint Pain Treatment and Knee Arthritis etc.",
+      ],
       fellowship: "Fellow of International Nephrology Society",
       expertise: "Dialysis Specialist",
       languages: ["English", "Bengali"],
@@ -163,8 +198,11 @@ const data = {
     },
     "Dr. Suprabatham": {
       qualification: "MBBS, Diploma in Medical Radio-Diagnosis",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, Diploma in Medical Radio-Diagnosis Radiologist 12 Years Experience Overall  (10 years as specialist)",
+        "Dr. Suprabatham is a Radiologist in Nacharam, Hyderabad and has an experience of 12 years in this field. Dr. Suprabatham practices at Prasad Hospital in Nacharam, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2006 and Diploma in Medical Radio-Diagnosis from Prathima Institute of Medical Sciences in 2012.",
+        "He is a member of Medical Council of India (MCI). Some of the services provided by the doctor are: Simple radiology,Contrast Radiography,Radiotherapy,Bone Densitometry and Ultrasound/Ultrasonography etc. "
+      ],
       fellowship: "Fellow of International Nephrology Society",
       expertise: "Dialysis Specialist",
       languages: ["English", "Bengali"],
@@ -173,8 +211,11 @@ const data = {
     },
     "Dr. Basaweshwar": {
       qualification: "MBBS, DNB - General Surgery",
-      overview:
-        "9 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, DNB - General Surgery General Surgeon 21 Years Experience Overall  (16 years as specialist)",
+        "Dr. Gujar Basweshwar Shivanand is a General Surgeon in Nacharam, Hyderabad and has an experience of 21 years in this field. Dr. Gujar Basweshwar Shivanand practices at Prasad Hospital in Nacharam, Hyderabad,Prasad Hospital in Pragathi Nagar, Hyderabad and Prasad Hospital in Nacharam, Hyderabad. He completed MBBS from Swami Ramanand teerth Marathwada University,Nanded in 2003 and DNB - General Surgery from Durgabai Deshmukh Hospital, Hyderabad in 2008.",
+        "He is a member of Medical Council of India (MCI) and Association of Surgeons of India (ASI). Some of the services provided by the doctor are: Endoscopic Surgery,Laser Fissure Surgery,Inscisional Hernia,keloid/scar treatment and Minor Surgery etc",
+      ],
       fellowship: "Fellow of Urology Society",
       expertise: "Urological Surgery",
       languages: ["English", "Telugu"],
@@ -183,8 +224,13 @@ const data = {
     },
     "Dr. Akshitha": {
       qualification: "MBBS, DNB - General Surgery",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, DNB - General SurgeryGeneral Surgeon20 Years Experience Overall  (16 years as specialist)",
+        "Dr. Powar Akshata Prakash is a General Surgeon in Nacharam, Hyderabad and has an experience of 20 years in this field.",
+        "Dr. Powar Akshata Prakash practices at Prasad Hospital in Nacharam, Hyderabad.",
+        "She completed MBBS from Goa University in 2004 and DNB - General Surgery from National Board of Examination, India in 2008. ",
+        "Some of the services provided by the doctor are: Non-Surgical Fat Loss,Piles Treatment,Corn Removal,Vaser Liposuction and Inscisional Hernia etc."
+      ],
       fellowship: "Member of American Urological Association",
       expertise: "Urology Specialist",
       languages: ["English", "Tamil"],
@@ -193,8 +239,12 @@ const data = {
     },
     "Dr. Srikanth Munna": {
       qualification: "MBBS, MCh - Urology/Genito-Urinary Surgery",
-      overview:
-        "10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, MCh - Urology/Genito-Urinary SurgeryUrologist12 Years Experience Overall  (3 years as specialist)",
+        "Dr. Srikanth Munna is a Urologist in Nacharam, Hyderabad and has an experience of 12 years in this field.    ",
+        "Dr. Srikanth Munna practices at Prasad Hospital in Nacharam, Hyderabad and V9 Hospitals in Begumpet, Hyderabad.",
+        "He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2012 and MCh - Urology/Genito-Urinary Surgery from Osmania Medical College, Hyderabad in 2021"
+      ],
       fellowship: "Fellow of Cardiology Society",
       expertise: "Cardiologist",
       languages: ["English", "Hindi"],
@@ -203,8 +253,10 @@ const data = {
     },
     "Dr. Sravanthi": {
       qualification: "MBBS, DDVL",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, DDVLDermatologist, Venereologist11 Years Experience Overall  (4 years as specialist)",
+        "Dr. P Sravanthi is a Dermatologist and Venereologist in Nacharam, Hyderabad and has an experience of 11 years in these fields. Dr. P Sravanthi practices at Prasad Hospital in Nacharam, Hyderabad. She completed MBBS from Rajiv Gandhi University of Health Sciences in 2013 and DDVL from Deccan College of Medical Sciences, Hyderabad in 2018.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -213,8 +265,11 @@ const data = {
     },
     "DR. Nishanth": {
       qualification: "MS - ENT, MBBS",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MS - ENT, MBBSENT/ Otorhinolaryngologist12 Years Experience Overall  (7 years as specialist)",
+        "Dr. S.Nishanth is a ENT/ Otorhinolaryngologist in Nacharam, Hyderabad and has an experience of 12 years in this field. Dr. S.Nishanth practices at Prasad Hospital in Nacharam, Hyderabad and Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MS - ENT from Manipal University in 2017 and MBBS from Gandhi Medical College, Hyderabad in 2012.",
+        "Some of the services provided by the doctor are: Ear Lobe Repair Surgery,Orbital & Optic Nerve Decompression,Stapedectomy,Obstructive Sleep Apnea and Myringotomy etc."
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -243,8 +298,13 @@ const data = {
     },
     "Dr. Sampath": {
       qualification: "MBBS, MD - General Medicine, DM - Cardiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, MD - General Medicine, DM - CardiologyCardiologist10 Years Experience Overall  (3 years as specialist)",
+        "Dr. Sampath Kumar Madapat is a Cardiologist in Nacharam, Hyderabad and has an experience of 10 years in this field.",
+        "Dr. Sampath Kumar Madapat practices at Prasad Hospital in Nacharam, Hyderabad.",
+        "He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2013,MD - General Medicine from Jawaharlal Institute of Postgraduate Medical Education and Research in 2018 and DM - Cardiology from All India Institute of Medical Sciences, New Delhi in 2021.",
+        "Some of the services provided by the doctor are: Cardiac Ablation,Mitral/Heart Valve Replacement,Peripheral Vascular Surgery,Hypertension Treatment and Treadmill Test - TMT etc.",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -306,6 +366,7 @@ const data = {
     "Dr. V Sravan Kumar": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        " MBBS, MD - Tuberculosis & Respiratory Diseases/Medicine, DM - Cardiology, Cardiologist,Interventional Cardiologist 12 Years Experience Overall  (4 years as specialist)",
         "Dr. Sravan Kumar V is a Cardiologist and Interventional Cardiologist in JP Nagar, Bangalore and has an experience of 12 years in these fields. Dr. Sravan Kumar V practices at Practo Instant Full Time 2 in JP Nagar, Bangalore,Prasad Hospital in Pragathi Nagar, Hyderabad and Prasad Hospital in Nacharam, Hyderabad. He completed MBBS from Santhiram Medical College, Nandyal in 2010,MD - Tuberculosis & Respiratory Diseases/Medicine from JSS University, Mysore in 2015 and DM - Cardiology from GB Pant Hospital, New Delhi in 2020.",
         "Some of the services provided by the doctor are: Cardiology Consultation,Pacemaker Implantation,Electrocardiography (ECG),Cardiac Catheterisation and 2D - Echocardiography (2D-Echo) etc.",
       ],
@@ -318,6 +379,7 @@ const data = {
     "Dr. Siddharth Potluri": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MBBS, MS - Orthopaedics, Orthopedic surgeon, 13 Years Experience Overall (8 years as specialist)",
         "Dr. Siddharth Potluri is a Orthopedic surgeon in Pragathi Nagar, Hyderabad and has an experience of 13 years in this field. Dr. Siddharth Potluri practices at Prasad Hospital in Pragathi Nagar, Hyderabad,Prasad Hospitals in Manikonda, Hyderabad and Apollo Clinic in Manikonda, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2011,MS - Orthopaedics from Dr. NTR University of Health Sciences Andhra Pradesh in 2016 and Mch/MMed Programme Fellowship from NHS in 2021.",
         "Some of the services provided by the doctor are: Knee Replacement,Minimally Invasive Knee Correction,ACL Surgery,Arthritis Management and Frozen Shoulder Treatment etc.",
       ],
@@ -340,6 +402,7 @@ const data = {
     "Dr. Y Ramesh": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MBBS, MD - General Medicine, Internal Medicine, 10 Years Experience Overall (4 years as specialist)",
         "Dr. Yerrabothu Ramesh is a General Medicine and Internal Medicine in Pragathi Nagar, Hyderabad and has an experience of 10 years in these fields. Dr. Yerrabothu Ramesh practices at Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Rajiv Gandhi University of Health Sciences in 2014 and MD - General Medicine from Kamineni Institute of Medical Sciences, Narketpally in 2020.",
         "Some of the services provided by the doctor are: Anemia Treatment,Dengue Fever Treatment,Abdominal Pain Treatment,Chronic Obstructive Pulmonary Disease (COPD) Treatment and Diabetic Ulcer Treatment etc.",
       ],
@@ -352,6 +415,7 @@ const data = {
     "Dr. Navya Mandadapu": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MBBS, DNB - Family Medicine, Family Physician, General Physician, 10 Years Experience Overall (7 years as specialist)",
         "Dr. Navya Mandadapu is a Family Physician and General Physician in Pragathi Nagar, Hyderabad and has an experience of 10 years in these fields. Dr. Navya Mandadapu practices at Prasad Hospital in Pragathi Nagar, Hyderabad. She completed MBBS from Bharath University, Chennai in 2013 and DNB - Family Medicine from National Board of Examination, India in 2017.",
         "Some of the services provided by the doctor are: Balance Exercises,Piles Treatment,Typhoid Fever Treatment,Dressings and Acute Diarrhea Treatment etc.",
       ],
@@ -364,6 +428,7 @@ const data = {
     "Dr. S Nishanth": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MS - ENT, MBBS, ENT/ Otorhinolaryngologist, 12 Years Experience Overall (7 years as specialist)",
         "Dr. S.Nishanth is a ENT/ Otorhinolaryngologist in Nacharam, Hyderabad and has an experience of 12 years in this field. Dr. S.Nishanth practices at Prasad Hospital in Nacharam, Hyderabad and Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MS - ENT from Manipal University in 2017 and MBBS from Gandhi Medical College, Hyderabad in 2012.",
         "Some of the services provided by the doctor are: Microscopic Voice Surgery,Canalith Repositioning (CR),Ossiculoplasty,Tinnitus Treatment and Nasal and Sinus Allergy Care etc.",
       ],
@@ -376,6 +441,7 @@ const data = {
     "Dr. V Revanth": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MBBS, MD - Radio Diagnosis/Radiology, Radiologist, 15 Years Experience Overall (10 years as specialist)",
         "Dr. Revanth V is a Radiologist in Kondapur, Hyderabad and has an experience of 15 years in this field. Dr. Revanth V practices at KIMS Hospital in Kondapur, Hyderabad and Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Kurnool Medical College, Kurnool in 2009 and MD - Radio Diagnosis/Radiology from Navodaya Medical College in 2013.",
       ],
       fellowship: "Member of American College of Cardiology",
@@ -387,6 +453,7 @@ const data = {
     "Dr. Sravanthi Pavuluri": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MBBS, MD - General Medicine, DM - Neurology, Neurologist, 10 Years Experience Overall (3 years as specialist)",
         "Dr. Sravanthi Pavuluri is a Neurologist in Pragathi Nagar, Hyderabad and has an experience of 10 years in this field. Dr. Sravanthi Pavuluri practices at Prasad Hospital in Pragathi Nagar, Hyderabad. She completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2013,MD - General Medicine from Dr. NTR University of Health Sciences Andhra Pradesh in 2017 and DM - Neurology from Rajiv Gandhi University of Health Sciences in 2021.",
         "Some of the services provided by the doctor are: Vascular Surgery,Cerebrospinal Fluid Shunt,Parkinson's Disease Treatment,Neuromuscular Disorders and Epilepsy surgery etc.",
       ],
@@ -399,6 +466,7 @@ const data = {
     "Dr. N Rithvic": {
       qualification: "MBBS | MD - Anaesthesiology",
       overview: [
+        "MBBS, MS - General Surgery, MCh - Neuro Surgery, Neurosurgeon, 6 Years Experience Overall (2 years as specialist)",
         "Dr. M.Rithvic Nimmakayala is a Neurosurgeon in Pragathi Nagar, Hyderabad and has an experience of 6 years in this field. Dr. M.Rithvic Nimmakayala practices at Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2014,MS - General Surgery from Dr. NTR University of Health Sciences Andhra Pradesh in 2018 and MCh - Neuro Surgery from The Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU) in 2022.",
         "Some of the services provided by the doctor are: Vertigo Treatment,Epilepsy Treatment, Laminectomy,Foot Drop and Brain Aneurysm Treatment etc.",
       ],
@@ -410,8 +478,11 @@ const data = {
     },
     "Dr. Shyam Sunder": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, MD - PediatricsPediatrician38 Years Experience Overall  (31 years as specialist)",
+        "Dr. Syam Sunder R is a Pediatrician and has an experience of 38 years in this field.",
+        "He completed MBBS from Sri Venkateshwara University in 1985 and MD - Pediatrics from Dr. NTR University of Health Sciences Andhra Pradesh in 1992."
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -420,8 +491,11 @@ const data = {
     },
     "Dr. Mohan Chand Gutta": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, Member of the Royal College of Paediatrics and Child Health (MRCPCH, London, Glasgow or Edinburgh) Neonatologist 14 Years Experience Overall  (8 years as specialist)",
+        "Dr. Mohan Chand Gutta is a Neonatologist in Pragathi Nagar, Hyderabad and has an experience of 14 years in this field. Dr. Mohan Chand Gutta practices at Prasad Hospital in Pragathi Nagar, Hyderabad. He completed MBBS from Dr Ntr University Of Hhealth Sciences in 2010 and Member of the Royal College of Paediatrics and Child Health (MRCPCH, London, Glasgow or Edinburgh) from The Royal College Of Paediatrics And Child Health in 2016.",
+        "Some of the services provided by the doctor are: Acute Diarrhea Treatment,Growth & Development Evaluation / Management,Chickenpox Treatment,Typhoid Fever Treatment and Childhood Infections etc. "
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -450,8 +524,11 @@ const data = {
     },
     "Dr. Kalyan Varma": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MBBS, MCh - Urology/Genito-Urinary SurgeryUrologist18 Years Experience Overall  (8 years as specialist)",
+        "Dr. Kalyan Varma is a Urologist in KPHB, Hyderabad and has an experience of 13 years in this field. Dr. Kalyan Varma practices at Padmaja Hospital in KPHB, Hyderabad. He completed MBBS from Dr. NTR University of Health Sciences Andhra Pradesh in 2006 and MCh - Urology/Genito-Urinary Surgery from Dr. NTR University of Health Sciences Andhra Pradesh in 2016.",
+        "He is a member of Telangana State Medical Council. Service provided by the doctor is: urology."
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
@@ -460,8 +537,10 @@ const data = {
     },
     "Dr. Ravi Sekhar": {
       qualification: "MBBS | MD - Anaesthesiology",
-      overview:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      overview:[
+        "MDS - Oral & Maxillofacial Surgery, BDSOral And MaxilloFacial Surgeon, Implantologist28 Years Experience Overall  (25 years as specialist)",
+        "Completed under graduation from Bapuji Dental College Davanagere in 1996 and MDS from SDM College of Dental Sciences Dharwad. Ex-Professor in NIMS Punjagutta, Hyderabad, received Vidyashiromani award for clinical excellence",
+      ],
       fellowship: "Member of American College of Cardiology",
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],

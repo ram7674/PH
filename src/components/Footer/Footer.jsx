@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./footer.css";
 import { Link } from "react-router-dom";
-import logo from "../../../public/assets/logo.png";
+import logo from "/assets/logo-sm-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope,  } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -51,7 +51,7 @@ function Footer() {
               <div className="footer__card">
                 <span>Landline Number</span>
                 <span className="footer__num">
-                <FontAwesomeIcon icon={faPhone} />
+                <span className="landph-uni-code">{'\u260F'}</span>
                   <a href="tel:+88850 23110"> 040-68244555</a>
                 </span>
               </div>
