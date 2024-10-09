@@ -46,14 +46,21 @@ const data = {
     },
     Manikonda: {
       specialties: {
-        Infertility: ["Dr. k. Suma Prasad", "Dr. Tejashwani"],
-        Orthopedics: ["Dr. Karthik"],
-        Gynecology: ["Dr. k. Suma Prasad", "Dr. Tejashwani", "Dr. Sneha"],
+        Infertility: ["Dr. k. Suma Prasad"],  /* common persons 3 branches */
+        Gynecology: ["Dr. k. Suma Prasad", "Dr. Devi Giduturi"],
+        Pediatrics: ["Dr. Sravya Vemulapalli"],
+        Neonatology: ["Dr. Sravya Vemulapalli"],
+        Orthopedics: ["Dr. Siddharth Potluri"], /* common persons pragathinagar */
+        ENT: ["Dr. Anunya Reddy"],
+        GeneralPhysician: ["Dr. Sahithi Kiluri"],
+        Cardiology: ["Dr. Seshivardhan janjirala"],
+        Pulmonology: ["Dr. Yashwanth KO"],  /* common persons pragathinagar */
       },
     },
   },
 
   doctors: {
+    
     /* nacharam doctors data */
     "Dr. k. Suma Prasad": {
       qualification: "MBBS, DGO, MD - Obstetrics & Gynaecology",
@@ -235,7 +242,7 @@ const data = {
       expertise: "Urology Specialist",
       languages: ["English", "Tamil"],
       publications: ["Prostate Health", "Kidney Stone Treatment"],
-      image: "php-dr-dummy-male.jpg",
+      image: "phn-dr-dummy-female.jpg",
     },
     "Dr. Srikanth Munna": {
       qualification: "MBBS, MCh - Urology/Genito-Urinary Surgery",
@@ -261,7 +268,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: "php-dr-dummy-male.jpg",
+      image: "phn-dr-dummy-female.jpg",
     },
     "DR. Nishanth": {
       qualification: "MS - ENT, MBBS",
@@ -520,7 +527,7 @@ const data = {
       expertise: "Interventional Cardiology",
       languages: ["English", "Kannada"],
       publications: ["Heart Disease Management", "Cardiac Interventions"],
-      image: "php-dr-dummy-male.jpg",
+      image: "phn-dr-dummy-female.jpg",
     },
     "Dr. Kalyan Varma": {
       qualification: "MBBS | MD - Anaesthesiology",
@@ -557,6 +564,59 @@ const data = {
       publications: ["Heart Disease Management", "Cardiac Interventions"],
       image: "php-dr-dummy-male.jpg",
     },
+
+    /* manikonda doctors data */
+    "Dr. Devi Giduturi": {
+      qualification: "MBBS, DGO, DNB, FMAS - Gynecologist",
+      overview:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Member of American College of Cardiology",
+      expertise: "Consultant Obstetrician and Gynaecologist",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: "phn-dr-dummy-female.jpg",
+    },
+    "Dr. Sravya Vemulapalli": {
+      qualification: "MBBS, MD - Pediatrics",
+      overview:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Fellowship in Neonatology(FNNF)",
+      expertise: "Pediatrician & Neonatologist",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: "phn-dr-dummy-female.jpg",
+    },
+    "Dr. Anunya Reddy": {
+      qualification: "MBBS, MS(ENT), FAM, MFCS",
+      overview:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Fellowship in Neonatology(FNNF)",
+      expertise: "ENT & Facial Plastic Surgeon",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: "phn-dr-dummy-female.jpg",
+    },
+    "Dr. Sahithi Kiluri": {
+      qualification: "MD (General Medicine), M Med (Diabetes & Endocrinology UK)",
+      overview:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Fellowship in Neonatology(FNNF)",
+      expertise: "Consultant General Physician",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: "phn-dr-dummy-female.jpg",
+    },
+    "Dr. Seshivardhan janjirala": {
+      qualification: "MBBS, DM - Cardiology",
+      overview:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur nobis quaerat nostrum ducimus saepe consequatur velit voluptates a, quia hic eius nihil architecto culpa ipsam atque, veritatis consequuntur. Excepturi?",
+      fellowship: "Fellowship in Neonatology(FNNF)",
+      expertise: "Cardiologist",
+      languages: ["English", "Kannada"],
+      publications: ["Heart Disease Management", "Cardiac Interventions"],
+      image: "php-dr-dummy-male.jpg",
+    },
+    
   },
 
   specialtiesData: {
@@ -677,6 +737,7 @@ const data = {
         "Dr. K Shravanya",
         "Dr. Tejashwani",
         "Dr. Sneha",
+        "Dr. Devi Giduturi",
       ],
 
       departmentContentTab: [
@@ -742,7 +803,11 @@ const data = {
       whyDescription:
         "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
-      doctors: ["Dr. V Sravan Kumar", "Dr. Sampath"],
+      doctors: [
+        "Dr. V Sravan Kumar",
+         "Dr. Sampath",
+         "Dr. Seshivardhan janjirala"
+        ],
 
       departmentContentTab: [
         {
@@ -924,6 +989,7 @@ const data = {
         "Dr. Navya Mandadapu",
         "Dr. S. Raghavender",
         "Dr. Vamshi Krishna RVN",
+        "Dr. Sahithi Kiluri"
       ],
 
       departmentContentTab: [
@@ -995,7 +1061,10 @@ const data = {
       whyDescription:
         "At Prasad Hospitals, we are committed to providing exceptional healthcare services across a range of specialties. With a team of highly skilled doctors and cutting-edge technology, we ensure that every patient receives the best possible care in a warm, compassionate environment.",
 
-      doctors: ["DR. Nishanth"],
+      doctors: [
+        "DR. Nishanth",
+         "Dr. Anunya Reddy"
+        ],
 
       departmentContentTab: [
         {
@@ -1057,6 +1126,7 @@ const data = {
         "Dr. Shyam Sunder",
         "Dr. Mohan Chand Gutta",
         "Dr. Lakshmi Prasanna",
+        "Dr. Sravya Vemulapalli"
       ],
 
       departmentContentTab: [
