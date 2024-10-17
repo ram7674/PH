@@ -59,7 +59,7 @@ function Footer() {
               <div className="footer__card">
                 <span className="footer__num">
                   <FontAwesomeIcon icon={faEnvelope} />
-                  <a href="mailto:info@example.com">info@prasadhospitals.in</a>
+                  <a href="mailto:info@example.com">care@prasadhospitals.in</a>
                 </span>
               </div>
 
