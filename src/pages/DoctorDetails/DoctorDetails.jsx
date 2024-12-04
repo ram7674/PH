@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../../data/data";
 import "./DoctorDetails.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 
 const DoctorDetails = () => {
   const [activeTab, setActiveTab] = useState("overview");
@@ -56,8 +55,6 @@ const DoctorDetails = () => {
 
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
 
       {/* Doctors details and book appointment card */}
       <div className="container-fluid each__drContainer">
@@ -144,8 +141,6 @@ const DoctorDetails = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
     </>
   );
 };

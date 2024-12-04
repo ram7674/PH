@@ -1,14 +1,10 @@
 import React from "react";
 import "./aboutpneumoniapage.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
 import PneumoniaImage from "../../../public/assets/All-You-Should-Know-About-Pneumonia-blog-image.png"
 
 const AboutPneumoniaPage = () => {
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
 
       <div className="container all__mainContainer">
         <div className="row">
@@ -95,8 +91,6 @@ const AboutPneumoniaPage = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
     </>
   );
 };

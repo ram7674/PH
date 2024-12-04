@@ -1,14 +1,10 @@
 import React from "react";
 import "./pcodpage.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
 import pcodImage from "../../../public/assets/PCOD.png";
 
 const PcodPage = () => {
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
 
       <div className="container pcdo__mainContainer">
         <div className="row">
@@ -324,8 +320,7 @@ const PcodPage = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
+
     </>
   );
 };

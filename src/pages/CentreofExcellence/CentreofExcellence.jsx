@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 import "./centreofexcellence.css";
 import { useParams, useNavigate } from "react-router-dom";
 import data from "../../data/data";
@@ -85,8 +84,6 @@ const CentreofExcellence = () => {
         <meta name="author" content="prasadsolutions.in" />
       </Helmet>
 
-      {/* Navbar component */}
-      <MegaNavbar />
 
       {/* Banner container */}
       <div className="container-fluid">
@@ -319,8 +316,6 @@ const CentreofExcellence = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
     </>
   );
 };

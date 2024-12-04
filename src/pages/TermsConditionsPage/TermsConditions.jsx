@@ -1,13 +1,11 @@
 import React from "react";
 import "./termsconditions.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 
 const TermsConditions = () => {
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
+
 
       <div className="container">
         <div className="row">
@@ -32,8 +30,7 @@ const TermsConditions = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
+
     </>
   );
 };

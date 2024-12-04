@@ -1,13 +1,9 @@
 import React from "react";
 import "./disclaimerpage.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
 
 const Disclaimer = () => {
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
 
       <div className="container">
         <div className="row">
@@ -50,8 +46,6 @@ const Disclaimer = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
     </>
   );
 };

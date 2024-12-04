@@ -1,8 +1,14 @@
+import {useLocation} from 'react-router-dom';
 import React, { useEffect } from "react";
 import "./doctoreidget.css";
 
 const DoctorsWidget = () => {
+ 
+  const location = useLocation();
+
   useEffect(() => {
+    let node;
+
     if (window.jQuery) {
       loadDoctorsWidget();
     } else {
@@ -13,19 +19,20 @@ const DoctorsWidget = () => {
 
       jQueryScript.onload = loadDoctorsWidget;
 
-      return () => {
-        document.body.removeChild(jQueryScript);
-      };
+
+     
     }
 
     function loadDoctorsWidget() {
+
       const script = document.createElement("script");
+      node = script;
       script.src = "https://mocdoc.com/js/widget_loader.js";
       script.type = "text/javascript";
       script.id = "mocdoc";
       script.setAttribute("data-entity", "prasad-hospitals");
 
-      document.body.appendChild(script);
+      document.head.appendChild(script);
 
       script.onload = () => {
         if (window.Mocdoc) {
@@ -33,9 +40,14 @@ const DoctorsWidget = () => {
         }
       };
     }
-  }, []);
+    return () =>{
+      if (!node)
+        return;
+      document.head.removeChild(node);
+    }
+  }, [location.pathname]);
 
-  return <div id="mocdoc-drs"></div>;
+  return <div id="mocdoc-drs" className="d-none" ></div>;
 };
 
 export default DoctorsWidget;

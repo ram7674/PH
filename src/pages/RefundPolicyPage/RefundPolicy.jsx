@@ -1,13 +1,11 @@
 import React from "react";
 import "./refundpolicy.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 
 const RefundPolicy = () => {
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
+
 
       <div className="container">
         <div className="row">
@@ -38,8 +36,7 @@ const RefundPolicy = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
+
     </>
   );
 };

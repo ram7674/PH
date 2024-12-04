@@ -1,7 +1,6 @@
 import React from "react";
 import "./Pragatinagar.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 import Slider from "../../components/SliderHomePage/Slider";
 import HumanCareExp from "../../components/HumanCareExp/HumanCareExp";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
@@ -11,8 +10,6 @@ import pragathinagarhp from "/assets/branch-img-php.jpg";
 const Pragatinagar = () => {
   return (
     <>
-      {/* meagNavbat component */}
-      <MegaNavbar />
 
       {/* slider page component */}
       <Slider />
@@ -53,8 +50,7 @@ const Pragatinagar = () => {
         </div>
       </div>
 
-      {/* footer component */}
-      <Footer />
+
     </>
   );
 };

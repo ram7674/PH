@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 import "./doctorslist.css";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
 import data from "../../data/data";
@@ -86,8 +85,6 @@ const DoctorsList = () => {
         <meta name="author" content="prasadsolutions.in" />
       </Helmet>
 
-      {/* MegaNavbar component */}
-      <MegaNavbar />
 
       <div className="container-fluid">
         <div className="row">
@@ -173,8 +170,7 @@ const DoctorsList = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
+
     </>
   );
 };

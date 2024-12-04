@@ -16,6 +16,7 @@ const LabReportsWidget = () => {
             return () => {
                 document.body.removeChild(jQueryScript);
             };
+
         }
 
         function loadLabWidget() {
@@ -41,7 +42,7 @@ const LabReportsWidget = () => {
 
     }, []);
 
-    return <div id="labreports"></div>;
+    return <div id="labreports" className='d-none'></div>;
 };
 
 export default LabReportsWidget;

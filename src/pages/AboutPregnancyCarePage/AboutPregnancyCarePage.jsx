@@ -1,14 +1,10 @@
 import React from "react";
 import "./aboutpregnancycarepage.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
 import pegnancyCareImage from "../../../public/assets/Pregnancy-Care.png";
 
 const AboutPregnancyCarePage = () => {
   return (
     <>
-      {/* MegaNavbar component */}
-      <MegaNavbar />
 
       <div className="container care__mainContainer">
         <div className="row">
@@ -233,8 +229,6 @@ const AboutPregnancyCarePage = () => {
         </div>
       </div>
 
-      {/* Footer component */}
-      <Footer />
     </>
   );
 };

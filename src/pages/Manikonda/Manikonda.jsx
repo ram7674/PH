@@ -1,7 +1,6 @@
 import React from "react";
 import "./Manikonda.css";
-import MegaNavbar from "../../components/Navbar/MegaNavbar";
-import Footer from "../../components/Footer/Footer";
+
 import Slider from "../../components/SliderHomePage/Slider";
 import HumanCareExp from "../../components/HumanCareExp/HumanCareExp";
 import SearchDoctors from "../../components/SearchDoctors/SearchDoctors";
@@ -11,8 +10,6 @@ import manikondahp from "/assets/branch-img-phm.jpg"
 const Manikonda = () => {
   return (
     <>
-      {/* meagNavbat component */}
-      <MegaNavbar />
 
       {/* slider page component */}
       <Slider />
@@ -49,8 +46,7 @@ const Manikonda = () => {
         </div>
       </div>
 
-      {/* footer component */}
-      <Footer />
+
     </>
   );
 };
